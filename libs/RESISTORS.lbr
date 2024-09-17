@@ -1,0 +1,2646 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Moduledim" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="blue" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="red" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="green" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="txcone" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="rxcone" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="tLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="bLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="151" name="_tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="0402">
+<description>Standard imperial 0402.</description>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<text x="-0.875" y="0.5" size="0.508" layer="25">&gt;NAME</text>
+<wire x1="-0.875" y1="-0.375" x2="0.875" y2="-0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="-0.375" x2="0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="0.375" x2="-0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="-0.875" y1="0.375" x2="-0.875" y2="-0.375" width="0.125" layer="21"/>
+</package>
+<package name="0603">
+<description>Standard imperial 0603.</description>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-1.5" y="0.75" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-1.375" y1="0.625" x2="1.375" y2="0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="0.625" x2="1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="-0.625" x2="-1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="-1.375" y1="-0.625" x2="-1.375" y2="0.625" width="0.125" layer="21"/>
+</package>
+<package name="0805">
+<description>Standard imperial 0805.</description>
+<smd name="2" x="1" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-1" y="0" dx="0.9" dy="1.3" layer="1"/>
+<text x="-1.5" y="1" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-1.625" y1="0.875" x2="1.625" y2="0.875" width="0.125" layer="21"/>
+<wire x1="1.625" y1="0.875" x2="1.625" y2="-0.875" width="0.125" layer="21"/>
+<wire x1="1.625" y1="-0.875" x2="-1.625" y2="-0.875" width="0.125" layer="21"/>
+<wire x1="-1.625" y1="-0.875" x2="-1.625" y2="0.875" width="0.125" layer="21"/>
+</package>
+<package name="1206">
+<description>Standard imperial 1206.</description>
+<smd name="1" x="1.5" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<text x="-2" y="1.25" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.125" layer="21"/>
+<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.125" layer="21"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.125" layer="21"/>
+</package>
+<package name="1210">
+<description>Standard imperial 1210.</description>
+<smd name="2" x="1.5" y="0" dx="2.5" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="0" dx="2.5" dy="1" layer="1" rot="R90"/>
+<text x="-2.25" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-2.25" y1="1.5" x2="2.25" y2="1.5" width="0.125" layer="21"/>
+<wire x1="2.25" y1="1.5" x2="2.25" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="2.25" y1="-1.5" x2="-2.25" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="-1.5" x2="-2.25" y2="1.5" width="0.125" layer="21"/>
+</package>
+<package name="15MM_TH">
+<pad name="1" x="-7.5" y="0" drill="1" diameter="2"/>
+<pad name="2" x="7.5" y="0" drill="1" diameter="2"/>
+<wire x1="-6" y1="-2.5" x2="6" y2="-2.5" width="0.25" layer="21"/>
+<wire x1="6" y1="-2.5" x2="6" y2="2.5" width="0.25" layer="21"/>
+<wire x1="6" y1="2.5" x2="-6" y2="2.5" width="0.25" layer="21"/>
+<wire x1="-6" y1="2.5" x2="-6" y2="-2.5" width="0.25" layer="21"/>
+<text x="-6" y="2.75" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="4527">
+<smd name="P$1" x="-4.5" y="0" dx="4" dy="6" layer="1" rot="R180"/>
+<smd name="P$2" x="4.5" y="0" dx="4" dy="6" layer="1" rot="R180"/>
+<wire x1="-7" y1="3.5" x2="7" y2="3.5" width="0.5" layer="21"/>
+<wire x1="7" y1="3.5" x2="7" y2="-3.5" width="0.5" layer="21"/>
+<wire x1="7" y1="-3.5" x2="-7" y2="-3.5" width="0.5" layer="21"/>
+<wire x1="-7" y1="-3.5" x2="-7" y2="3.5" width="0.5" layer="21"/>
+<text x="-7" y="4" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="NTC_RADIAL">
+<pad name="1" x="-3.5" y="0" drill="0.8"/>
+<pad name="2" x="3.5" y="0" drill="0.8"/>
+<wire x1="-2.25" y1="4" x2="2.25" y2="4" width="0.25" layer="21"/>
+<wire x1="-2.25" y1="-4" x2="2.25" y2="-4" width="0.25" layer="21"/>
+<wire x1="-4.5" y1="0" x2="-2.25" y2="4" width="0.25" layer="21"/>
+<wire x1="-4.5" y1="0" x2="-2.25" y2="-4" width="0.25" layer="21"/>
+<wire x1="2.25" y1="-4" x2="4.5" y2="0" width="0.25" layer="21"/>
+<wire x1="2.25" y1="4" x2="4.5" y2="0" width="0.25" layer="21"/>
+<circle x="0" y="0" radius="2" width="0.25" layer="21"/>
+<text x="-2.25" y="4.25" size="1.27" layer="25">&gt;NAME</text>
+</package>
+<package name="2512">
+<smd name="1" x="-3.25" y="0" dx="2" dy="4" layer="1"/>
+<smd name="2" x="3.25" y="0" dx="2" dy="4" layer="1"/>
+<text x="-4.5" y="2.5" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-4.5" y1="2.25" x2="4.5" y2="2.25" width="0.125" layer="21"/>
+<wire x1="4.5" y1="2.25" x2="4.5" y2="-2.25" width="0.125" layer="21"/>
+<wire x1="4.5" y1="-2.25" x2="-4.5" y2="-2.25" width="0.125" layer="21"/>
+<wire x1="-4.5" y1="-2.25" x2="-4.5" y2="2.25" width="0.125" layer="21"/>
+</package>
+<package name="SQM7">
+<wire x1="-6.25" y1="-4.5" x2="6.25" y2="-4.5" width="0.25" layer="21"/>
+<wire x1="6.25" y1="-4.5" x2="6.25" y2="4.5" width="0.25" layer="21"/>
+<wire x1="6.25" y1="4.5" x2="-6.25" y2="4.5" width="0.25" layer="21"/>
+<wire x1="-6.25" y1="4.5" x2="-6.25" y2="-4.5" width="0.25" layer="21"/>
+<pad name="1" x="-2.5" y="0" drill="1"/>
+<pad name="2" x="2.5" y="0" drill="1"/>
+<text x="-6.25" y="4.75" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="2010">
+<smd name="1" x="-2.35" y="0" dx="1.4" dy="3" layer="1"/>
+<smd name="2" x="2.35" y="0" dx="1.4" dy="3" layer="1"/>
+<wire x1="-3.25" y1="-1.75" x2="3.25" y2="-1.75" width="0.15" layer="21"/>
+<wire x1="3.25" y1="-1.75" x2="3.25" y2="1.75" width="0.15" layer="21"/>
+<wire x1="3.25" y1="1.75" x2="-3.25" y2="1.75" width="0.15" layer="21"/>
+<wire x1="-3.25" y1="1.75" x2="-3.25" y2="-1.75" width="0.15" layer="21"/>
+<text x="-3.25" y="2" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="1206_ARRAY">
+<wire x1="-1.625" y1="-1.25" x2="1.625" y2="-1.25" width="0.1524" layer="21"/>
+<wire x1="1.625" y1="-1.25" x2="1.625" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="1.625" y1="1.25" x2="-1.625" y2="1.25" width="0.1524" layer="21"/>
+<wire x1="-1.625" y1="1.25" x2="-1.625" y2="-1.25" width="0.1524" layer="21"/>
+<smd name="1" x="-1.2" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="2" x="-0.4" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="3" x="0.4" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="4" x="1.2" y="-0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="5" x="1.2" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="6" x="0.4" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="7" x="-0.4" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<smd name="8" x="-1.2" y="0.925" dx="0.6" dy="0.6" layer="1" rot="R90"/>
+<text x="-1.75" y="-1.25" size="1" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="MSOP8">
+<text x="-3" y="1.625" size="1" layer="25">&gt;NAME</text>
+<smd name="2" x="-2.2" y="0.325" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="1" x="-2.2" y="0.975" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="3" x="-2.2" y="-0.325" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="4" x="-2.2" y="-0.975" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="8" x="2.2" y="0.975" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="7" x="2.2" y="0.325" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="6" x="2.2" y="-0.325" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<smd name="5" x="2.2" y="-0.975" dx="0.4" dy="1.25" layer="1" rot="R90"/>
+<wire x1="-3" y1="-1.5" x2="3" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="3" y1="-1.5" x2="3" y2="1.5" width="0.15" layer="21"/>
+<wire x1="3" y1="1.5" x2="-2.25" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-2.25" y1="1.5" x2="-2.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-2.75" y1="1.5" x2="-3" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-3" y1="1.5" x2="-3" y2="1.25" width="0.15" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-2.25" y1="1.5" x2="-2.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-3" y1="1" x2="-3" y2="1.25" width="0.15" layer="21"/>
+<wire x1="-3" y1="1.25" x2="-3" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-2.625" y1="1.5" x2="-2.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.75" y2="1.5" width="0.15" layer="21"/>
+<circle x="-1" y="0.875" radius="0.27950625" width="0.1524" layer="21"/>
+</package>
+<package name="MS8E">
+<smd name="PAD" x="0" y="0" dx="1.88" dy="1.68" layer="1" rot="R90"/>
+<smd name="1" x="-2.1705" y="0.975" dx="0.42" dy="0.889" layer="1" rot="R90"/>
+<smd name="2" x="-2.1705" y="0.325" dx="0.42" dy="0.889" layer="1" rot="R90"/>
+<smd name="3" x="-2.1705" y="-0.325" dx="0.42" dy="0.889" layer="1" rot="R90"/>
+<smd name="4" x="-2.1705" y="-0.975" dx="0.42" dy="0.889" layer="1" rot="R90"/>
+<smd name="5" x="2.1705" y="-0.975" dx="0.42" dy="0.889" layer="1" rot="R270"/>
+<smd name="6" x="2.1705" y="-0.325" dx="0.42" dy="0.889" layer="1" rot="R270"/>
+<smd name="7" x="2.1705" y="0.325" dx="0.42" dy="0.889" layer="1" rot="R270"/>
+<smd name="8" x="2.1705" y="0.975" dx="0.42" dy="0.889" layer="1" rot="R270"/>
+<wire x1="-2.75" y1="1.5" x2="-2.5" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.375" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.375" y1="1.5" x2="-2.25" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="1.5" x2="-2.125" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.5" x2="-2" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2" y1="1.5" x2="2.75" y2="1.5" width="0.125" layer="21"/>
+<wire x1="2.75" y1="1.5" x2="2.75" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="2.75" y1="-1.5" x2="-2.75" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="-1.5" x2="-2.75" y2="0.75" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="0.75" x2="-2.75" y2="0.875" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="0.875" x2="-2.75" y2="1" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1" x2="-2.75" y2="1.125" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1.125" x2="-2.75" y2="1.25" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1.25" x2="-2.75" y2="1.375" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1.375" x2="-2.75" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.625" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.625" y1="1.5" x2="-2.75" y2="1.375" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1.375" x2="-2.75" y2="1.25" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1.25" x2="-2.5" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.5" y1="1.5" x2="-2.375" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.375" y1="1.5" x2="-2.75" y2="1.125" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1.125" x2="-2.75" y2="1" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="1" x2="-2.25" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="1.5" x2="-2.125" y2="1.5" width="0.125" layer="21"/>
+<wire x1="-2.125" y1="1.5" x2="-2.75" y2="0.875" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="0.875" x2="-2.75" y2="0.75" width="0.125" layer="21"/>
+<wire x1="-2.75" y1="0.75" x2="-2" y2="1.5" width="0.125" layer="21"/>
+<text x="-2.75" y="1.625" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="2512_4WIRE">
+<smd name="1" x="-2.1" y="1.7" dx="1.65" dy="2.4" layer="1" rot="R90"/>
+<smd name="2" x="2.1" y="1.7" dx="1.65" dy="2.4" layer="1" rot="R90"/>
+<smd name="3" x="-2.1" y="-1.7" dx="1.65" dy="2.4" layer="1" rot="R90"/>
+<smd name="4" x="2.1" y="-1.7" dx="1.65" dy="2.4" layer="1" rot="R90"/>
+<wire x1="-3.5" y1="-2.75" x2="3.5" y2="-2.75" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-2.75" x2="3.5" y2="2.75" width="0.15" layer="21"/>
+<wire x1="3.5" y1="2.75" x2="-3.5" y2="2.75" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="2.75" x2="-3.5" y2="-2.75" width="0.15" layer="21"/>
+<text x="-3.5" y="3" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="20MM_TH">
+<pad name="1" x="-10" y="0" drill="1" diameter="2"/>
+<pad name="2" x="10" y="0" drill="1" diameter="2"/>
+<wire x1="-8.75" y1="-3.5" x2="8.75" y2="-3.5" width="0.15" layer="21"/>
+<wire x1="8.75" y1="-3.5" x2="8.75" y2="3.5" width="0.15" layer="21"/>
+<wire x1="8.75" y1="3.5" x2="-8.75" y2="3.5" width="0.15" layer="21"/>
+<wire x1="-8.75" y1="3.5" x2="-8.75" y2="-3.5" width="0.15" layer="21"/>
+<text x="-8.75" y="3.75" size="1.27" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RESISTOR">
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="THERMISTER">
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="3.81" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<wire x1="-2.54" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="R_ARRAY_4">
+<pin name="2" x="-7.62" y="2.54" visible="off" length="middle"/>
+<pin name="1" x="-7.62" y="7.62" visible="off" length="middle"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="8.89" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="8.89" x2="2.54" y2="8.89" width="0.254" layer="94"/>
+<wire x1="2.54" y1="8.89" x2="2.54" y2="6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="6.35" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<text x="-5.08" y="15.24" size="1.27" layer="95" align="center-left">&gt;NAME</text>
+<text x="-5.08" y="12.7" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
+<pin name="3" x="-7.62" y="-2.54" visible="off" length="middle"/>
+<pin name="4" x="-7.62" y="-7.62" visible="off" length="middle"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.81" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<pin name="5" x="7.62" y="-7.62" visible="off" length="middle" rot="R180"/>
+<pin name="6" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="-3.81" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="-2.54" y2="-3.81" width="0.254" layer="94"/>
+<pin name="7" x="7.62" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="8" x="7.62" y="7.62" visible="off" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="-8.89" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-8.89" x2="-2.54" y2="-8.89" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-10.16" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="10.16" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RESISTOR_4WIRE">
+<pin name="I2" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<pin name="I1" x="-7.62" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="E1" x="-5.08" y="-5.08" visible="off" length="middle" rot="R90"/>
+<pin name="E2" x="5.08" y="-5.08" visible="off" length="middle" rot="R90"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.1778" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.1778" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CRCW0603210RFKEA" prefix="R">
+<description>210 210R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141308" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0074" constant="no"/>
+<attribute name="VALUE" value="210R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603110RFKEA" prefix="R" uservalue="yes">
+<description>110 110R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141282" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0076" constant="no"/>
+<attribute name="VALUE" value="110R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060310K0FKEA" prefix="R">
+<description>10000 10K0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469748" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060375R0FKEA" prefix="R">
+<description>75 75R0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469838" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0096" constant="no"/>
+<attribute name="VALUE" value="75R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603330RFKEA" prefix="R">
+<description>330 330R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469803" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="330R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060316R0FKEA" prefix="R">
+<description>16 16R0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141185" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0074" constant="no"/>
+<attribute name="VALUE" value="16R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603270RFKEA" prefix="R">
+<description>270 270R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141320" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0058" constant="no"/>
+<attribute name="VALUE" value="270R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRL0603-FW-R330ELF" prefix="R">
+<description>0.33 0.33R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2328096" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.141" constant="no"/>
+<attribute name="VALUE" value="0.33R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060310M0FKEA" prefix="R">
+<description>10000000 10M0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469750" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0116" constant="no"/>
+<attribute name="VALUE" value="10M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603100KFKEA" prefix="R">
+<description>100000 100k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469649" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0116" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603180KFKEA" prefix="R">
+<description>180000 180k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1652843" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="180k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603220RFKEA" prefix="R">
+<description>220 220R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1652857" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="220R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603560RFKEA" prefix="R">
+<description>560 560R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469828" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="560R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060351K0FKEA" prefix="R">
+<description>51000 51k0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469822" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="51k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060324K9FKEA" prefix="R">
+<description>24900 24k9 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469785" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="24k9" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603470RFKEA" prefix="R">
+<description>470 470R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469815" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0116" constant="no"/>
+<attribute name="VALUE" value="470R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060339R0FKEA" prefix="R">
+<description>39 39R0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141230" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0053" constant="no"/>
+<attribute name="VALUE" value="39R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06031K00FKEA" prefix="R">
+<description>1000 1k00 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2122366" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0031" constant="no"/>
+<attribute name="VALUE" value="1k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060312K0FKEA" prefix="R">
+<description>12000 12k0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1652834" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="12k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06032K00FKEA" prefix="R">
+<description>2000 2k00 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469764" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0117" constant="no"/>
+<attribute name="VALUE" value="2k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW120615R0FKEA" prefix="R">
+<description>15 15R0 0603 0.25W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2139262" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.0231" constant="no"/>
+<attribute name="VALUE" value="15R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW1206120RFKEA" prefix="R">
+<description>120 120R 0603 0.25W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1653057" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.0283" constant="no"/>
+<attribute name="VALUE" value="120R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW120633R0FKEA" prefix="R">
+<description>33 33R0 0603 0.25W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1692544" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.021" constant="no"/>
+<attribute name="VALUE" value="33R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603562KFKEA" prefix="R">
+<description>562000 562k 0603 0.125W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138576" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.01" constant="no"/>
+<attribute name="VALUE" value="562k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603820RFKEA" prefix="R">
+<description>820 820R 0603 0.125W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469841" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0078" constant="no"/>
+<attribute name="VALUE" value="820R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060350R0FKEA" prefix="R">
+<description>50 50R0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2112878" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0098" constant="no"/>
+<attribute name="VALUE" value="50R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06031K60FKEA" prefix="R">
+<description>1600 1k60 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138367" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0043" constant="no"/>
+<attribute name="VALUE" value="1k6" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW120668R0FKEAHP" prefix="R">
+<description>68 68R0 0603 0.5W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1738996" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.131" constant="no"/>
+<attribute name="VALUE" value="68R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW120656R0FKEAHP" prefix="R">
+<description>56 56R0 0603 0.5W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1738995" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.155" constant="no"/>
+<attribute name="VALUE" value="56R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603169RFKEA" prefix="R">
+<description>169 169R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141300" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0191" constant="no"/>
+<attribute name="VALUE" value="169R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06036R80FNEA" prefix="R">
+<description>6.8 6R80 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1570760" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0049" constant="no"/>
+<attribute name="VALUE" value="6R8" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06035R62FNEA" prefix="R">
+<description>5.62 5R62 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1652894" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.018" constant="no"/>
+<attribute name="VALUE" value="5R62" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW04024K70FKED" prefix="R">
+<description>4700 4k70 0402 0.063W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469712" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.013" constant="no"/>
+<attribute name="VALUE" value="4k7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0402330RFKED" prefix="R">
+<description>330 330R 0402 0.063W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469709" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.0101" constant="no"/>
+<attribute name="VALUE" value="330R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060343R2FKEA" prefix="R">
+<description>43.2 43R2 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141237" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.009" constant="no"/>
+<attribute name="VALUE" value="43R2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCPMR02SJ0105A10" prefix="R">
+<description>1000000 TH 1M 15mm TH 2W 5% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="15MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1973213" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="0.2222" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060382K0FKEA" prefix="R">
+<description>82000 82k0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138490" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0086" constant="no"/>
+<attribute name="VALUE" value="82k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06031M00FKEA" prefix="R">
+<description>1000000 1M 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469746" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0095" constant="no"/>
+<attribute name="VALUE" value="1M" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06030000Z0EA" prefix="R">
+<description>0 0R 0603 0.1W thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-0.0GCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="0R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060356K0FKEA" prefix="R">
+<description>56000 56k0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138473" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0078" constant="no"/>
+<attribute name="VALUE" value="56k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW12062R00FNEA" prefix="R">
+<description>2 2R0 1206 0.25W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="311-2.0ERCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.09" constant="no"/>
+<attribute name="VALUE" value="2R0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060333K0FKEA" prefix="R">
+<description>33000 33k0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469801" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0078" constant="no"/>
+<attribute name="VALUE" value="33k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603560KFKEA" prefix="R">
+<description>560000 560k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138575" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.007" constant="no"/>
+<attribute name="VALUE" value="560k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603453KFKEA" prefix="R">
+<description>453000 453k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138564" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0191" constant="no"/>
+<attribute name="VALUE" value="453k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MC1206W4F500MT5E" prefix="R">
+<description>0.05 0.05R 1206 0.25W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1634314" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.4059" constant="no"/>
+<attribute name="VALUE" value="0.05R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW12064K70FKEAHP" prefix="R">
+<description>4700 4k70 1206 0.5W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1739021" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.1706" constant="no"/>
+<attribute name="VALUE" value="4k7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06032K20FKEA" prefix="R">
+<description>2200 2k20 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469765" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.01" constant="no"/>
+<attribute name="VALUE" value="2.2k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060384K5FKEA" prefix="R">
+<description>84500 84k5 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138491" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0191" constant="no"/>
+<attribute name="VALUE" value="84k5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WP4S-R1JA2" prefix="R">
+<description>0.1 TH 0R1 15mm TH 4W 5% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="15MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1219238" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="0.442" constant="no"/>
+<attribute name="VALUE" value="0R1 4W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSR5R2000FEA" prefix="R">
+<description>0.2 0R2 4527 5W 1% current sense resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4527">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1107489" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="2.77" constant="no"/>
+<attribute name="VALUE" value="0R2 5W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603680RFKEA" prefix="R">
+<description>680 680R 0603 0.125W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469834" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0116" constant="no"/>
+<attribute name="VALUE" value="680R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW120610R0FKEAHP" prefix="R">
+<description>10 10R0 1206 0.5W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1738986" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.228" constant="no"/>
+<attribute name="VALUE" value="10R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW12061R00FKEA" prefix="R">
+<description>1 1R0 1206 0.25W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-1.00FFCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTCASCWE3102J" prefix="T">
+<description>THERMISTOR, NTC, 1K, 5%, RADIAL</description>
+<gates>
+<gate name="G$1" symbol="THERMISTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NTC_RADIAL">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1187098" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="2.81" constant="no"/>
+<attribute name="VALUE" value="1k B3528" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060320K0FKEA" prefix="R">
+<description>20000 20k0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469774" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0108" constant="no"/>
+<attribute name="VALUE" value="20k0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060315K0FKEA" prefix="R">
+<description>15000 15k0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469758" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0108" constant="no"/>
+<attribute name="VALUE" value="15k0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060327K0FKEA" prefix="R">
+<description>27000 27k0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1652864" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0105" constant="no"/>
+<attribute name="VALUE" value="27k0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060316K0FKEA" prefix="R">
+<description>16000 16k0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138433" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0103" constant="no"/>
+<attribute name="VALUE" value="16k0" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRF1206-FZ-R010ELF" prefix="R">
+<description>0.01 0.01R 1206 1W 1% current sense resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CRF1206-FZ-R010ELFCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.65" constant="no"/>
+<attribute name="PRICE_PER" value="0.42" constant="no"/>
+<attribute name="VALUE" value="0R01" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06034K22FKEA" prefix="R">
+<description>4220 4k22 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138395" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0089" constant="no"/>
+<attribute name="VALUE" value="4k22" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06035K90FKEA" prefix="R">
+<description>5900 5k9 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138407" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0098" constant="no"/>
+<attribute name="VALUE" value="5k9" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06034K70FKEA" prefix="R">
+<description>4700 4k7 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469807" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0108" constant="no"/>
+<attribute name="VALUE" value="4k7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06035K60FKEA" prefix="R">
+<description>5600 5k6 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469820" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0108" constant="no"/>
+<attribute name="VALUE" value="5k6" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060322R0FKEA" prefix="R">
+<description>22 22R 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469781" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0108" constant="no"/>
+<attribute name="VALUE" value="22R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060336K0FKEA" prefix="R">
+<description>36000 36k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138459" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0101" constant="no"/>
+<attribute name="VALUE" value="36k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603820KFKEA" prefix="R">
+<description>820000 820k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138597" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.018" constant="no"/>
+<attribute name="VALUE" value="820k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06037K50FKEA" prefix="R">
+<description>7500 7k5 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469835" constant="no"/>
+<attribute name="PRICE_PER" value="0.00125" constant="no"/>
+<attribute name="VALUE" value="7k5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06032K70FKEA" prefix="R">
+<description>2700 2k70 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469768" constant="no"/>
+<attribute name="PRICE_PER" value="0.00125" constant="no"/>
+<attribute name="VALUE" value="2k7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06034R70FKEA" prefix="R">
+<description>4.7 4R7 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2616752" constant="no"/>
+<attribute name="PRICE_PER" value="0.0192" constant="no"/>
+<attribute name="VALUE" value="4R7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603110KFKEA" prefix="R">
+<description>110000 110k 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138501" constant="no"/>
+<attribute name="PRICE_PER" value="0.017" constant="no"/>
+<attribute name="VALUE" value="110k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ8CWFR050V" prefix="R">
+<description>0.05 0.05R 1206 1W 1% current sense resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2253991" constant="no"/>
+<attribute name="PRICE_PER" value="0.299" constant="no"/>
+<attribute name="VALUE" value="0.05R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060330K0FKEA" prefix="R">
+<description>30000 30k0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469797" constant="no"/>
+<attribute name="PRICE_PER" value="0.147" constant="no"/>
+<attribute name="VALUE" value="30k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603100RFKEA" prefix="R">
+<description>100 100R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1469752" constant="no"/>
+<attribute name="PRICE_PER" value="0.017" constant="no"/>
+<attribute name="VALUE" value="100R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06038K20FKEA" prefix="R">
+<description>8200 8k2 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1652902" constant="no"/>
+<attribute name="PRICE_PER" value="0.0147" constant="no"/>
+<attribute name="VALUE" value="8.2k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LR2512-R20FW" prefix="R">
+<description>0.2 0.2R 2512 2W 1% current sense resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1100068" constant="no"/>
+<attribute name="PRICE_PER" value="0.6" constant="no"/>
+<attribute name="VALUE" value="0R2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="W31-R33-JI" prefix="R">
+<description>0.33 TH 0R33 15mm TH 3W 5% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="15MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="9497269" constant="no"/>
+<attribute name="PRICE_PER" value="0.503" constant="no"/>
+<attribute name="VALUE" value="0R33" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060382R0FKEA" prefix="R">
+<description>82 82R0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141266" constant="no"/>
+<attribute name="PRICE_PER" value="0.0419" constant="no"/>
+<attribute name="VALUE" value="82R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060362R0FKEA" prefix="R">
+<description>62 62R0 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2141254" constant="no"/>
+<attribute name="PRICE_PER" value="0.0336" constant="no"/>
+<attribute name="VALUE" value="62R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SQM7-100RJB1" prefix="R">
+<description>100 TH 100R VERTICAL TH 7W 5% ceramic resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SQM7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1687985" constant="no"/>
+<attribute name="PRICE_PER" value="0.647" constant="no"/>
+<attribute name="VALUE" value="100R 7W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW0603360RFKEA" prefix="R">
+<description>360 360R 0603 0.1W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1692526" constant="no"/>
+<attribute name="PRICE_PER" value="0.0374" constant="no"/>
+<attribute name="VALUE" value="360R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW060321K0FKEA" prefix="R">
+<description>21000 21k0 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2138443" constant="no"/>
+<attribute name="PRICE_PER" value="0.0336" constant="no"/>
+<attribute name="VALUE" value="21k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WSLT2010R2500FEB18" prefix="R">
+<description>0.25 0R25 2010 1W 1% current sense resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2010">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="WSLTA-.250CT-ND" constant="no"/>
+<attribute name="PRICE_PER" value="0.75" constant="no"/>
+<attribute name="VALUE" value="0R25 1W" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RCWE1206R180FKEA" prefix="R">
+<description>0.18 0.18R 1206 0.5W thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-2743-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.55" constant="no"/>
+<attribute name="VALUE" value="0R18" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="YC164-FR-07100RL" prefix="R">
+<description>100 100R 1206 0.0625W 1% 4x RESISTOR ARRAY</description>
+<gates>
+<gate name="G$1" symbol="R_ARRAY_4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206_ARRAY">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="YC164F-100CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.12" constant="no"/>
+<attribute name="VALUE" value="100R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EXB-38V103JV" prefix="R">
+<description>10000 10k 1206 0.0625W 1% 4x RESISTOR ARRAY</description>
+<gates>
+<gate name="G$1" symbol="R_ARRAY_4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206_ARRAY">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="Y9103CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.07" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EXB-38V220JV" prefix="R">
+<description>22 22R 1206 0.0625W 1% 4x RESISTOR ARRAY</description>
+<gates>
+<gate name="G$1" symbol="R_ARRAY_4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206_ARRAY">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="Y9220CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.07" constant="no"/>
+<attribute name="VALUE" value="22R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RNCF0603TKY250R" prefix="R">
+<description>250 250R 0603 0.1W 0.01% thin film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="RNCF0603TKY250RCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="1.64" constant="no"/>
+<attribute name="VALUE" value="250R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Y44870R10000B9W" prefix="R">
+<description>0.1 0.1R 2512 1W 0.1% current sense resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="804-1170-ND" constant="no"/>
+<attribute name="PRICE_PER" value="10.96" constant="no"/>
+<attribute name="VALUE" value="0R1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RNCF0603TKY100R" prefix="R">
+<description>100 100R 0603 0.1W 0.01% thin film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="RNCF0603TKY100RCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="1.64" constant="no"/>
+<attribute name="VALUE" value="100R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PLTU1206U1003LST5" prefix="R">
+<description>100000 100k 1206 0.4W 0.01% thin film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-3085-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="8.68" constant="no"/>
+<attribute name="VALUE" value="100k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Y16362K50000T9W" prefix="R">
+<description>2500 2k5 0603 0.1W 0.01% thin film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="Y1636-2.5K-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="13.02" constant="no"/>
+<attribute name="VALUE" value="2k5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MORNTA1002AT5" prefix="R">
+<description>Molded, Compact, 0.65 mm Pitch, Dual-In-Line Thin Film Resistor, Surface-Mount Network 0.01 % Ratio Tolerance and 1 ppm/°C TCR Tracking</description>
+<gates>
+<gate name="A" symbol="RESISTOR" x="0" y="5.08"/>
+<gate name="B" symbol="RESISTOR" x="0" y="-2.54"/>
+<gate name="C" symbol="RESISTOR" x="0" y="-10.16"/>
+<gate name="D" symbol="RESISTOR" x="0" y="-17.78"/>
+</gates>
+<devices>
+<device name="" package="MSOP8">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="8"/>
+<connect gate="B" pin="1" pad="2"/>
+<connect gate="B" pin="2" pad="7"/>
+<connect gate="C" pin="1" pad="3"/>
+<connect gate="C" pin="2" pad="6"/>
+<connect gate="D" pin="1" pad="5"/>
+<connect gate="D" pin="2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-2492-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="3.01" constant="no"/>
+<attribute name="VALUE" value="10k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL73H3AR10FTDF" prefix="R">
+<description>0.1 0.1R 2512 1W 1%</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="A138604CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.47" constant="no"/>
+<attribute name="VALUE" value="0R1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERG-3SJ101V" prefix="R">
+<description>100 TH 100R 15mm TH 3W 5% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="15MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P100W-3CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="5" constant="no"/>
+<attribute name="PRICE_PER" value="0.38" constant="no"/>
+<attribute name="VALUE" value="100R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LT5400ACMS8E-3" prefix="R">
+<description>100000 100k 10k 10k 100k MS8E 0.8W 0.01% 4x RESISTOR ARRAY</description>
+<gates>
+<gate name="G$1" symbol="R_ARRAY_4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MS8E" package="MS8E">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="LT5400ACMS8E-3#PBF" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="18.25" constant="no"/>
+<attribute name="VALUE" value="100K 10K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06039M31FKEA" prefix="R">
+<description>9310000 9M31 0603 0.125W 1% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="541-9.31MHCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="9M31" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ERJ-M1WTF1M0U" prefix="R">
+<description>0.001 0.001R 2512 1W 1% current sense resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2512">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P1.0NDCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.47" constant="no"/>
+<attribute name="VALUE" value="1mR" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Y16061R00000B9W" prefix="R">
+<description>1 Ohms ±0.1% 1W Chip Resistor Wide 2516 (6440 Metric), 1625 Current Sense, Moisture Resistant, Non-Inductive Metal Foil</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR_4WIRE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2512_4WIRE">
+<connects>
+<connect gate="G$1" pin="E1" pad="1"/>
+<connect gate="G$1" pin="E2" pad="3"/>
+<connect gate="G$1" pin="I1" pad="2"/>
+<connect gate="G$1" pin="I2" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="Y1606-1.0B-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="12.53" constant="no"/>
+<attribute name="VALUE" value="1R 0.1%" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ROX5SSJ10R" prefix="R">
+<description>10 TH 10R 20mm TH 5W 5% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="20MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="A142752CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="7" constant="no"/>
+<attribute name="PRICE_PER" value="0.46" constant="no"/>
+<attribute name="VALUE" value="10R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RR03J2R0TB" prefix="R">
+<description>2.2 TH 2.2R 20mm TH 3W 5% thick film resistor.</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="20MM_TH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="A138433CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="6" constant="no"/>
+<attribute name="PRICE_PER" value="0.31" constant="no"/>
+<attribute name="VALUE" value="2.2R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CRCW06038K06FKEA" prefix="R">
+<description>8060 8k06 0603 0.1W 1% thick film resistor</description>
+<gates>
+<gate name="G$1" symbol="RESISTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.0108" constant="no"/>
+<attribute name="VALUE" value="8K06" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTCG164BF103HT1" prefix="TH">
+<description>THERMISTOR NTC 10KOHM 4037K 0603</description>
+<gates>
+<gate name="G$1" symbol="THERMISTER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="445-180080-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.23" constant="no"/>
+<attribute name="VALUE" value="10k 4037k" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

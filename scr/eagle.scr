@@ -1,0 +1,48 @@
+# Configuration Script
+#
+# This file can be used to configure the editor windows.
+
+SCRIPT default-assign.scr;
+
+BRD:
+GRID MM 0.125 LINES ON ALT MM 0.0625
+MENU '[designlink22.png] Search and order : Run designlink-order.ulp -general;'\
+     '[pcb-service.png] PCB Service : Run pcb-service.ulp;'
+
+#Menu Add Change Copy Delete Display Grid Group Move Name Quit Rect \
+#     Route Script Show Signal Split Text Value Via Window ';'  Wire Write Edit;
+
+SCH:
+MENU '[designlink22.png] Search and order {\
+                                          General : Run designlink-order.ulp -general; |\
+                                          Schematic : Run designlink-order.ulp; \
+                                          }';
+Grid Default;
+Change Width 0.006;
+#Menu Add Bus Change Copy Delete Display Gateswap Grid Group Invoke Junction \
+#     Label Move Name Net Pinswap Quit Script Show Split Value Window ';' \
+#     Wire Write Edit;
+
+LBR:
+MENU '[designlink22.png] Search and order : Run designlink-order.ulp -general;
+
+#Menu Close Export Open Script Write ';' Edit;
+
+DEV:
+
+Grid Default;
+#Menu Add Change Copy Connect Delete Display Export Grid Move Name Package \
+#     Prefix Quit Script Show Value Window ';' Write Edit;
+
+SYM:
+
+Grid Default On;
+Change Width 0.010;
+#Menu Arc Change Copy Cut Delete Display Export Grid Group Move Name Paste \
+#     Pin Quit Script Show Split Text Value Window ';' Wire Write Edit;
+
+PAC:
+
+GRID MM 0.125 LINES ON ALT MM 0.0625
+#Menu Add Change Copy Delete Display Grid Group Move Name Pad Quit \
+#     Script Show Smd Split Text Window ';' Wire Write Edit;

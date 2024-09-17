@@ -1,0 +1,2240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+</layers>
+<library>
+<packages>
+<package name="0402">
+<description>Standard imperial 0402.</description>
+<smd name="2" x="0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<smd name="1" x="-0.5" y="0" dx="0.6" dy="0.55" layer="1"/>
+<text x="-0.875" y="0.5" size="0.508" layer="25">&gt;NAME</text>
+<wire x1="-0.875" y1="-0.375" x2="0.875" y2="-0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="-0.375" x2="0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="0.875" y1="0.375" x2="-0.875" y2="0.375" width="0.125" layer="21"/>
+<wire x1="-0.875" y1="0.375" x2="-0.875" y2="-0.375" width="0.125" layer="21"/>
+</package>
+<package name="0603">
+<description>Standard imperial 0603.</description>
+<smd name="2" x="0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<smd name="1" x="-0.75" y="0" dx="0.8" dy="0.8" layer="1"/>
+<text x="-1.5" y="0.75" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-1.375" y1="0.625" x2="1.375" y2="0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="0.625" x2="1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="1.375" y1="-0.625" x2="-1.375" y2="-0.625" width="0.125" layer="21"/>
+<wire x1="-1.375" y1="-0.625" x2="-1.375" y2="0.625" width="0.125" layer="21"/>
+</package>
+<package name="0805">
+<description>Standard imperial 0805.</description>
+<smd name="2" x="1" y="0" dx="0.9" dy="1.3" layer="1"/>
+<smd name="1" x="-1" y="0" dx="0.9" dy="1.3" layer="1"/>
+<text x="-1.5" y="1" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-1.625" y1="0.875" x2="1.625" y2="0.875" width="0.125" layer="21"/>
+<wire x1="1.625" y1="0.875" x2="1.625" y2="-0.875" width="0.125" layer="21"/>
+<wire x1="1.625" y1="-0.875" x2="-1.625" y2="-0.875" width="0.125" layer="21"/>
+<wire x1="-1.625" y1="-0.875" x2="-1.625" y2="0.875" width="0.125" layer="21"/>
+</package>
+<package name="1206">
+<description>Standard imperial 1206.</description>
+<smd name="1" x="1.5" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-1.5" y="0" dx="1.5" dy="1" layer="1" rot="R90"/>
+<text x="-2" y="1.25" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-2.25" y1="1" x2="2.25" y2="1" width="0.125" layer="21"/>
+<wire x1="2.25" y1="1" x2="2.25" y2="-1" width="0.125" layer="21"/>
+<wire x1="2.25" y1="-1" x2="-2.25" y2="-1" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="-1" x2="-2.25" y2="1" width="0.125" layer="21"/>
+</package>
+<package name="1210">
+<description>Standard imperial 1210.</description>
+<smd name="2" x="1.5" y="0" dx="2.5" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-1.5" y="0" dx="2.5" dy="1" layer="1" rot="R90"/>
+<text x="-2.25" y="1.75" size="1.016" layer="25">&gt;NAME</text>
+<wire x1="-2.25" y1="1.5" x2="2.25" y2="1.5" width="0.125" layer="21"/>
+<wire x1="2.25" y1="1.5" x2="2.25" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="2.25" y1="-1.5" x2="-2.25" y2="-1.5" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="-1.5" x2="-2.25" y2="1.5" width="0.125" layer="21"/>
+</package>
+<package name="10MM_RADIAL_5MM_PITCH">
+<circle x="0" y="0" radius="5" width="0.125" layer="21"/>
+<pad name="2" x="-2.5" y="0" drill="0.6" shape="square"/>
+<pad name="1" x="2.5" y="0" drill="0.6"/>
+<wire x1="3.45" y1="3.6" x2="3.45" y2="-3.5" width="0.125" layer="21"/>
+<text x="3.75" y="3.75" size="0.5" layer="25">&gt;NAME</text>
+</package>
+<package name="30MM_RADIAL_10MM_PITCH">
+<circle x="0" y="0" radius="15" width="0.15" layer="21"/>
+<pad name="2" x="-5" y="0" drill="2" diameter="4"/>
+<pad name="1" x="5" y="0" drill="2" diameter="4"/>
+<wire x1="10" y1="11" x2="10" y2="-11" width="0.15" layer="21"/>
+<text x="15" y="10" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="4X13BOX">
+<wire x1="-6.5" y1="-2" x2="6.5" y2="-2" width="0.25" layer="21"/>
+<wire x1="6.5" y1="-2" x2="6.5" y2="2" width="0.25" layer="21"/>
+<wire x1="6.5" y1="2" x2="-6.5" y2="2" width="0.25" layer="21"/>
+<wire x1="-6.5" y1="2" x2="-6.5" y2="-2" width="0.25" layer="21"/>
+<pad name="1" x="-5" y="0" drill="1"/>
+<pad name="2" x="5" y="0" drill="1"/>
+<text x="-6.5" y="2.5" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="5X17.5BOX">
+<wire x1="-8.75" y1="-2.5" x2="8.75" y2="-2.5" width="0.25" layer="21"/>
+<wire x1="8.75" y1="-2.5" x2="8.75" y2="2.5" width="0.25" layer="21"/>
+<wire x1="8.75" y1="2.5" x2="-8.75" y2="2.5" width="0.25" layer="21"/>
+<wire x1="-8.75" y1="2.5" x2="-8.75" y2="-2.5" width="0.25" layer="21"/>
+<pad name="1" x="-7.5" y="0" drill="1"/>
+<pad name="2" x="7.5" y="0" drill="1"/>
+<text x="-8.5" y="3" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="2220">
+<smd name="1" x="-2.75" y="0" dx="2" dy="5" layer="1"/>
+<smd name="2" x="2.75" y="0" dx="2" dy="5" layer="1"/>
+<wire x1="-4" y1="-2.75" x2="4" y2="-2.75" width="0.15" layer="21"/>
+<wire x1="4" y1="-2.75" x2="4" y2="2.75" width="0.15" layer="21"/>
+<wire x1="4" y1="2.75" x2="-4" y2="2.75" width="0.15" layer="21"/>
+<wire x1="-4" y1="2.75" x2="-4" y2="-2.75" width="0.15" layer="21"/>
+<text x="-4" y="3" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="18MM_RADIAL_7.5MM_PITCH">
+<circle x="0" y="0" radius="9" width="0.25" layer="21"/>
+<pad name="2" x="-3.75" y="0" drill="1" shape="square"/>
+<pad name="1" x="3.75" y="0" drill="1"/>
+<wire x1="5.5" y1="7" x2="5.5" y2="-7" width="0.25" layer="21"/>
+<text x="7" y="6.5" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="5MM_RADIAL_2MM_PITCH">
+<pad name="1" x="-1" y="0" drill="0.5" shape="square"/>
+<pad name="2" x="1" y="0" drill="0.5"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.15" layer="21"/>
+<text x="0" y="2.75" size="1" layer="21">&gt;NAME</text>
+<circle x="0" y="0" radius="2.5" width="0.15" layer="21"/>
+</package>
+<package name="12.5MM_RADIAL_5MM_PITCH">
+<circle x="0" y="0" radius="6.25" width="0.15" layer="21"/>
+<pad name="2" x="-2.5" y="0" drill="0.6" shape="square"/>
+<pad name="1" x="2.5" y="0" drill="0.6"/>
+<wire x1="3.5" y1="5" x2="3.5" y2="-5" width="0.15" layer="21"/>
+<text x="4.75" y="4.75" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="1812">
+<wire x1="-3" y1="-2" x2="3" y2="-2" width="0.125" layer="21"/>
+<wire x1="3" y1="-2" x2="3" y2="2" width="0.125" layer="21"/>
+<wire x1="3" y1="2" x2="-3" y2="2" width="0.125" layer="21"/>
+<wire x1="-3" y1="2" x2="-3" y2="-2" width="0.125" layer="21"/>
+<smd name="1" x="-2.25" y="0" dx="1.2" dy="3.5" layer="1"/>
+<smd name="2" x="2.25" y="0" dx="1.2" dy="3.5" layer="1"/>
+<text x="-3" y="2.25" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="5X7.2BOX">
+<pad name="1" x="-2.5" y="0" drill="0.6"/>
+<pad name="2" x="2.5" y="0" drill="0.6"/>
+<wire x1="-3.75" y1="2.5" x2="3.75" y2="2.5" width="0.1524" layer="21"/>
+<wire x1="3.75" y1="2.5" x2="3.75" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="3.75" y1="-2.5" x2="-3.75" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-3.75" y1="-2.5" x2="-3.75" y2="2.5" width="0.1524" layer="21"/>
+<text x="-3.75" y="2.75" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="7X17.5BOX">
+<wire x1="-8.75" y1="-3.75" x2="8.75" y2="-3.75" width="0.15" layer="21"/>
+<wire x1="8.75" y1="-3.75" x2="8.75" y2="3.75" width="0.15" layer="21"/>
+<wire x1="8.75" y1="3.75" x2="-8.75" y2="3.75" width="0.15" layer="21"/>
+<wire x1="-8.75" y1="3.75" x2="-8.75" y2="-3.75" width="0.15" layer="21"/>
+<pad name="1" x="-7.5" y="0" drill="1"/>
+<pad name="2" x="7.5" y="0" drill="1"/>
+<text x="-8.75" y="4" size="1.27" layer="21">&gt;NAME</text>
+</package>
+<package name="8MM_RADIAL_3.5MM_PITCH_NP">
+<circle x="0" y="0" radius="4" width="0.25" layer="21"/>
+<text x="3" y="3" size="1.27" layer="25">&gt;NAME</text>
+<pad name="1" x="-1.75" y="0" drill="0.7"/>
+<pad name="2" x="1.75" y="0" drill="0.7"/>
+</package>
+<package name="6.6X6.6SMD">
+<smd name="A" x="-2.8" y="0" dx="1.6" dy="3.5" layer="1" rot="R90"/>
+<smd name="K" x="2.8" y="0" dx="1.6" dy="3.5" layer="1" rot="R90"/>
+<wire x1="-4.75" y1="-2.25" x2="-4.75" y2="2.25" width="0.15" layer="21"/>
+<wire x1="-4.75" y1="2.25" x2="-3.75" y2="3.25" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="3.25" x2="4.75" y2="3.25" width="0.15" layer="21"/>
+<wire x1="4.75" y1="3.25" x2="4.75" y2="-3.25" width="0.15" layer="21"/>
+<wire x1="4.75" y1="-3.25" x2="-3.75" y2="-3.25" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="-3.25" x2="-4.75" y2="-2.25" width="0.15" layer="21"/>
+<text x="-3.75" y="3.5" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="UUB_10X10">
+<wire x1="-5" y1="-4.25" x2="-3" y2="-6.25" width="0.15" layer="21"/>
+<wire x1="-3" y1="-6.25" x2="3" y2="-6.25" width="0.15" layer="21"/>
+<wire x1="3" y1="-6.25" x2="4.5" y2="-4.75" width="0.15" layer="21"/>
+<wire x1="4.5" y1="-4.75" x2="5" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="5" y1="-4.25" x2="5" y2="6.25" width="0.15" layer="21"/>
+<wire x1="5" y1="6.25" x2="-5" y2="6.25" width="0.15" layer="21"/>
+<wire x1="-5" y1="6.25" x2="-5" y2="-4.25" width="0.15" layer="21"/>
+<smd name="K" x="0" y="4" dx="2.5" dy="4" layer="1"/>
+<smd name="A" x="0" y="-4" dx="2.5" dy="4" layer="1"/>
+<wire x1="3" y1="-6.25" x2="5" y2="-4.25" width="0.15" layer="21"/>
+<text x="-5.25" y="-4.25" size="1" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="12.5X42.5MM_FLAT">
+<wire x1="-6.25" y1="0" x2="6.25" y2="0" width="0.1524" layer="21"/>
+<wire x1="6.25" y1="0" x2="6.25" y2="42.5" width="0.1524" layer="21"/>
+<wire x1="6.25" y1="42.5" x2="-6.25" y2="42.5" width="0.1524" layer="21"/>
+<wire x1="-6.25" y1="42.5" x2="-6.25" y2="0" width="0.1524" layer="21"/>
+<pad name="+" x="-2.5" y="-0.5" drill="0.7"/>
+<pad name="-" x="2.5" y="-0.5" drill="0.7"/>
+<rectangle x1="4" y1="0" x2="6.25" y2="42.5" layer="21"/>
+<text x="-6.5" y="0" size="1" layer="21" rot="R90">&gt;NAME</text>
+</package>
+<package name="8MM_RADIAL_3.5MM_PITCH">
+<circle x="0" y="0" radius="4" width="0.15" layer="21"/>
+<text x="3" y="3" size="1" layer="25">&gt;NAME</text>
+<pad name="P" x="-1.75" y="0" drill="0.7" shape="square"/>
+<pad name="N" x="1.75" y="0" drill="0.7"/>
+<wire x1="2.75" y1="2.75" x2="2.75" y2="-2.75" width="0.15" layer="21"/>
+</package>
+<package name="PANASONIC_E">
+<smd name="+" x="0" y="-3.5" dx="1" dy="3" layer="1"/>
+<smd name="-" x="0" y="3.5" dx="1" dy="3" layer="1"/>
+<wire x1="0" y1="-5.25" x2="2.25" y2="-5.25" width="0.125" layer="21"/>
+<wire x1="2.25" y1="-5.25" x2="4.25" y2="-3.25" width="0.125" layer="21"/>
+<wire x1="4.25" y1="-3.25" x2="4.25" y2="4.25" width="0.125" layer="21"/>
+<wire x1="4.25" y1="4.25" x2="4.25" y2="5.25" width="0.125" layer="21"/>
+<wire x1="4.25" y1="5.25" x2="-3.5" y2="5.25" width="0.125" layer="21"/>
+<wire x1="-3.5" y1="5.25" x2="-4.25" y2="5.25" width="0.125" layer="21"/>
+<wire x1="-4.25" y1="5.25" x2="-4.25" y2="0.25" width="0.125" layer="21"/>
+<wire x1="-4.25" y1="0.25" x2="-4.25" y2="-3.25" width="0.125" layer="21"/>
+<wire x1="-4.25" y1="-3.25" x2="-2.25" y2="-5.25" width="0.125" layer="21"/>
+<wire x1="-2.25" y1="-5.25" x2="0" y2="-5.25" width="0.125" layer="21"/>
+<text x="-4.25" y="5.5" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="7.2X11BOX">
+<pad name="1" x="-2.5" y="0" drill="0.7" diameter="1.5"/>
+<pad name="2" x="2.5" y="0" drill="0.7" diameter="1.5"/>
+<wire x1="-3.6" y1="-5.5" x2="3.6" y2="-5.5" width="0.15" layer="21"/>
+<wire x1="3.6" y1="-5.5" x2="3.6" y2="5.5" width="0.15" layer="21"/>
+<wire x1="3.6" y1="5.5" x2="-3.6" y2="5.5" width="0.15" layer="21"/>
+<wire x1="-3.6" y1="5.5" x2="-3.6" y2="-5.5" width="0.15" layer="21"/>
+<text x="-3.5" y="5.75" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="PANASONIC_D">
+<smd name="+" x="0" y="-2.875" dx="1" dy="2" layer="1"/>
+<smd name="-" x="0" y="3.125" dx="1" dy="2" layer="1"/>
+<text x="3.5" y="3.25" size="1" layer="25" rot="R270">&gt;NAME</text>
+<wire x1="-3.3" y1="3.3" x2="-3.3" y2="-2.3" width="0.15" layer="21"/>
+<wire x1="-3.3" y1="-2.3" x2="-2.3" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="-2.3" y1="-3.3" x2="2.3" y2="-3.3" width="0.15" layer="21"/>
+<wire x1="2.3" y1="-3.3" x2="3.3" y2="-2.3" width="0.15" layer="21"/>
+<wire x1="3.3" y1="-2.3" x2="3.3" y2="3.3" width="0.15" layer="21"/>
+<wire x1="3.3" y1="3.3" x2="-3.3" y2="3.3" width="0.15" layer="21"/>
+</package>
+<package name="PANASONIC_E12">
+<smd name="+" x="0" y="-3.5" dx="1.5" dy="3" layer="1"/>
+<smd name="-" x="0" y="3.5" dx="1.5" dy="3" layer="1"/>
+<text x="4.375" y="4.25" size="1" layer="25" rot="R270">&gt;NAME</text>
+<wire x1="-4.25" y1="4.25" x2="-4.25" y2="-3.25" width="0.15" layer="21"/>
+<wire x1="-4.25" y1="-3.25" x2="-3.25" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="-3.25" y1="-4.25" x2="3.25" y2="-4.25" width="0.15" layer="21"/>
+<wire x1="3.25" y1="-4.25" x2="4.25" y2="-3.25" width="0.15" layer="21"/>
+<wire x1="4.25" y1="-3.25" x2="4.25" y2="4.25" width="0.15" layer="21"/>
+<wire x1="4.25" y1="4.25" x2="-4.25" y2="4.25" width="0.15" layer="21"/>
+</package>
+<package name="RSCSK2243R3D02007U">
+<circle x="0" y="0" radius="3.5" width="0.125" layer="21"/>
+<smd name="+" x="1.5" y="-5" dx="2" dy="2" layer="1" rot="R90"/>
+<smd name="-" x="-1.5" y="-5" dx="2" dy="2" layer="1" rot="R90"/>
+<wire x1="3.75" y1="3.75" x2="3.75" y2="-6.25" width="0.125" layer="21"/>
+<wire x1="3.75" y1="-6.25" x2="-3.75" y2="-6.25" width="0.125" layer="21"/>
+<wire x1="-3.75" y1="-6.25" x2="-3.75" y2="3.75" width="0.125" layer="21"/>
+<wire x1="-3.75" y1="3.75" x2="3.75" y2="3.75" width="0.125" layer="21"/>
+<text x="3" y="-5" size="1" layer="21" align="center">+</text>
+<text x="-3" y="-5" size="1" layer="21" align="center">-</text>
+<text x="-3.75" y="3.875" size="0.5" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="CAPACITOR">
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+</symbol>
+<symbol name="CAPACITOR_POLAR">
+<pin name="A" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="K" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-0.635" y1="1.27" x2="-0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="-0.635" y1="0" x2="-0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.635" y1="1.27" x2="0.635" y2="0" width="0.254" layer="94"/>
+<wire x1="0.635" y1="0" x2="0.635" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-0.635" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.635" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<text x="2.54" y="-1.778" size="1.778" layer="94" rot="R90">+</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="CL31B105KBHNNNE" prefix="C">
+<description>1uF 50V X7R 10% 1206 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1068-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="0.15" constant="no"/>
+<attribute name="VALUE" value="1uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="06031A100FAT2A" prefix="C">
+<description>10pF 100V C0G/NP0 1% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-5769-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.23" constant="no"/>
+<attribute name="VALUE" value="10pF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0603C101K5GACTU" prefix="C">
+<description>100pF 50V C0G/NP0 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-7823-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.0116" constant="no"/>
+<attribute name="VALUE" value="100pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="VJ0603D271KXAAJ" prefix="C">
+<description>270pF 50V C0G/NP0 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2134048" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.281" constant="no"/>
+<attribute name="VALUE" value="270pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="06035A471KAT2A" prefix="C">
+<description>470pF 25V C0G/NP0 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-3720-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.224" constant="no"/>
+<attribute name="VALUE" value="470pF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC0603KRX7R7BB224" prefix="C">
+<description>220nF 16V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="311-1426-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="220nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM188R61E225KA12D" prefix="C">
+<description>2.2uF 25V X5R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-10731-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.14" constant="no"/>
+<attribute name="VALUE" value="2.2uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="16ML470MEFC10X9" prefix="C">
+<description>470uF 16V Electrolytic 20% 10mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="8126275" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="0.5912" constant="no"/>
+<attribute name="VALUE" value="470uF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10B475KQ8NQNC" prefix="C">
+<description>4.7uF 6.3V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CL10B475KQ8NQNC" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="013" constant="no"/>
+<attribute name="VALUE" value="4.7uF 6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM31CR61A476ME15L" prefix="C">
+<description>47uF 10V X5R 20% 1206 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-5528-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="0.65" constant="no"/>
+<attribute name="VALUE" value="47uF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="25ZLJ1000M10X20" prefix="C">
+<description>1000uF 25V Electrolytic 20% d = 10mm h = 20mm  radial</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1189-1245-ND" constant="no"/>
+<attribute name="HEIGHT" value="22" constant="no"/>
+<attribute name="PRICE_PER" value="0.53" constant="no"/>
+<attribute name="VALUE" value="25V 1000uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B41231C8478M000" prefix="C">
+<description>4700uF 63V Electrolytic 20% 10mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="30MM_RADIAL_10MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="495-6169-ND" constant="no"/>
+<attribute name="HEIGHT" value="37" constant="no"/>
+<attribute name="PRICE_PER" value="2.62" constant="no"/>
+<attribute name="VALUE" value="4700uF 63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R413F12200000M" prefix="C">
+<description>R41 Series, 2200 pF, ± 20%, X1 / Y2, Radial Leaded, 110 °C</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="4X13BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2112974" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="0.219" constant="no"/>
+<attribute name="VALUE" value="2200pF X1/Y2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="F1778410M3F0W0" prefix="C">
+<description>F1778 X2 Series, 0.1 µF, ± 20%, X2, Radial Leaded, 110 °C</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5X17.5BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1413846" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="0.136" constant="no"/>
+<attribute name="VALUE" value="0.1uF X2" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM188R71E474KA12D" prefix="C">
+<description>470nF 25V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-3291-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.2" constant="no"/>
+<attribute name="VALUE" value="470nF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="860020675021" prefix="C">
+<description>330uF 50V Electrolytic 20% 10mm radial 16mm height.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-8867-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="17.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.52" constant="no"/>
+<attribute name="VALUE" value="330uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCSH18B334K250CT" prefix="C">
+<description>330nF 25V X7R 20% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1856363" constant="no"/>
+<attribute name="HEIGHT" value="0.95" constant="no"/>
+<attribute name="PRICE_PER" value="0.0768" constant="no"/>
+<attribute name="VALUE" value="330nF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM55DR72E105KW01L" prefix="C">
+<description>1uF 250V X7R 10% 2220 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="2220">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1828845" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="1.02" constant="no"/>
+<attribute name="VALUE" value="1uF 250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="200TXW330MEFC18X30" prefix="C">
+<description>330uF 200V Electrolytic 20% 18mm radial 30mm height.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="18MM_RADIAL_7.5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2346325" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="3.12" constant="no"/>
+<attribute name="VALUE" value="330uF 200V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CGA5L3X7R2E104K160AE" prefix="C">
+<description>100nF 250V X7R 10% 1206 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2435520" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="0.492" constant="no"/>
+<attribute name="VALUE" value="100nF 250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCMR16V476M5X7" prefix="C">
+<description>47uF 16V Electrolytic 20% 5mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5MM_RADIAL_2MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="K" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="9452460" constant="no"/>
+<attribute name="HEIGHT" value="7" constant="no"/>
+<attribute name="PRICE_PER" value="0.0287" constant="no"/>
+<attribute name="VALUE" value="47uF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM31CR60J107ME39K" prefix="C">
+<description>100uF 6.3V X5R 20% 1206 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-7217-6-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="0.307" constant="no"/>
+<attribute name="VALUE" value="100uF 6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECA1HAM332X" prefix="C">
+<description>3300uF 50V Electrolytic 20% 18mm.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="18MM_RADIAL_7.5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="8767475" constant="no"/>
+<attribute name="PRICE_PER" value="1.39" constant="no"/>
+<attribute name="VALUE" value="3300uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="100YXJ220M12.5X25" prefix="C">
+<description>220uF 100V Electrolytic 20% d = 12.5mm h = 25mm  radial</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="12.5MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2346277" constant="no"/>
+<attribute name="PRICE_PER" value="1.07" constant="no"/>
+<attribute name="VALUE" value="220uF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C3225X7S1H106M250AB" prefix="C">
+<description>10uF 50V X7S 20% 1210 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="445-4537-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="0.583" constant="no"/>
+<attribute name="VALUE" value="10uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECA-1EM471" prefix="C">
+<description>470uF 25V Electrolytic 20% 10mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P5155-ND" constant="no"/>
+<attribute name="HEIGHT" value="14" constant="no"/>
+<attribute name="PRICE_PER" value="0.37" constant="no"/>
+<attribute name="VALUE" value="470uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECA-1AHG102" prefix="C">
+<description>1000uF 10V Electrolytic 20% 10mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1848534" constant="no"/>
+<attribute name="PRICE_PER" value="0.319" constant="no"/>
+<attribute name="VALUE" value="1000uF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEUFC1J221S" prefix="C">
+<description>220uF 63V Electrolytic 20% D = 12.5mm H = 20mm.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="12.5MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P10347-ND" constant="no"/>
+<attribute name="HEIGHT" value="20" constant="no"/>
+<attribute name="PRICE_PER" value="0.61" constant="no"/>
+<attribute name="VALUE" value="220uF 63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECA-1JM221" prefix="C">
+<description>220uF 63V Electrolytic 20% 10mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="10MM_RADIAL_5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="2"/>
+<connect gate="G$1" pin="K" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="9693874" constant="no"/>
+<attribute name="PRICE_PER" value="0.404" constant="no"/>
+<attribute name="VALUE" value="220uF 63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="06031C104KAT2A" prefix="C">
+<description>100nF 100V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-10047-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.14" constant="no"/>
+<attribute name="VALUE" value="100nF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECHU1C471GX5" prefix="C">
+<description>470pF 16V Film 2% 0603</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="PCF1449CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.38" constant="no"/>
+<attribute name="VALUE" value="470pF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECPU1C334MA5" prefix="C">
+<description>330nF 16V Film 20% 1206</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="PCF1129CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="0.5" constant="no"/>
+<attribute name="VALUE" value="330nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MKS2B042201F00KSSD" prefix="C">
+<description>2.2uF 50V FILM 10% 7.2 x 5mm BOX</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5X7.2BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="107422" constant="no"/>
+<attribute name="HEIGHT" value="10" constant="no"/>
+<attribute name="PRICE_PER" value="1.28" constant="no"/>
+<attribute name="VALUE" value="2.2uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM32EC81C476KE15L" prefix="C">
+<description>47uF 16V X6R 10% 1210 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1907527" constant="no"/>
+<attribute name="HEIGHT" value="2.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.486" constant="no"/>
+<attribute name="VALUE" value="47uF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C0603C333K1RACTU" prefix="C">
+<description>33nF 100V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-3478-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.214" constant="no"/>
+<attribute name="VALUE" value="33nF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ECWFE2W105K" prefix="C">
+<description>1uF 450V Film 10% box</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7X17.5BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P16845-ND" constant="no"/>
+<attribute name="HEIGHT" value="13" constant="no"/>
+<attribute name="PRICE_PER" value="0.49" constant="no"/>
+<attribute name="VALUE" value="1uF 450V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM32EC80E337ME05L" prefix="C">
+<description>330uF 2.5V X6S 30% 1210 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-13972-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="1.43" constant="no"/>
+<attribute name="VALUE" value="330uF 2.5V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MCMT18N4R7C160CT" prefix="C">
+<description>4.7pF 16V MLCC C0G/NP0 5% 0603.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1856098" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.0203" constant="no"/>
+<attribute name="VALUE" value="4.7pF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UVP1C101MPD" prefix="C">
+<description>100uF 16V NON POLAR ELECTROLYTIC 20% 8MM ELEC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8MM_RADIAL_3.5MM_PITCH_NP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="UVP1C101MPD-ND" constant="no"/>
+<attribute name="HEIGHT" value="12" constant="no"/>
+<attribute name="PRICE_PER" value="0.33" constant="no"/>
+<attribute name="VALUE" value="100uF 16V " constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10B104KO8WPNC" prefix="C">
+<description>100nF 16V X7R 10% 0603 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-6582-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="100nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10A105KA8NNNC" prefix="C">
+<description>1uF 25V X5R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1102-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM188R71C563JA01D" prefix="C">
+<description>56nF 16V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-12540-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.9" constant="no"/>
+<attribute name="PRICE_PER" value="0.14" constant="no"/>
+<attribute name="VALUE" value="56nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM188R61A106KE69D" prefix="C">
+<description>10uF 10V X5R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-10474-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.95" constant="no"/>
+<attribute name="PRICE_PER" value="0.17" constant="no"/>
+<attribute name="VALUE" value="10uF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM1555C1H2R7BA01D" prefix="C">
+<description>2.7pF 50V C0G/NP0 +/-0.1pF 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-6229-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="2.7pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="865080445010" prefix="C">
+<description>100uF 35V Electrolytic 20% SMD.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="6.6X6.6SMD">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-8438-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="8" constant="no"/>
+<attribute name="PRICE_PER" value="0.43" constant="no"/>
+<attribute name="VALUE" value="100uF 35V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GJM1555C1H5R6CB01D" prefix="C">
+<description>5.6pF 50V C0G/NP0 +/-0.25pF 0402 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-3103-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.09" constant="no"/>
+<attribute name="VALUE" value="5.6nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL31B226MPHNNNE" prefix="C">
+<description>22uF 10V X7R 10% 1206 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-3148-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.47" constant="no"/>
+<attribute name="VALUE" value="22uF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM1555C1H1R0BA01D" prefix="C">
+<description>1pF 50V C0G/NP0 +/-0.1pF 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-6206-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM1555C1H1R5BA01D" prefix="C">
+<description>1.5pF 50V C0G/NP0 +/-0.1pF 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-6212-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1.5pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM1555C1H4R7WA01D" prefix="C">
+<description>4.7pF 50V C0G/NP0 +/-0.05pF 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-8210-2-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="4.7pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GCM155R71H222KA37D" prefix="C">
+<description>2.2nF 50V X7R +/-10% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-4914-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="2.2nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="885342206006" prefix="C">
+<description>10nF 250V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-12168-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.09" constant="no"/>
+<attribute name="VALUE" value="10nF 250V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UUB2C100MNL1GS" prefix="C">
+<description>10uF 160V POLAR ELECTROLYTIC 20% 10MM ELEC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="UUB_10X10">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="493-9960-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="11" constant="no"/>
+<attribute name="PRICE_PER" value="0.64" constant="no"/>
+<attribute name="VALUE" value="10uF 160V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10B103KB8NCNC" prefix="C">
+<description>10nF 50V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1921-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="10nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="160TXW150MEFC10X40" prefix="C">
+<description>150uF 160V Electrolytic 20% 12.5mm radial 42.5mm height.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="12.5X42.5MM_FLAT">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1189-1095-ND" constant="no"/>
+<attribute name="HEIGHT" value="12.5" constant="no"/>
+<attribute name="PRICE_PER" value="1.5" constant="no"/>
+<attribute name="VALUE" value="150uF 160V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10C151JB8NNNC" prefix="C">
+<description>150pF 50V C0G/NP0 5% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1280-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="150pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="06035A150JAT2A" prefix="C">
+<description>15pF 50V C0G/NP0 5% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-1165-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="15pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10B223KB8NNWC" prefix="C">
+<description>22nF 50V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-2003-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="22nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10B102KB8NNNC" prefix="C">
+<description>1nF 50V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1018-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="107CKR050M" prefix="C">
+<description>100uF 50V Electrolytic 20% 8mm radial.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8MM_RADIAL_3.5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="P"/>
+<connect gate="G$1" pin="K" pad="N"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1572-1044-ND" constant="no"/>
+<attribute name="HEIGHT" value="14" constant="no"/>
+<attribute name="PRICE_PER" value="0.223" constant="no"/>
+<attribute name="VALUE" value="100uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC0603JRNPO9BN221" prefix="C">
+<description>220pF 50V C0G/NP0 5% 0603 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="311-1073-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="220pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CC0603JRNPO9BN331" prefix="C">
+<description>330pF 50V C0G/NP0 5% 0603 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="311-1075-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.1" constant="no"/>
+<attribute name="VALUE" value="330pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10C470JC8NNNC" prefix="C">
+<description>47pF 100V C0G/NP0 5% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-2299-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.07" constant="no"/>
+<attribute name="VALUE" value="47pF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL05B104KO5NNNC" prefix="C">
+<description>100nF 16V X7R +/-10% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1001-6-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.07" constant="no"/>
+<attribute name="VALUE" value="100nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL05A475MO5NUNC" prefix="C">
+<description>4.7uF 16V X5R +/-10% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-6836-6-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.37" constant="no"/>
+<attribute name="VALUE" value="4.7uF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM1555C1H101JA01J" prefix="C">
+<description>100pF 50V C0G/NP0 +/-5% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-7754-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.07" constant="no"/>
+<attribute name="VALUE" value="100pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C3216X5R1E476M160AC" prefix="C">
+<description>47uF 25V X5R 10% 1206 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="445-8047-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.8" constant="no"/>
+<attribute name="PRICE_PER" value="1.00" constant="no"/>
+<attribute name="VALUE" value="47uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C1812X225K1RAC7800" prefix="C">
+<description>2.2uF 100V X7R 10% 1812 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-16352-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.7" constant="no"/>
+<attribute name="PRICE_PER" value="1.02" constant="no"/>
+<attribute name="VALUE" value="2.2uF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRM31CR60J227ME11L" prefix="C">
+<description>220uF 6.3V X5R 10% 1206 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-13970-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="1.20" constant="no"/>
+<attribute name="VALUE" value="220uF 6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEE-1JA220UP" prefix="C">
+<description>22uF 63V Electrolytic 20% Radial</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PANASONIC_E">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="PCE3944CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="6.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.42" constant="no"/>
+<attribute name="VALUE" value="22uF 63V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL05B102KB5NNNC" prefix="C">
+<description>1nF 50V X7R +/-10% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1032-6-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="1nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10B473KO8NNNC" prefix="C">
+<description>47nF 16V X7R 10% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-2079-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="47nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MKS2B051001N00JSSD" prefix="C">
+<description>10uF 50V FILM +/-5% 7.2 x 11mm BOX</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="7.2X11BOX">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1928-1631-ND" constant="no"/>
+<attribute name="HEIGHT" value="16" constant="no"/>
+<attribute name="PRICE_PER" value="2.22" constant="no"/>
+<attribute name="VALUE" value="10uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GRJ155R60J106ME11D" prefix="C">
+<description>10uF 6.3V X5R +/-10% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="490-13211-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.17" constant="no"/>
+<attribute name="VALUE" value="10uF 6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C3216X7R2A224K115AA" prefix="C">
+<description>220nF 100V X7R 10% 1206 MLCC</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1206">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="445-2283-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.21" constant="no"/>
+<attribute name="VALUE" value="220nF 100V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL05B224KO5NNNC" prefix="C">
+<description>220nF 16V X7R +/-10% 0402 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0402">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1176-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="220nF 16V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="UVY1E101MDD" prefix="C">
+<description>100uF 25V POLAR ELECTROLYTIC 20% 5MM ELEC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="5MM_RADIAL_2MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="1"/>
+<connect gate="G$1" pin="K" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="UVY1E101MDD-ND" constant="no"/>
+<attribute name="HEIGHT" value="11" constant="no"/>
+<attribute name="PRICE_PER" value="0.22" constant="no"/>
+<attribute name="VALUE" value="100uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="06035A220JAT2A" prefix="C">
+<description>22pF 50V C0G/NP0 5% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="478-1167-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.08" constant="no"/>
+<attribute name="VALUE" value="22pF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL10C222JB8NNNC" prefix="C">
+<description>2.2nF 50V C0G/NP0 5% 0603 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1276-1760-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.09" constant="no"/>
+<attribute name="VALUE" value="2.2nF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EEE-FK1E101SL" prefix="C">
+<description>100µF 25V Aluminum Electrolytic Capacitors Radial, Can - SMD 360mOhm @ 100kHz 2000 Hrs @ 105°C</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PANASONIC_D">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="10-EEE-FK1E101SLCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="6.1" constant="no"/>
+<attribute name="PRICE_PER" value="0.41" constant="no"/>
+<attribute name="VALUE" value="100uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="25SVPF180M" prefix="C">
+<description>180µF 25V Aluminum - Polymer Capacitors Radial, Can - SMD 16mOhm 5000 Hrs @ 105°C</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PANASONIC_E12">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P16510CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="12" constant="no"/>
+<attribute name="PRICE_PER" value="1.33" constant="no"/>
+<attribute name="VALUE" value="180uF 25V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LMK325B7476KM-PR" prefix="C">
+<description>47uF 10V X7R 10% 1210 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1210">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="587-5921-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="0.72" constant="no"/>
+<attribute name="VALUE" value="47uF 10V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RSCSK2243R3D02007U" prefix="C">
+<description>220 mF (EDLC) Supercapacitor 3.3 V Coin, Wide Terminals - Same Sides 200Ohm @ 1kHz 500 Hrs @ 60°C</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RSCSK2243R3D02007U">
+<connects>
+<connect gate="G$1" pin="A" pad="+"/>
+<connect gate="G$1" pin="K" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="604-RSCSK2243R3D02007U-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="1.16" constant="no"/>
+<attribute name="VALUE" value="0.22F 3.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RL80J102MDN1KX" prefix="C">
+<description>1000 µF 6.3 V Aluminum - Polymer Capacitors Radial, Can 9mOhm 2000 Hrs @ 105°C</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR_POLAR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="8MM_RADIAL_3.5MM_PITCH">
+<connects>
+<connect gate="G$1" pin="A" pad="P"/>
+<connect gate="G$1" pin="K" pad="N"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="493-4024-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="8" constant="no"/>
+<attribute name="PRICE_PER" value="0.72" constant="no"/>
+<attribute name="VALUE" value="1000uF 6.3V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C1812C102KGRACAUTO" prefix="C">
+<description>1nF 2000V X7R 10% 1812 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1812">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="399-16774-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.6" constant="no"/>
+<attribute name="PRICE_PER" value="0.32" constant="no"/>
+<attribute name="VALUE" value="1nF 2kV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CL21A106KAYNNNE" prefix="C">
+<description>10uF 25V X5R 10% 0805 MLCC.</description>
+<gates>
+<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="LCSC" value="C15850" constant="no"/>
+<attribute name="PRICE_PER" value="0.0107" constant="no"/>
+<attribute name="VALUE" value="10uF 50V" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

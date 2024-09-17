@@ -1,0 +1,1652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<designblock>
+<description></description>
+<attributes>
+<attribute name="AIRWIRES" value="YES"/>
+<attribute name="BOARDSIZE" value="18.5 x 90.1 mm"/>
+<attribute name="LAYERS" value="1: 1"/>
+</attributes>
+<drawings>
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="no"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="no"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="no"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Moduledim" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="blue" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="red" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="green" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="txcone" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="rxcone" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="tLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="bLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="151" name="_tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="holder-cuvette" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<schematic xreflabel="%F%N" xrefpart="/%S">
+<libraries>
+<library name="DIODES">
+<packages>
+<package name="1113">
+<smd name="K" x="-0.85" y="0" dx="2.2" dy="1.8" layer="1"/>
+<smd name="A" x="1.4" y="0" dx="1.1" dy="1.8" layer="1"/>
+<wire x1="-2" y1="1.5" x2="-1.75" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.75" y1="1.5" x2="-1.625" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.375" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="1.5" x2="2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="0.875" width="0.15" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.25" x2="-2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.75" y1="1.5" x2="-2" y2="1.25" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.25" x2="-2" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.125" x2="-1.625" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.625" y1="1.5" x2="-1.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-2" y2="1" width="0.15" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="0.875" width="0.15" layer="21"/>
+<wire x1="-2" y1="0.875" x2="-1.375" y2="1.5" width="0.15" layer="21"/>
+<text x="-2" y="1.625" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="DIODE">
+<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<text x="0" y="2.54" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="A" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="K" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="1.27" y1="0" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="JB2835AWT-W-H40GA0000-N0000001" prefix="D">
+<description>LED Lighting J White, Neutral 4000K 3-Step MacAdam Ellipse 2.95V 60mA 120° 1113 (2835 Metric)</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="1113">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="K" pad="K"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.09" constant="no"/>
+<attribute name="VALUE" value="4000K" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<parts>
+<part name="D1" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D2" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D3" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D4" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D5" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D6" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D7" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D8" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D9" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D10" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D11" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D12" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D13" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D14" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D15" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D16" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D17" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D18" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D19" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D20" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D21" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D22" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D23" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D24" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D25" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D26" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D27" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D28" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D29" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D30" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D31" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D32" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D33" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D34" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D35" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D36" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D37" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D38" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D39" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+<part name="D40" library="DIODES" deviceset="JB2835AWT-W-H40GA0000-N0000001" device="" value="4000K"/>
+</parts>
+<sheets>
+<sheet>
+<plain>
+</plain>
+<instances>
+<instance part="D1" gate="G$1" x="27.94" y="419.1" smashed="yes">
+<attribute name="NAME" x="27.94" y="421.64" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="416.56" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D2" gate="G$1" x="27.94" y="408.94" smashed="yes">
+<attribute name="NAME" x="27.94" y="411.48" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="406.4" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D3" gate="G$1" x="27.94" y="398.78" smashed="yes">
+<attribute name="NAME" x="27.94" y="401.32" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="396.24" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D4" gate="G$1" x="27.94" y="388.62" smashed="yes">
+<attribute name="NAME" x="27.94" y="391.16" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="386.08" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D5" gate="G$1" x="27.94" y="378.46" smashed="yes">
+<attribute name="NAME" x="27.94" y="381" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="375.92" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D6" gate="G$1" x="27.94" y="368.3" smashed="yes">
+<attribute name="NAME" x="27.94" y="370.84" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="365.76" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D7" gate="G$1" x="27.94" y="358.14" smashed="yes">
+<attribute name="NAME" x="27.94" y="360.68" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="355.6" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D8" gate="G$1" x="27.94" y="347.98" smashed="yes">
+<attribute name="NAME" x="27.94" y="350.52" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="345.44" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D9" gate="G$1" x="27.94" y="337.82" smashed="yes">
+<attribute name="NAME" x="27.94" y="340.36" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="335.28" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D10" gate="G$1" x="27.94" y="327.66" smashed="yes">
+<attribute name="NAME" x="27.94" y="330.2" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="325.12" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D11" gate="G$1" x="27.94" y="317.5" smashed="yes">
+<attribute name="NAME" x="27.94" y="320.04" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="314.96" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D12" gate="G$1" x="27.94" y="307.34" smashed="yes">
+<attribute name="NAME" x="27.94" y="309.88" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="304.8" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D13" gate="G$1" x="27.94" y="297.18" smashed="yes">
+<attribute name="NAME" x="27.94" y="299.72" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="294.64" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D14" gate="G$1" x="27.94" y="287.02" smashed="yes">
+<attribute name="NAME" x="27.94" y="289.56" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="284.48" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D15" gate="G$1" x="27.94" y="276.86" smashed="yes">
+<attribute name="NAME" x="27.94" y="279.4" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="274.32" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D16" gate="G$1" x="27.94" y="266.7" smashed="yes">
+<attribute name="NAME" x="27.94" y="269.24" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="264.16" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D17" gate="G$1" x="27.94" y="256.54" smashed="yes">
+<attribute name="NAME" x="27.94" y="259.08" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="254" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D18" gate="G$1" x="27.94" y="246.38" smashed="yes">
+<attribute name="NAME" x="27.94" y="248.92" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="243.84" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D19" gate="G$1" x="27.94" y="236.22" smashed="yes">
+<attribute name="NAME" x="27.94" y="238.76" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="233.68" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D20" gate="G$1" x="27.94" y="226.06" smashed="yes">
+<attribute name="NAME" x="27.94" y="228.6" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="223.52" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D21" gate="G$1" x="27.94" y="215.9" smashed="yes">
+<attribute name="NAME" x="27.94" y="218.44" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="213.36" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D22" gate="G$1" x="27.94" y="205.74" smashed="yes">
+<attribute name="NAME" x="27.94" y="208.28" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="203.2" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D23" gate="G$1" x="27.94" y="195.58" smashed="yes">
+<attribute name="NAME" x="27.94" y="198.12" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="193.04" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D24" gate="G$1" x="27.94" y="185.42" smashed="yes">
+<attribute name="NAME" x="27.94" y="187.96" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="182.88" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D25" gate="G$1" x="27.94" y="175.26" smashed="yes">
+<attribute name="NAME" x="27.94" y="177.8" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="172.72" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D26" gate="G$1" x="27.94" y="165.1" smashed="yes">
+<attribute name="NAME" x="27.94" y="167.64" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="162.56" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D27" gate="G$1" x="27.94" y="154.94" smashed="yes">
+<attribute name="NAME" x="27.94" y="157.48" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="152.4" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D28" gate="G$1" x="27.94" y="144.78" smashed="yes">
+<attribute name="NAME" x="27.94" y="147.32" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="142.24" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D29" gate="G$1" x="27.94" y="134.62" smashed="yes">
+<attribute name="NAME" x="27.94" y="137.16" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="132.08" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D30" gate="G$1" x="27.94" y="124.46" smashed="yes">
+<attribute name="NAME" x="27.94" y="127" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="121.92" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D31" gate="G$1" x="27.94" y="114.3" smashed="yes">
+<attribute name="NAME" x="27.94" y="116.84" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="111.76" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D32" gate="G$1" x="27.94" y="104.14" smashed="yes">
+<attribute name="NAME" x="27.94" y="106.68" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="101.6" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D33" gate="G$1" x="27.94" y="93.98" smashed="yes">
+<attribute name="NAME" x="27.94" y="96.52" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="91.44" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D34" gate="G$1" x="27.94" y="83.82" smashed="yes">
+<attribute name="NAME" x="27.94" y="86.36" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="81.28" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D35" gate="G$1" x="27.94" y="73.66" smashed="yes">
+<attribute name="NAME" x="27.94" y="76.2" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="71.12" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D36" gate="G$1" x="27.94" y="63.5" smashed="yes">
+<attribute name="NAME" x="27.94" y="66.04" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="60.96" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D37" gate="G$1" x="27.94" y="53.34" smashed="yes">
+<attribute name="NAME" x="27.94" y="55.88" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="50.8" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D38" gate="G$1" x="27.94" y="43.18" smashed="yes">
+<attribute name="NAME" x="27.94" y="45.72" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="40.64" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D39" gate="G$1" x="27.94" y="33.02" smashed="yes">
+<attribute name="NAME" x="27.94" y="35.56" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="30.48" size="1.27" layer="96" align="center"/>
+</instance>
+<instance part="D40" gate="G$1" x="27.94" y="22.86" smashed="yes">
+<attribute name="NAME" x="27.94" y="25.4" size="1.27" layer="95" align="center"/>
+<attribute name="VALUE" x="27.94" y="20.32" size="1.27" layer="96" align="center"/>
+</instance>
+</instances>
+<busses>
+</busses>
+<nets>
+<net name="LED_ROW_0" class="0">
+<segment>
+<pinref part="D1" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="419.1" x2="35.56" y2="419.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="419.1" x2="35.56" y2="414.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="414.02" x2="60.96" y2="414.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_1" class="0">
+<segment>
+<pinref part="D2" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="408.94" x2="35.56" y2="408.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="408.94" x2="35.56" y2="403.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="403.86" x2="60.96" y2="403.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_2" class="0">
+<segment>
+<pinref part="D3" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="398.78" x2="35.56" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="398.78" x2="35.56" y2="393.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="393.7" x2="60.96" y2="393.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_3" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="388.62" x2="35.56" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="388.62" x2="35.56" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="383.54" x2="60.96" y2="383.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_4" class="0">
+<segment>
+<pinref part="D5" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="378.46" x2="35.56" y2="378.46" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="378.46" x2="35.56" y2="373.38" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="373.38" x2="60.96" y2="373.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_5" class="0">
+<segment>
+<pinref part="D6" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="368.3" x2="35.56" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="368.3" x2="35.56" y2="363.22" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="363.22" x2="60.96" y2="363.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_6" class="0">
+<segment>
+<pinref part="D7" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="358.14" x2="35.56" y2="358.14" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="358.14" x2="35.56" y2="353.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="353.06" x2="60.96" y2="353.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_7" class="0">
+<segment>
+<pinref part="D8" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="347.98" x2="35.56" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="347.98" x2="35.56" y2="342.9" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="342.9" x2="60.96" y2="342.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_8" class="0">
+<segment>
+<pinref part="D9" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="337.82" x2="35.56" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="337.82" x2="35.56" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="332.74" x2="60.96" y2="332.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_9" class="0">
+<segment>
+<pinref part="D10" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="327.66" x2="35.56" y2="327.66" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="327.66" x2="35.56" y2="322.58" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="322.58" x2="60.96" y2="322.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_10" class="0">
+<segment>
+<pinref part="D11" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="317.5" x2="35.56" y2="317.5" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="317.5" x2="35.56" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="312.42" x2="60.96" y2="312.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_11" class="0">
+<segment>
+<pinref part="D12" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="307.34" x2="35.56" y2="307.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="307.34" x2="35.56" y2="302.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="302.26" x2="60.96" y2="302.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_12" class="0">
+<segment>
+<pinref part="D13" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="297.18" x2="35.56" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="297.18" x2="35.56" y2="292.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="292.1" x2="60.96" y2="292.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_13" class="0">
+<segment>
+<pinref part="D14" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="287.02" x2="35.56" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="287.02" x2="35.56" y2="281.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="281.94" x2="60.96" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_14" class="0">
+<segment>
+<pinref part="D15" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="276.86" x2="35.56" y2="276.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="276.86" x2="35.56" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="271.78" x2="60.96" y2="271.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_15" class="0">
+<segment>
+<pinref part="D16" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="266.7" x2="35.56" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="266.7" x2="35.56" y2="261.62" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="261.62" x2="60.96" y2="261.62" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_16" class="0">
+<segment>
+<pinref part="D17" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="256.54" x2="35.56" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="256.54" x2="35.56" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="251.46" x2="60.96" y2="251.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_17" class="0">
+<segment>
+<pinref part="D18" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="246.38" x2="35.56" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="246.38" x2="35.56" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="241.3" x2="60.96" y2="241.3" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_18" class="0">
+<segment>
+<pinref part="D19" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="236.22" x2="35.56" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="236.22" x2="35.56" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="231.14" x2="60.96" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_19" class="0">
+<segment>
+<pinref part="D20" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="226.06" x2="35.56" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="226.06" x2="35.56" y2="220.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="220.98" x2="60.96" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_20" class="0">
+<segment>
+<pinref part="D21" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="215.9" x2="35.56" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="215.9" x2="35.56" y2="210.82" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="210.82" x2="60.96" y2="210.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_21" class="0">
+<segment>
+<pinref part="D22" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="205.74" x2="35.56" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="205.74" x2="35.56" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="200.66" x2="60.96" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_22" class="0">
+<segment>
+<pinref part="D23" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="195.58" x2="35.56" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="195.58" x2="35.56" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="190.5" x2="60.96" y2="190.5" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_23" class="0">
+<segment>
+<pinref part="D24" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="185.42" x2="35.56" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="185.42" x2="35.56" y2="180.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="180.34" x2="60.96" y2="180.34" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_24" class="0">
+<segment>
+<pinref part="D25" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="175.26" x2="35.56" y2="175.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="175.26" x2="35.56" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_25" class="0">
+<segment>
+<pinref part="D26" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="165.1" x2="35.56" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="165.1" x2="35.56" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="160.02" x2="60.96" y2="160.02" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_26" class="0">
+<segment>
+<pinref part="D27" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="154.94" x2="35.56" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="154.94" x2="35.56" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="149.86" x2="60.96" y2="149.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_27" class="0">
+<segment>
+<pinref part="D28" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="144.78" x2="35.56" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="144.78" x2="35.56" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="139.7" x2="60.96" y2="139.7" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_28" class="0">
+<segment>
+<pinref part="D29" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="134.62" x2="35.56" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="134.62" x2="35.56" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="129.54" x2="60.96" y2="129.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_29" class="0">
+<segment>
+<pinref part="D30" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="124.46" x2="35.56" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="124.46" x2="35.56" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="119.38" x2="60.96" y2="119.38" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_30" class="0">
+<segment>
+<pinref part="D31" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="114.3" x2="35.56" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="114.3" x2="35.56" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="109.22" x2="60.96" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_31" class="0">
+<segment>
+<pinref part="D32" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="104.14" x2="35.56" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="104.14" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="99.06" x2="60.96" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_32" class="0">
+<segment>
+<pinref part="D33" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="93.98" x2="35.56" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="93.98" x2="35.56" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_33" class="0">
+<segment>
+<pinref part="D34" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="83.82" x2="35.56" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="83.82" x2="35.56" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_34" class="0">
+<segment>
+<pinref part="D35" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="73.66" x2="35.56" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="73.66" x2="35.56" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="68.58" x2="60.96" y2="68.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_35" class="0">
+<segment>
+<pinref part="D36" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="63.5" x2="35.56" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="63.5" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="58.42" x2="60.96" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_36" class="0">
+<segment>
+<pinref part="D37" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="53.34" x2="35.56" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="48.26" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_37" class="0">
+<segment>
+<pinref part="D38" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="43.18" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="38.1" x2="60.96" y2="38.1" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_ROW_38" class="0">
+<segment>
+<pinref part="D39" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="33.02" x2="35.56" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="33.02" x2="35.56" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="27.94" x2="60.96" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="LED_COLUMN_0" class="0">
+<segment>
+<pinref part="D40" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="22.86" x2="20.32" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="D39" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="33.02" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="33.02" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="D37" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="43.18" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="53.34" x2="20.32" y2="53.34" width="0.1524" layer="91"/>
+<junction x="20.32" y="53.34"/>
+<pinref part="D38" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<junction x="20.32" y="43.18"/>
+<pinref part="D36" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="63.5" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="63.5" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="D34" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="73.66" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="83.82" x2="20.32" y2="83.82" width="0.1524" layer="91"/>
+<junction x="20.32" y="83.82"/>
+<pinref part="D35" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="73.66" x2="20.32" y2="73.66" width="0.1524" layer="91"/>
+<junction x="20.32" y="73.66"/>
+<pinref part="D33" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="93.98" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="93.98" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="D31" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="104.14" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="114.3" x2="20.32" y2="114.3" width="0.1524" layer="91"/>
+<junction x="20.32" y="114.3"/>
+<pinref part="D32" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="104.14" x2="20.32" y2="104.14" width="0.1524" layer="91"/>
+<junction x="20.32" y="104.14"/>
+<wire x1="20.32" y1="83.82" x2="20.32" y2="93.98" width="0.1524" layer="91"/>
+<junction x="20.32" y="93.98"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="63.5" width="0.1524" layer="91"/>
+<junction x="20.32" y="63.5"/>
+<wire x1="20.32" y1="22.86" x2="20.32" y2="33.02" width="0.1524" layer="91"/>
+<junction x="20.32" y="33.02"/>
+<pinref part="D30" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="124.46" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="D29" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="134.62" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="134.62" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="D27" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="144.78" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="154.94" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="154.94"/>
+<pinref part="D28" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="144.78" x2="20.32" y2="144.78" width="0.1524" layer="91"/>
+<junction x="20.32" y="144.78"/>
+<pinref part="D26" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="165.1" x2="20.32" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="165.1" x2="20.32" y2="175.26" width="0.1524" layer="91"/>
+<pinref part="D24" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="175.26" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="185.42" x2="20.32" y2="185.42" width="0.1524" layer="91"/>
+<junction x="20.32" y="185.42"/>
+<pinref part="D25" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="175.26" x2="20.32" y2="175.26" width="0.1524" layer="91"/>
+<junction x="20.32" y="175.26"/>
+<pinref part="D23" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="195.58" x2="20.32" y2="195.58" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="195.58" x2="20.32" y2="205.74" width="0.1524" layer="91"/>
+<pinref part="D21" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="205.74" x2="20.32" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="215.9" x2="20.32" y2="215.9" width="0.1524" layer="91"/>
+<junction x="20.32" y="215.9"/>
+<pinref part="D22" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="205.74" x2="20.32" y2="205.74" width="0.1524" layer="91"/>
+<junction x="20.32" y="205.74"/>
+<wire x1="20.32" y1="185.42" x2="20.32" y2="195.58" width="0.1524" layer="91"/>
+<junction x="20.32" y="195.58"/>
+<wire x1="20.32" y1="154.94" x2="20.32" y2="165.1" width="0.1524" layer="91"/>
+<junction x="20.32" y="165.1"/>
+<wire x1="20.32" y1="124.46" x2="20.32" y2="134.62" width="0.1524" layer="91"/>
+<junction x="20.32" y="134.62"/>
+<wire x1="20.32" y1="114.3" x2="20.32" y2="124.46" width="0.1524" layer="91"/>
+<junction x="20.32" y="124.46"/>
+<pinref part="D20" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="226.06" x2="20.32" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="D19" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="236.22" x2="20.32" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="236.22" x2="20.32" y2="246.38" width="0.1524" layer="91"/>
+<pinref part="D17" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="246.38" x2="20.32" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="256.54" x2="20.32" y2="256.54" width="0.1524" layer="91"/>
+<junction x="20.32" y="256.54"/>
+<pinref part="D18" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="246.38" x2="20.32" y2="246.38" width="0.1524" layer="91"/>
+<junction x="20.32" y="246.38"/>
+<pinref part="D16" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="266.7" x2="20.32" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="266.7" x2="20.32" y2="276.86" width="0.1524" layer="91"/>
+<pinref part="D14" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="276.86" x2="20.32" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="287.02" x2="20.32" y2="287.02" width="0.1524" layer="91"/>
+<junction x="20.32" y="287.02"/>
+<pinref part="D15" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="276.86" x2="20.32" y2="276.86" width="0.1524" layer="91"/>
+<junction x="20.32" y="276.86"/>
+<pinref part="D13" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="297.18" x2="20.32" y2="297.18" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="297.18" x2="20.32" y2="307.34" width="0.1524" layer="91"/>
+<pinref part="D11" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="307.34" x2="20.32" y2="317.5" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="317.5" x2="20.32" y2="317.5" width="0.1524" layer="91"/>
+<junction x="20.32" y="317.5"/>
+<pinref part="D12" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="307.34" x2="20.32" y2="307.34" width="0.1524" layer="91"/>
+<junction x="20.32" y="307.34"/>
+<wire x1="20.32" y1="287.02" x2="20.32" y2="297.18" width="0.1524" layer="91"/>
+<junction x="20.32" y="297.18"/>
+<wire x1="20.32" y1="256.54" x2="20.32" y2="266.7" width="0.1524" layer="91"/>
+<junction x="20.32" y="266.7"/>
+<wire x1="20.32" y1="226.06" x2="20.32" y2="236.22" width="0.1524" layer="91"/>
+<junction x="20.32" y="236.22"/>
+<pinref part="D10" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="327.66" x2="20.32" y2="327.66" width="0.1524" layer="91"/>
+<pinref part="D9" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="337.82" x2="20.32" y2="337.82" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="337.82" x2="20.32" y2="347.98" width="0.1524" layer="91"/>
+<pinref part="D7" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="347.98" x2="20.32" y2="358.14" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="358.14" x2="20.32" y2="358.14" width="0.1524" layer="91"/>
+<junction x="20.32" y="358.14"/>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="347.98" x2="20.32" y2="347.98" width="0.1524" layer="91"/>
+<junction x="20.32" y="347.98"/>
+<pinref part="D6" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="368.3" x2="20.32" y2="368.3" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="368.3" x2="20.32" y2="378.46" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="378.46" x2="20.32" y2="388.62" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="388.62" x2="20.32" y2="388.62" width="0.1524" layer="91"/>
+<junction x="20.32" y="388.62"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="378.46" x2="20.32" y2="378.46" width="0.1524" layer="91"/>
+<junction x="20.32" y="378.46"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="398.78" x2="20.32" y2="398.78" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="398.78" x2="20.32" y2="408.94" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="20.32" y1="408.94" x2="20.32" y2="419.1" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="419.1" x2="20.32" y2="421.64" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="419.1" x2="20.32" y2="419.1" width="0.1524" layer="91"/>
+<junction x="20.32" y="419.1"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="22.86" y1="408.94" x2="20.32" y2="408.94" width="0.1524" layer="91"/>
+<junction x="20.32" y="408.94"/>
+<wire x1="20.32" y1="388.62" x2="20.32" y2="398.78" width="0.1524" layer="91"/>
+<junction x="20.32" y="398.78"/>
+<wire x1="20.32" y1="358.14" x2="20.32" y2="368.3" width="0.1524" layer="91"/>
+<junction x="20.32" y="368.3"/>
+<wire x1="20.32" y1="327.66" x2="20.32" y2="337.82" width="0.1524" layer="91"/>
+<junction x="20.32" y="337.82"/>
+<wire x1="20.32" y1="317.5" x2="20.32" y2="327.66" width="0.1524" layer="91"/>
+<junction x="20.32" y="327.66"/>
+<wire x1="20.32" y1="215.9" x2="20.32" y2="226.06" width="0.1524" layer="91"/>
+<junction x="20.32" y="226.06"/>
+</segment>
+</net>
+<net name="LED_ROW_39" class="0">
+<segment>
+<pinref part="D40" gate="G$1" pin="K"/>
+<wire x1="33.02" y1="22.86" x2="35.56" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="22.86" x2="35.56" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+</nets>
+</sheet>
+</sheets>
+</schematic>
+</drawing>
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.125" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.0625" altunitdist="mm" altunit="mm"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="no"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="no"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="no"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="no"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="no"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="no"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="no"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="no"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="no"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="no" active="no"/>
+<layer number="95" name="Names" color="7" fill="1" visible="no" active="no"/>
+<layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
+<layer number="97" name="Info" color="7" fill="1" visible="no" active="no"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Moduledim" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="blue" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="red" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="green" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="txcone" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="rxcone" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="tLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="bLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="151" name="_tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="holder-cuvette" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<board>
+<plain>
+</plain>
+<libraries>
+<library name="DIODES">
+<packages>
+<package name="1113">
+<smd name="K" x="-0.85" y="0" dx="2.2" dy="1.8" layer="1"/>
+<smd name="A" x="1.4" y="0" dx="1.1" dy="1.8" layer="1"/>
+<wire x1="-2" y1="1.5" x2="-1.75" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.75" y1="1.5" x2="-1.625" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-1.375" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.375" y1="1.5" x2="2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="2" y1="-1.5" x2="-2" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="-2" y2="0.875" width="0.15" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.25" x2="-2" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.75" y1="1.5" x2="-2" y2="1.25" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.25" x2="-2" y2="1.125" width="0.15" layer="21"/>
+<wire x1="-2" y1="1.125" x2="-1.625" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.625" y1="1.5" x2="-1.5" y2="1.5" width="0.15" layer="21"/>
+<wire x1="-1.5" y1="1.5" x2="-2" y2="1" width="0.15" layer="21"/>
+<wire x1="-2" y1="1" x2="-2" y2="0.875" width="0.15" layer="21"/>
+<wire x1="-2" y1="0.875" x2="-1.375" y2="1.5" width="0.15" layer="21"/>
+<text x="-2" y="1.625" size="1" layer="25">&gt;NAME</text>
+</package>
+</packages>
+</library>
+</libraries>
+<attributes>
+</attributes>
+<variantdefs>
+</variantdefs>
+<classes>
+<class number="0" name="default" width="0" drill="0">
+</class>
+</classes>
+<designrules name="default">
+<description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+The default Design Rules have been set to cover
+a wide range of applications. Your particular design
+may have different requirements, so please make the
+necessary adjustments and save your customized
+design rules under a new name.
+</description>
+<param name="layerSetup" value="(1*16)"/>
+<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
+<param name="mtIsolate" value="0.15mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
+<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mnLayersViaInSmd" value="2"/>
+<param name="mdCopperDimension" value="40mil"/>
+<param name="mdDrill" value="6mil"/>
+<param name="mdSmdStop" value="0mil"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="0.35mm"/>
+<param name="msMicroVia" value="9.99mm"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
+<param name="psTop" value="-1"/>
+<param name="psBottom" value="-1"/>
+<param name="psFirst" value="-1"/>
+<param name="psElongationLong" value="100"/>
+<param name="psElongationOffset" value="100"/>
+<param name="mvStopFrame" value="1"/>
+<param name="mvCreamFrame" value="0"/>
+<param name="mlMinStopFrame" value="4mil"/>
+<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinCreamFrame" value="0mil"/>
+<param name="mlMaxCreamFrame" value="0mil"/>
+<param name="mlViaStopLimit" value="0mil"/>
+<param name="srRoundness" value="0"/>
+<param name="srMinRoundness" value="0mil"/>
+<param name="srMaxRoundness" value="0mil"/>
+<param name="slThermalIsolate" value="10mil"/>
+<param name="slThermalsForVias" value="0"/>
+<param name="dpMaxLengthDifference" value="10mm"/>
+<param name="dpGapFactor" value="2.5"/>
+<param name="checkAngle" value="0"/>
+<param name="checkFont" value="1"/>
+<param name="checkRestrict" value="1"/>
+<param name="checkStop" value="0"/>
+<param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
+<param name="useDiameter" value="13"/>
+<param name="maxErrors" value="999999"/>
+</designrules>
+<autorouter>
+<pass name="Default">
+<param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
+<param name="tpViaShape" value="round"/>
+<param name="PrefDir.1" value="a"/>
+<param name="PrefDir.2" value="0"/>
+<param name="PrefDir.3" value="0"/>
+<param name="PrefDir.4" value="0"/>
+<param name="PrefDir.5" value="0"/>
+<param name="PrefDir.6" value="0"/>
+<param name="PrefDir.7" value="0"/>
+<param name="PrefDir.8" value="0"/>
+<param name="PrefDir.9" value="0"/>
+<param name="PrefDir.10" value="0"/>
+<param name="PrefDir.11" value="0"/>
+<param name="PrefDir.12" value="0"/>
+<param name="PrefDir.13" value="0"/>
+<param name="PrefDir.14" value="0"/>
+<param name="PrefDir.15" value="0"/>
+<param name="PrefDir.16" value="a"/>
+<param name="cfVia" value="8"/>
+<param name="cfNonPref" value="5"/>
+<param name="cfChangeDir" value="2"/>
+<param name="cfOrthStep" value="2"/>
+<param name="cfDiagStep" value="3"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="1"/>
+<param name="cfMalusStep" value="1"/>
+<param name="cfPadImpact" value="4"/>
+<param name="cfSmdImpact" value="4"/>
+<param name="cfBusImpact" value="0"/>
+<param name="cfHugging" value="3"/>
+<param name="cfAvoid" value="4"/>
+<param name="cfPolygon" value="10"/>
+<param name="cfBase.1" value="0"/>
+<param name="cfBase.2" value="1"/>
+<param name="cfBase.3" value="1"/>
+<param name="cfBase.4" value="1"/>
+<param name="cfBase.5" value="1"/>
+<param name="cfBase.6" value="1"/>
+<param name="cfBase.7" value="1"/>
+<param name="cfBase.8" value="1"/>
+<param name="cfBase.9" value="1"/>
+<param name="cfBase.10" value="1"/>
+<param name="cfBase.11" value="1"/>
+<param name="cfBase.12" value="1"/>
+<param name="cfBase.13" value="1"/>
+<param name="cfBase.14" value="1"/>
+<param name="cfBase.15" value="1"/>
+<param name="cfBase.16" value="0"/>
+<param name="mnVias" value="20"/>
+<param name="mnSegments" value="9999"/>
+<param name="mnExtdSteps" value="9999"/>
+<param name="mnRipupLevel" value="10"/>
+<param name="mnRipupSteps" value="100"/>
+<param name="mnRipupTotal" value="100"/>
+</pass>
+<pass name="Follow-me" refer="Default" active="yes">
+</pass>
+<pass name="Busses" refer="Default" active="yes">
+<param name="cfNonPref" value="4"/>
+<param name="cfBusImpact" value="4"/>
+<param name="cfHugging" value="0"/>
+<param name="mnVias" value="0"/>
+</pass>
+<pass name="Route" refer="Default" active="yes">
+</pass>
+<pass name="Optimize1" refer="Default" active="yes">
+<param name="cfVia" value="99"/>
+<param name="cfExtdStep" value="10"/>
+<param name="cfHugging" value="1"/>
+<param name="mnExtdSteps" value="1"/>
+<param name="mnRipupLevel" value="0"/>
+</pass>
+<pass name="Optimize2" refer="Optimize1" active="yes">
+<param name="cfNonPref" value="0"/>
+<param name="cfChangeDir" value="6"/>
+<param name="cfExtdStep" value="0"/>
+<param name="cfBonusStep" value="2"/>
+<param name="cfMalusStep" value="2"/>
+<param name="cfPadImpact" value="2"/>
+<param name="cfSmdImpact" value="2"/>
+<param name="cfHugging" value="0"/>
+</pass>
+<pass name="Optimize3" refer="Optimize2" active="yes">
+<param name="cfChangeDir" value="8"/>
+<param name="cfPadImpact" value="0"/>
+<param name="cfSmdImpact" value="0"/>
+</pass>
+<pass name="Optimize4" refer="Optimize3" active="yes">
+<param name="cfChangeDir" value="25"/>
+</pass>
+</autorouter>
+<elements>
+<element name="D1" library="DIODES" package="1113" value="4000K" x="-10.125" y="-15.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-15.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-14.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-15.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D2" library="DIODES" package="1113" value="4000K" x="-10.125" y="-20.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-20.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-20.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-19" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-20.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D3" library="DIODES" package="1113" value="4000K" x="-10.125" y="-25.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-25.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-25.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-23.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-25.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D4" library="DIODES" package="1113" value="4000K" x="-10.125" y="-30.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-30.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-30.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-28.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-30.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D5" library="DIODES" package="1113" value="4000K" x="-10.125" y="-34.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-34.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-34.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-33.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-34.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D6" library="DIODES" package="1113" value="4000K" x="-10.125" y="-39.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-39.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-39.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-38" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-39.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D7" library="DIODES" package="1113" value="4000K" x="-10.125" y="-44.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-44.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-44.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-42.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-44.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D8" library="DIODES" package="1113" value="4000K" x="-10.125" y="-49.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-49.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-49.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-47.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-49.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D9" library="DIODES" package="1113" value="4000K" x="-10.125" y="-53.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-53.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-53.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-52.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-53.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D10" library="DIODES" package="1113" value="4000K" x="-10.125" y="-58.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-58.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-58.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-57" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-58.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D11" library="DIODES" package="1113" value="4000K" x="-10.125" y="-63.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-63.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-63.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-61.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-63.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D12" library="DIODES" package="1113" value="4000K" x="-5.5" y="-63.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-68.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-68.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-61.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-68.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D13" library="DIODES" package="1113" value="4000K" x="-0.875" y="-63.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-72.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-72.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-61.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-72.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D14" library="DIODES" package="1113" value="4000K" x="-10.125" y="-68.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-77.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-77.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-66.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-77.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D15" library="DIODES" package="1113" value="4000K" x="-5.5" y="-68.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-82.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-82.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-66.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-82.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D16" library="DIODES" package="1113" value="4000K" x="-0.875" y="-68.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-87.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-87.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-66.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-87.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D17" library="DIODES" package="1113" value="4000K" x="-10.125" y="-72.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-91.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-91.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-71.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-91.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D18" library="DIODES" package="1113" value="4000K" x="-5.5" y="-72.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-96.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-96.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-71.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-96.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D19" library="DIODES" package="1113" value="4000K" x="-0.875" y="-72.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-101.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-101.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-71.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-101.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D20" library="DIODES" package="1113" value="4000K" x="-10.125" y="-77.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-106.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-106.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-76" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-106.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D21" library="DIODES" package="1113" value="4000K" x="-10.125" y="-82.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-82.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-82.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-80.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-82.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D22" library="DIODES" package="1113" value="4000K" x="-5.5" y="-82.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-87.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-87.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-80.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-87.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D23" library="DIODES" package="1113" value="4000K" x="-0.875" y="-82.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-91.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-91.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-80.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-91.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D24" library="DIODES" package="1113" value="4000K" x="3.75" y="-82.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-96.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-96.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.75" y="-80.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-96.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D25" library="DIODES" package="1113" value="4000K" x="-10.125" y="-87.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-101.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-101.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-85.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-101.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D26" library="DIODES" package="1113" value="4000K" x="-5.5" y="-87.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-106.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-106.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-85.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-106.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D27" library="DIODES" package="1113" value="4000K" x="-0.875" y="-87.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-110.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-110.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-85.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-110.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D28" library="DIODES" package="1113" value="4000K" x="3.75" y="-87.125" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-115.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-115.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.75" y="-85.5" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-115.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D29" library="DIODES" package="1113" value="4000K" x="-10.125" y="-91.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-120.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-120.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-90.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-120.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D30" library="DIODES" package="1113" value="4000K" x="-5.5" y="-91.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-125.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-125.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-90.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-125.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D31" library="DIODES" package="1113" value="4000K" x="-0.875" y="-91.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-129.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-129.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-90.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-129.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D32" library="DIODES" package="1113" value="4000K" x="3.75" y="-91.875" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-134.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-134.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.75" y="-90.25" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-134.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D33" library="DIODES" package="1113" value="4000K" x="-10.125" y="-96.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-139.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-139.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-95" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-139.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D34" library="DIODES" package="1113" value="4000K" x="-5.5" y="-96.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-144.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-144.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-95" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-144.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D35" library="DIODES" package="1113" value="4000K" x="-0.875" y="-96.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-148.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-148.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-95" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-148.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D36" library="DIODES" package="1113" value="4000K" x="3.75" y="-96.625" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-153.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-153.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.75" y="-95" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-153.625" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D37" library="DIODES" package="1113" value="4000K" x="-10.125" y="-101.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-158.375" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-158.375" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-12.125" y="-99.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-158.375" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D38" library="DIODES" package="1113" value="4000K" x="-5.5" y="-101.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-163.125" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-163.125" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-7.5" y="-99.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-163.125" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D39" library="DIODES" package="1113" value="4000K" x="-0.875" y="-101.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-167.875" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-167.875" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="-2.875" y="-99.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-167.875" size="1.778" layer="27" display="off"/>
+</element>
+<element name="D40" library="DIODES" package="1113" value="4000K" x="3.75" y="-101.375" smashed="yes">
+<attribute name="DIGIKEY" value="2138-JB2835AWT-W-H40GA0000-N0000001CT-ND" x="-10.125" y="-172.625" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="1" x="-10.125" y="-172.625" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="1.75" y="-99.75" size="1" layer="25"/>
+<attribute name="PRICE_PER" value="0.09" x="-10.125" y="-172.625" size="1.778" layer="27" display="off"/>
+</element>
+</elements>
+<signals>
+<signal name="LED_ROW_0">
+<contactref element="D1" pad="K"/>
+</signal>
+<signal name="LED_ROW_1">
+<contactref element="D2" pad="K"/>
+</signal>
+<signal name="LED_ROW_2">
+<contactref element="D3" pad="K"/>
+</signal>
+<signal name="LED_ROW_3">
+<contactref element="D4" pad="K"/>
+</signal>
+<signal name="LED_ROW_4">
+<contactref element="D5" pad="K"/>
+</signal>
+<signal name="LED_ROW_5">
+<contactref element="D6" pad="K"/>
+</signal>
+<signal name="LED_ROW_6">
+<contactref element="D7" pad="K"/>
+</signal>
+<signal name="LED_ROW_7">
+<contactref element="D8" pad="K"/>
+</signal>
+<signal name="LED_ROW_8">
+<contactref element="D9" pad="K"/>
+</signal>
+<signal name="LED_ROW_9">
+<contactref element="D10" pad="K"/>
+</signal>
+<signal name="LED_ROW_10">
+<contactref element="D11" pad="K"/>
+</signal>
+<signal name="LED_ROW_11">
+<contactref element="D12" pad="K"/>
+</signal>
+<signal name="LED_ROW_12">
+<contactref element="D13" pad="K"/>
+</signal>
+<signal name="LED_ROW_13">
+<contactref element="D14" pad="K"/>
+</signal>
+<signal name="LED_ROW_14">
+<contactref element="D15" pad="K"/>
+</signal>
+<signal name="LED_ROW_15">
+<contactref element="D16" pad="K"/>
+</signal>
+<signal name="LED_ROW_16">
+<contactref element="D17" pad="K"/>
+</signal>
+<signal name="LED_ROW_17">
+<contactref element="D18" pad="K"/>
+</signal>
+<signal name="LED_ROW_18">
+<contactref element="D19" pad="K"/>
+</signal>
+<signal name="LED_ROW_19">
+<contactref element="D20" pad="K"/>
+</signal>
+<signal name="LED_ROW_20">
+<contactref element="D21" pad="K"/>
+</signal>
+<signal name="LED_ROW_21">
+<contactref element="D22" pad="K"/>
+</signal>
+<signal name="LED_ROW_22">
+<contactref element="D23" pad="K"/>
+</signal>
+<signal name="LED_ROW_23">
+<contactref element="D24" pad="K"/>
+</signal>
+<signal name="LED_ROW_24">
+<contactref element="D25" pad="K"/>
+</signal>
+<signal name="LED_ROW_25">
+<contactref element="D26" pad="K"/>
+</signal>
+<signal name="LED_ROW_26">
+<contactref element="D27" pad="K"/>
+</signal>
+<signal name="LED_ROW_27">
+<contactref element="D28" pad="K"/>
+</signal>
+<signal name="LED_ROW_28">
+<contactref element="D29" pad="K"/>
+</signal>
+<signal name="LED_ROW_29">
+<contactref element="D30" pad="K"/>
+</signal>
+<signal name="LED_ROW_30">
+<contactref element="D31" pad="K"/>
+</signal>
+<signal name="LED_ROW_31">
+<contactref element="D32" pad="K"/>
+</signal>
+<signal name="LED_ROW_32">
+<contactref element="D33" pad="K"/>
+</signal>
+<signal name="LED_ROW_33">
+<contactref element="D34" pad="K"/>
+</signal>
+<signal name="LED_ROW_34">
+<contactref element="D35" pad="K"/>
+</signal>
+<signal name="LED_ROW_35">
+<contactref element="D36" pad="K"/>
+</signal>
+<signal name="LED_ROW_36">
+<contactref element="D37" pad="K"/>
+</signal>
+<signal name="LED_ROW_37">
+<contactref element="D38" pad="K"/>
+</signal>
+<signal name="LED_ROW_38">
+<contactref element="D39" pad="K"/>
+</signal>
+<signal name="LED_COLUMN_0">
+<contactref element="D40" pad="A"/>
+<contactref element="D39" pad="A"/>
+<contactref element="D37" pad="A"/>
+<contactref element="D38" pad="A"/>
+<contactref element="D36" pad="A"/>
+<contactref element="D34" pad="A"/>
+<contactref element="D35" pad="A"/>
+<contactref element="D33" pad="A"/>
+<contactref element="D31" pad="A"/>
+<contactref element="D32" pad="A"/>
+<contactref element="D30" pad="A"/>
+<contactref element="D29" pad="A"/>
+<contactref element="D27" pad="A"/>
+<contactref element="D28" pad="A"/>
+<contactref element="D26" pad="A"/>
+<contactref element="D24" pad="A"/>
+<contactref element="D25" pad="A"/>
+<contactref element="D23" pad="A"/>
+<contactref element="D21" pad="A"/>
+<contactref element="D22" pad="A"/>
+<contactref element="D20" pad="A"/>
+<contactref element="D19" pad="A"/>
+<contactref element="D17" pad="A"/>
+<contactref element="D18" pad="A"/>
+<contactref element="D16" pad="A"/>
+<contactref element="D14" pad="A"/>
+<contactref element="D15" pad="A"/>
+<contactref element="D13" pad="A"/>
+<contactref element="D11" pad="A"/>
+<contactref element="D12" pad="A"/>
+<contactref element="D10" pad="A"/>
+<contactref element="D9" pad="A"/>
+<contactref element="D7" pad="A"/>
+<contactref element="D8" pad="A"/>
+<contactref element="D6" pad="A"/>
+<contactref element="D4" pad="A"/>
+<contactref element="D5" pad="A"/>
+<contactref element="D3" pad="A"/>
+<contactref element="D1" pad="A"/>
+<contactref element="D2" pad="A"/>
+<wire x1="-4.1" y1="-101.375" x2="-8.725" y2="-101.375" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-101.375" x2="-4.1" y2="-101.375" width="0" layer="19" extent="1-1"/>
+<wire x1="5.15" y1="-101.375" x2="0.525" y2="-101.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-96.625" x2="-8.725" y2="-101.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-96.625" x2="-8.725" y2="-96.625" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-96.625" x2="-4.1" y2="-96.625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.15" y1="-96.625" x2="0.525" y2="-96.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-91.875" x2="-8.725" y2="-96.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-91.875" x2="-8.725" y2="-91.875" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-91.875" x2="-4.1" y2="-91.875" width="0" layer="19" extent="1-1"/>
+<wire x1="5.15" y1="-91.875" x2="0.525" y2="-91.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-87.125" x2="-8.725" y2="-91.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-87.125" x2="-8.725" y2="-87.125" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-87.125" x2="-4.1" y2="-87.125" width="0" layer="19" extent="1-1"/>
+<wire x1="5.15" y1="-87.125" x2="0.525" y2="-87.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-82.375" x2="-8.725" y2="-87.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-82.375" x2="-8.725" y2="-82.375" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-82.375" x2="-4.1" y2="-82.375" width="0" layer="19" extent="1-1"/>
+<wire x1="5.15" y1="-82.375" x2="0.525" y2="-82.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-77.625" x2="-8.725" y2="-82.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-72.875" x2="-8.725" y2="-77.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-72.875" x2="-8.725" y2="-72.875" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-72.875" x2="-4.1" y2="-72.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-68.125" x2="-8.725" y2="-72.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-68.125" x2="-8.725" y2="-68.125" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-68.125" x2="-4.1" y2="-68.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-63.375" x2="-8.725" y2="-68.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-4.1" y1="-63.375" x2="-8.725" y2="-63.375" width="0" layer="19" extent="1-1"/>
+<wire x1="0.525" y1="-63.375" x2="-4.1" y2="-63.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-58.625" x2="-8.725" y2="-63.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-53.875" x2="-8.725" y2="-58.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-49.125" x2="-8.725" y2="-53.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-44.375" x2="-8.725" y2="-49.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-39.625" x2="-8.725" y2="-44.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-34.875" x2="-8.725" y2="-39.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-30.125" x2="-8.725" y2="-34.875" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-25.375" x2="-8.725" y2="-30.125" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-20.625" x2="-8.725" y2="-25.375" width="0" layer="19" extent="1-1"/>
+<wire x1="-8.725" y1="-15.875" x2="-8.725" y2="-20.625" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="LED_ROW_39">
+<contactref element="D40" pad="K"/>
+</signal>
+</signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
+</board>
+</drawing>
+</drawings>
+</designblock>
+</eagle>

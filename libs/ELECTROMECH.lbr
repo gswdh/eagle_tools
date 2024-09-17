@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="59" name="Invisible" color="7" fill="1" visible="no" active="no"/>
+<layer number="61" name="stand" color="7" fill="1" visible="no" active="no"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="no" active="no"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Moduledim" color="15" fill="1" visible="no" active="yes"/>
+<layer number="101" name="blue" color="9" fill="1" visible="no" active="yes"/>
+<layer number="102" name="red" color="12" fill="1" visible="no" active="yes"/>
+<layer number="103" name="green" color="10" fill="1" visible="no" active="yes"/>
+<layer number="104" name="txcone" color="14" fill="1" visible="no" active="yes"/>
+<layer number="105" name="rxcone" color="11" fill="1" visible="no" active="yes"/>
+<layer number="106" name="tLegend" color="15" fill="1" visible="no" active="yes"/>
+<layer number="107" name="bLegend" color="15" fill="1" visible="no" active="yes"/>
+<layer number="108" name="fp8" color="7" fill="1" visible="no" active="yes"/>
+<layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
+<layer number="111" name="Text" color="7" fill="1" visible="no" active="yes"/>
+<layer number="112" name="2Restrict" color="7" fill="1" visible="no" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="no" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="130" name="bLogo" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tText" color="7" fill="1" visible="no" active="yes"/>
+<layer number="132" name="bMask" color="7" fill="1" visible="no" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="no" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="no" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="no" active="yes"/>
+<layer number="151" name="_tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="201" name="201bmp" color="3" fill="0" visible="no" active="yes"/>
+<layer number="202" name="202bmp" color="1" fill="10" visible="no" active="yes"/>
+<layer number="203" name="203bmp" color="2" fill="1" visible="no" active="yes"/>
+<layer number="204" name="204bmp" color="3" fill="1" visible="no" active="yes"/>
+<layer number="205" name="205bmp" color="4" fill="1" visible="no" active="yes"/>
+<layer number="206" name="206bmp" color="5" fill="1" visible="no" active="yes"/>
+<layer number="207" name="207bmp" color="6" fill="1" visible="no" active="yes"/>
+<layer number="208" name="208bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="8" fill="1" visible="no" active="yes"/>
+<layer number="210" name="210bmp" color="9" fill="1" visible="no" active="yes"/>
+<layer number="211" name="211bmp" color="10" fill="1" visible="no" active="yes"/>
+<layer number="212" name="212bmp" color="11" fill="1" visible="no" active="yes"/>
+<layer number="213" name="213bmp" color="12" fill="1" visible="no" active="yes"/>
+<layer number="214" name="214bmp" color="13" fill="1" visible="no" active="yes"/>
+<layer number="215" name="215bmp" color="14" fill="1" visible="no" active="yes"/>
+<layer number="216" name="216bmp" color="15" fill="1" visible="no" active="yes"/>
+<layer number="217" name="217bmp" color="16" fill="1" visible="no" active="yes"/>
+<layer number="218" name="218bmp" color="17" fill="1" visible="no" active="yes"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="yes"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="yes"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="yes"/>
+<layer number="222" name="A10_SCH_PDF" color="5" fill="1" visible="no" active="yes"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="yes"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="26" fill="1" visible="no" active="yes"/>
+<layer number="226" name="226bmp" color="27" fill="1" visible="no" active="yes"/>
+<layer number="227" name="227bmp" color="28" fill="1" visible="no" active="yes"/>
+<layer number="228" name="228bmp" color="29" fill="1" visible="no" active="yes"/>
+<layer number="231" name="Eagle3D_PG1" color="14" fill="1" visible="no" active="yes"/>
+<layer number="232" name="Eagle3D_PG2" color="14" fill="2" visible="no" active="yes"/>
+<layer number="233" name="Eagle3D_PG3" color="14" fill="4" visible="no" active="yes"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="no" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="holder-cuvette" color="7" fill="1" visible="no" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="30MMDPDTRELAY">
+<text x="-15" y="6.5" size="1" layer="25">&gt;NAME</text>
+<wire x1="-15" y1="-6.25" x2="15" y2="-6.25" width="0.15" layer="21"/>
+<wire x1="15" y1="-6.25" x2="15" y2="6.25" width="0.15" layer="21"/>
+<wire x1="15" y1="6.25" x2="-15" y2="6.25" width="0.15" layer="21"/>
+<wire x1="-15" y1="6.25" x2="-15" y2="-6.25" width="0.15" layer="21"/>
+<pad name="A2" x="-12.5" y="-3.75" drill="1.5" diameter="2.5"/>
+<pad name="A1" x="-12.5" y="3.75" drill="1.5" diameter="2.5"/>
+<pad name="12" x="2.5" y="3.75" drill="1.5" diameter="2.5"/>
+<pad name="22" x="2.5" y="-3.75" drill="1.5" diameter="2.5"/>
+<pad name="11" x="7.5" y="3.75" drill="1.5" diameter="2.5"/>
+<pad name="21" x="7.5" y="-3.75" drill="1.5" diameter="2.5"/>
+<pad name="14" x="12.5" y="3.75" drill="1.5" diameter="2.5"/>
+<pad name="24" x="12.5" y="-3.75" drill="1.5" diameter="2.5"/>
+</package>
+<package name="G6SU-2G">
+<text x="-4.25" y="5.25" size="1" layer="25">&gt;NAME</text>
+<wire x1="4.25" y1="5" x2="-4.25" y2="5" width="0.15" layer="21"/>
+<wire x1="4.25" y1="-5" x2="-4.25" y2="-5" width="0.15" layer="21"/>
+<wire x1="4.25" y1="5" x2="4.25" y2="-5" width="0.15" layer="21"/>
+<wire x1="-4.25" y1="5" x2="-4.25" y2="-5" width="0.15" layer="21"/>
+<smd name="6" x="2.925" y="-1.6" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="7" x="2.925" y="0.6" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="8" x="2.925" y="3.8" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="1" x="-2.925" y="3.8" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="2" x="-2.925" y="0.6" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="3" x="-2.925" y="-1.6" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="4" x="-2.925" y="-3.8" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+<smd name="5" x="2.925" y="-3.8" dx="0.8" dy="2.15" layer="1" rot="R90"/>
+</package>
+<package name="1AS1T2B4M7RE">
+<pad name="1" x="0" y="0" drill="1.5"/>
+<pad name="2" x="0" y="3.75" drill="1.5"/>
+<pad name="3" x="0" y="7.5" drill="1.5"/>
+<pad name="P$4" x="2.5" y="-12.5" drill="1.5"/>
+<pad name="P$5" x="-2.5" y="-12.5" drill="1.5"/>
+<wire x1="-3.25" y1="-12.5" x2="3.25" y2="-12.5" width="0.25" layer="21"/>
+<wire x1="3.25" y1="-12.5" x2="3.5" y2="-12.5" width="0.25" layer="21"/>
+<wire x1="3.5" y1="-12.5" x2="3.5" y2="-1" width="0.25" layer="21"/>
+<wire x1="3.5" y1="-1" x2="-3.5" y2="-1" width="0.25" layer="21"/>
+<wire x1="-3.5" y1="-1" x2="-3.5" y2="-12.5" width="0.25" layer="21"/>
+<wire x1="-3.5" y1="-12.5" x2="-3.25" y2="-12.5" width="0.25" layer="21"/>
+<wire x1="-3.25" y1="-12.5" x2="-3.25" y2="-20" width="0.25" layer="21"/>
+<wire x1="-3.25" y1="-20" x2="3.25" y2="-20" width="0.25" layer="21"/>
+<wire x1="3.25" y1="-20" x2="3.25" y2="-12.5" width="0.25" layer="21"/>
+<rectangle x1="-0.75" y1="-1" x2="0.75" y2="7.5" layer="21"/>
+<text x="4" y="-1" size="1" layer="25" rot="R270">&gt;NAME</text>
+</package>
+<package name="TE_OEG_PCN">
+<wire x1="-10" y1="-2.5" x2="10" y2="-2.5" width="0.25" layer="21"/>
+<wire x1="10" y1="-2.5" x2="10" y2="2.5" width="0.25" layer="21"/>
+<wire x1="10" y1="2.5" x2="-10" y2="2.5" width="0.25" layer="21"/>
+<wire x1="-10" y1="2.5" x2="-10" y2="-2.5" width="0.25" layer="21"/>
+<pad name="A2" x="-6.5" y="-1" drill="1" shape="long" rot="R90"/>
+<pad name="A1" x="-8.5" y="-1" drill="1" shape="long" rot="R90"/>
+<pad name="11" x="8.5" y="-1" drill="1.2" shape="long" rot="R90"/>
+<pad name="14" x="1" y="-1" drill="1.2" shape="long" rot="R90"/>
+<text x="-10" y="3" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="SM_TACT_SWTCH">
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.25" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.25" layer="21"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.25" layer="21"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.25" layer="21"/>
+<smd name="1" x="-4.5" y="2.25" dx="3" dy="1.5" layer="1"/>
+<smd name="3" x="-4.5" y="-2.25" dx="3" dy="1.5" layer="1"/>
+<smd name="2" x="4.5" y="2.25" dx="3" dy="1.5" layer="1"/>
+<smd name="4" x="4.5" y="-2.25" dx="3" dy="1.5" layer="1"/>
+<circle x="0" y="0" radius="1.75" width="0.25" layer="21"/>
+<text x="-3" y="3.25" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="TH_TACT_SWITCH">
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.25" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.25" layer="21"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.25" layer="21"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.25" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.25" layer="21"/>
+<text x="-3.25" y="3.5" size="1" layer="25">&gt;NAME</text>
+<pad name="4" x="-3.25" y="2.25" drill="1" diameter="2"/>
+<pad name="3" x="3.25" y="2.25" drill="1" diameter="2"/>
+<pad name="2" x="-3.25" y="-2.25" drill="1" diameter="2"/>
+<pad name="1" x="3.25" y="-2.25" drill="1" diameter="2"/>
+</package>
+<package name="FSM2JSMATR">
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.15" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.15" layer="21"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.15" layer="21"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.15" layer="21"/>
+<circle x="0" y="0" radius="1.75" width="0.15" layer="21"/>
+<smd name="1" x="2.25" y="4" dx="2" dy="1.4" layer="1" rot="R270"/>
+<smd name="3" x="-2.25" y="4" dx="2" dy="1.4" layer="1" rot="R270"/>
+<smd name="2" x="2.25" y="-4" dx="2" dy="1.4" layer="1" rot="R270"/>
+<smd name="4" x="-2.25" y="-4" dx="2" dy="1.4" layer="1" rot="R270"/>
+<wire x1="-3.25" y1="-5.25" x2="3.25" y2="-5.25" width="0.15" layer="21"/>
+<wire x1="3.25" y1="-5.25" x2="3.25" y2="5.25" width="0.15" layer="21"/>
+<wire x1="3.25" y1="5.25" x2="-3.25" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-3.25" y1="5.25" x2="-3.25" y2="-5.25" width="0.15" layer="21"/>
+<text x="-3.5" y="-5.25" size="1" layer="25" rot="R90">&gt;NAME</text>
+</package>
+<package name="DIP_SWITCH_1-1825059-7">
+<wire x1="-6" y1="-3.75" x2="6" y2="-3.75" width="0.25" layer="21"/>
+<wire x1="6" y1="-3.75" x2="6" y2="3.75" width="0.25" layer="21"/>
+<wire x1="6" y1="3.75" x2="-6" y2="3.75" width="0.25" layer="21"/>
+<wire x1="-6" y1="3.75" x2="-6" y2="-3.75" width="0.25" layer="21"/>
+<smd name="1" x="-3.75" y="-4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="2" x="-1.25" y="-4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="3" x="1.25" y="-4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="4" x="3.75" y="-4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="5" x="3.75" y="4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="6" x="1.25" y="4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="7" x="-1.25" y="4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<smd name="8" x="-3.75" y="4.75" dx="1.5" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-6.5" y1="-5.75" x2="6.5" y2="-5.75" width="0.25" layer="21"/>
+<wire x1="6.5" y1="-5.75" x2="6.5" y2="5.75" width="0.25" layer="21"/>
+<wire x1="6.5" y1="5.75" x2="-6.5" y2="5.75" width="0.25" layer="21"/>
+<wire x1="-6.5" y1="5.75" x2="-6.5" y2="-5.75" width="0.25" layer="21"/>
+<text x="-6.5" y="6" size="1.27" layer="25">&gt;NAME</text>
+<text x="-5.5" y="2" size="1.27" layer="25">ON</text>
+</package>
+<package name="PEC11R-4XXXF-SXXXX">
+<pad name="S" x="-2.5" y="7" drill="1"/>
+<pad name="W" x="2.5" y="7" drill="1"/>
+<pad name="A" x="-2.5" y="-7.5" drill="1"/>
+<pad name="C" x="0" y="-7.5" drill="1"/>
+<pad name="B" x="2.5" y="-7.5" drill="1"/>
+<pad name="1" x="-5.7" y="0" drill="3"/>
+<pad name="2" x="5.7" y="0" drill="3"/>
+<wire x1="-6.25" y1="6.5" x2="6.25" y2="6.5" width="0.25" layer="21"/>
+<wire x1="6.25" y1="6.5" x2="6.25" y2="-6.5" width="0.25" layer="21"/>
+<wire x1="6.25" y1="-6.5" x2="-6.25" y2="-6.5" width="0.25" layer="21"/>
+<wire x1="-6.25" y1="-6.5" x2="-6.25" y2="6.5" width="0.25" layer="21"/>
+<circle x="0" y="0" radius="3" width="0.25" layer="21"/>
+<wire x1="-2.375" y1="-1.75" x2="2.375" y2="-1.75" width="0.25" layer="21"/>
+<wire x1="-8" y1="-8.5" x2="8" y2="-8.5" width="0.25" layer="21"/>
+<wire x1="8" y1="-8.5" x2="8" y2="8" width="0.25" layer="21"/>
+<wire x1="8" y1="8" x2="-8" y2="8" width="0.25" layer="21"/>
+<wire x1="-8" y1="8" x2="-8" y2="-8.5" width="0.25" layer="21"/>
+<text x="-8" y="8.25" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="OJE-SS">
+<pad name="C1" x="-7.95" y="3.81" drill="1.3"/>
+<pad name="SW1" x="7.29" y="3.81" drill="1.3"/>
+<pad name="C2" x="-7.95" y="-3.81" drill="1.3"/>
+<pad name="SW2" x="4.75" y="-3.81" drill="1.3"/>
+<wire x1="-9" y1="-5" x2="9" y2="-5" width="0.15" layer="21"/>
+<wire x1="9" y1="-5" x2="9" y2="5" width="0.15" layer="21"/>
+<wire x1="9" y1="5" x2="-9" y2="5" width="0.15" layer="21"/>
+<wire x1="-9" y1="5" x2="-9" y2="-5" width="0.15" layer="21"/>
+<text x="-9" y="5.25" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="B3WN6005">
+<pad name="P$1" x="-2.5" y="0" drill="1"/>
+<pad name="P$2" x="2.5" y="0" drill="1"/>
+<wire x1="-4" y1="-4" x2="4" y2="-4" width="0.25" layer="21"/>
+<wire x1="4" y1="-4" x2="4" y2="4" width="0.25" layer="21"/>
+<wire x1="4" y1="4" x2="-4" y2="4" width="0.25" layer="21"/>
+<wire x1="-4" y1="4" x2="-4" y2="-4" width="0.25" layer="21"/>
+<text x="-4" y="4.25" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="L102011MS02Q">
+<pad name="1" x="-4.6" y="2.85" drill="1.7"/>
+<pad name="2" x="0" y="2.85" drill="1.7"/>
+<pad name="3" x="4.6" y="2.85" drill="1.7"/>
+<wire x1="-10" y1="-5" x2="10" y2="-5" width="0.25" layer="21"/>
+<wire x1="10" y1="-5" x2="10" y2="5" width="0.25" layer="21"/>
+<wire x1="10" y1="5" x2="-10" y2="5" width="0.25" layer="21"/>
+<wire x1="-10" y1="5" x2="-10" y2="-5" width="0.25" layer="21"/>
+<text x="-10" y="6" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="431471031826">
+<smd name="4" x="-3.5" y="2.25" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="2" x="-3.5" y="-2.25" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="3" x="3.5" y="2.25" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="1" x="3.5" y="-2.25" dx="1.3" dy="2" layer="1" rot="R90"/>
+<smd name="GND" x="-3.75" y="0" dx="1.5" dy="1.3" layer="1" rot="R180"/>
+<wire x1="-4.75" y1="-3.25" x2="4.75" y2="-3.25" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="-3.25" x2="4.75" y2="3.25" width="0.1524" layer="21"/>
+<wire x1="4.75" y1="3.25" x2="-4.75" y2="3.25" width="0.1524" layer="21"/>
+<wire x1="-4.75" y1="3.25" x2="-4.75" y2="-3.25" width="0.1524" layer="21"/>
+<text x="-4.75" y="3.5" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="PVA1">
+<wire x1="-4.6" y1="-4.6" x2="4.6" y2="-4.6" width="0.1524" layer="21"/>
+<wire x1="4.6" y1="-4.6" x2="4.6" y2="4.6" width="0.1524" layer="21"/>
+<wire x1="4.6" y1="4.6" x2="-4.6" y2="4.6" width="0.1524" layer="21"/>
+<wire x1="-4.6" y1="4.6" x2="-4.6" y2="-4.6" width="0.1524" layer="21"/>
+<pad name="1" x="-3" y="2.5" drill="1"/>
+<pad name="2" x="-3" y="-2.5" drill="1"/>
+<pad name="1'" x="3" y="2.5" drill="1"/>
+<pad name="2'" x="3" y="-2.5" drill="1"/>
+<text x="-4.5" y="4.75" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="GPBS-850L">
+<pad name="1" x="2.5" y="2.5" drill="0.7"/>
+<pad name="2" x="0" y="2.5" drill="0.7"/>
+<pad name="3" x="-2.5" y="2.5" drill="0.7"/>
+<pad name="4" x="2.5" y="-2.5" drill="0.7"/>
+<pad name="5" x="0" y="-2.5" drill="0.7"/>
+<pad name="6" x="-2.5" y="-2.5" drill="0.7"/>
+<wire x1="-4.25" y1="-4.25" x2="4.25" y2="-4.25" width="0.125" layer="21"/>
+<wire x1="4.25" y1="-4.25" x2="4.25" y2="-0.5" width="0.125" layer="21"/>
+<wire x1="4.25" y1="-0.5" x2="4.25" y2="0.5" width="0.125" layer="21"/>
+<wire x1="4.25" y1="0.5" x2="4.25" y2="4.25" width="0.125" layer="21"/>
+<wire x1="4.25" y1="4.25" x2="-4.25" y2="4.25" width="0.125" layer="21"/>
+<wire x1="-4.25" y1="4.25" x2="-4.25" y2="-4.25" width="0.125" layer="21"/>
+<wire x1="4.25" y1="0.5" x2="4.25" y2="-0.5" width="0.125" layer="21" curve="-180"/>
+<text x="-4.25" y="4.5" size="1" layer="21">&gt;NAME</text>
+</package>
+<package name="MX1A-C1NW">
+<hole x="0" y="0" drill="4"/>
+<pad name="FX1" x="-5.08" y="0" drill="1.7"/>
+<pad name="FX2" x="5.08" y="0" drill="1.7"/>
+<pad name="SW1" x="-3.81" y="2.54" drill="1.5"/>
+<pad name="SW2" x="2.54" y="5.08" drill="1.5"/>
+<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.1524" layer="21"/>
+<wire x1="8" y1="-8" x2="8" y2="8" width="0.1524" layer="21"/>
+<wire x1="8" y1="8" x2="-8" y2="8" width="0.1524" layer="21"/>
+<wire x1="-8" y1="8" x2="-8" y2="-8" width="0.1524" layer="21"/>
+<text x="-8" y="8.25" size="1.778" layer="25">&gt;NAME</text>
+</package>
+<package name="EVQP7*">
+<smd name="1" x="-1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="1'" x="1.8" y="0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="2" x="-1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
+<smd name="2'" x="1.8" y="-0.725" dx="1.4" dy="1.05" layer="1"/>
+<wire x1="-0.85" y1="-1.45" x2="-0.85" y2="-2.25" width="0.1524" layer="21"/>
+<wire x1="-0.85" y1="-2.25" x2="0.85" y2="-2.25" width="0.1524" layer="21"/>
+<wire x1="0.85" y1="-2.25" x2="0.85" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-0.85" y1="-1.45" x2="-1.75" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-1.75" y1="1.45" x2="1.75" y2="1.45" width="0.1524" layer="21"/>
+<wire x1="0.85" y1="-1.45" x2="1.75" y2="-1.45" width="0.1524" layer="21"/>
+<wire x1="-2.625" y1="1.75" x2="2.625" y2="1.75" width="0.1524" layer="21"/>
+<wire x1="2.625" y1="1.75" x2="2.625" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="2.625" y1="-2.5" x2="-1.5" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-2.5" x2="-2.625" y2="-2.5" width="0.1524" layer="21"/>
+<wire x1="-2.625" y1="-2.5" x2="-2.625" y2="1.75" width="0.1524" layer="21"/>
+<text x="-2.625" y="1.875" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="PTS830GM140">
+<smd name="1" x="-1.625" y="0.825" dx="0.75" dy="0.75" layer="1"/>
+<smd name="2" x="1.625" y="0.825" dx="0.75" dy="0.75" layer="1"/>
+<smd name="3" x="-1.625" y="-0.825" dx="0.75" dy="0.75" layer="1"/>
+<smd name="4" x="1.625" y="-0.825" dx="0.75" dy="0.75" layer="1"/>
+<wire x1="-2.125" y1="-1.375" x2="2.125" y2="-1.375" width="0.15" layer="21"/>
+<wire x1="2.125" y1="-1.375" x2="2.125" y2="1.375" width="0.15" layer="21"/>
+<wire x1="2.125" y1="1.375" x2="-2.125" y2="1.375" width="0.15" layer="21"/>
+<wire x1="-2.125" y1="1.375" x2="-2.125" y2="-1.375" width="0.15" layer="21"/>
+<text x="-2.125" y="1.5" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="TL1100DF160Q">
+<pad name="1" x="-6.25" y="2.5" drill="1.3"/>
+<pad name="2" x="-6.25" y="-2.5" drill="1.3"/>
+<pad name="3" x="6.25" y="2.5" drill="1.3"/>
+<pad name="4" x="6.25" y="-2.5" drill="1.3"/>
+<circle x="0" y="0" radius="3.35" width="0.15" layer="21"/>
+<wire x1="-7.5" y1="-6" x2="7.5" y2="-6" width="0.15" layer="21"/>
+<wire x1="7.5" y1="-6" x2="7.5" y2="6" width="0.15" layer="21"/>
+<wire x1="7.5" y1="6" x2="-7.5" y2="6" width="0.15" layer="21"/>
+<wire x1="-7.5" y1="6" x2="-7.5" y2="-6" width="0.15" layer="21"/>
+<text x="-7.5" y="6.25" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="CS11043.8F180">
+<smd name="1" x="-3.75" y="1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="2" x="3.75" y="1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="3" x="-3.75" y="-1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="4" x="3.75" y="-1.5" dx="1.4" dy="1.6" layer="1" rot="R90"/>
+<wire x1="-4.75" y1="-2.5" x2="4.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="4.75" y1="-2.5" x2="4.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="4.75" y1="2.5" x2="-4.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-4.75" y1="2.5" x2="-4.75" y2="-2.5" width="0.15" layer="21"/>
+<circle x="-2.25" y="1.5" radius="0.25" width="0.15" layer="21"/>
+<text x="-4.75" y="2.75" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="MX1A-11NW">
+<pad name="1" x="-3.81" y="2.54" drill="1.5"/>
+<pad name="2" x="2.54" y="5.08" drill="1.5"/>
+<hole x="-5.08" y="0" drill="1.7"/>
+<hole x="5.08" y="0" drill="1.7"/>
+<hole x="0" y="0" drill="4"/>
+<wire x1="8" y1="-8" x2="8" y2="8" width="0.15" layer="21"/>
+<wire x1="8" y1="8" x2="-8" y2="8" width="0.15" layer="21"/>
+<wire x1="-8" y1="8" x2="-8" y2="-8" width="0.15" layer="21"/>
+<wire x1="-8" y1="-8" x2="8" y2="-8" width="0.15" layer="21"/>
+<text x="-8" y="8.25" size="1" layer="25">&gt;NAME</text>
+<wire x1="-9.5" y1="-9.5" x2="9.5" y2="-9.5" width="0.15" layer="21"/>
+<wire x1="9.5" y1="-9.5" x2="9.5" y2="9.5" width="0.15" layer="21"/>
+<wire x1="9.5" y1="9.5" x2="-9.5" y2="9.5" width="0.15" layer="21"/>
+<wire x1="-9.5" y1="9.5" x2="-9.5" y2="-9.5" width="0.15" layer="21"/>
+</package>
+<package name="GPTS203211B">
+<wire x1="6.5" y1="-6.5" x2="6.5" y2="6.5" width="0.1524" layer="21"/>
+<wire x1="6.5" y1="6.5" x2="-6.5" y2="6.5" width="0.1524" layer="21"/>
+<wire x1="-6.5" y1="6.5" x2="-6.5" y2="-6.5" width="0.1524" layer="21"/>
+<wire x1="-6.5" y1="-6.5" x2="6.5" y2="-6.5" width="0.1524" layer="21"/>
+<pad name="P$1" x="6.5" y="2.65" drill="1.2" diameter="2"/>
+<pad name="P$2" x="6.5" y="-2.65" drill="1.2" diameter="2"/>
+<text x="-6.5" y="6.75" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="CT10-XXXX-G1">
+<smd name="1" x="-7.7" y="0" dx="1" dy="2.2" layer="1" rot="R90"/>
+<smd name="2" x="7.7" y="0" dx="1" dy="2.2" layer="1" rot="R90"/>
+<wire x1="-9" y1="-1.25" x2="9" y2="-1.25" width="0.15" layer="21"/>
+<wire x1="9" y1="-1.25" x2="9" y2="1.25" width="0.15" layer="21"/>
+<wire x1="9" y1="1.25" x2="-9" y2="1.25" width="0.15" layer="21"/>
+<wire x1="-9" y1="1.25" x2="-9" y2="-1.25" width="0.15" layer="21"/>
+<text x="-9" y="1.375" size="0.5" layer="25">&gt;NAME</text>
+</package>
+<package name="EG1215AA">
+<hole x="-1.5" y="0" drill="0.9"/>
+<hole x="1.5" y="0" drill="0.9"/>
+<smd name="MECH3" x="-3.65" y="1.05" dx="0.8" dy="1" layer="1" rot="R90"/>
+<smd name="MECH1" x="-3.65" y="-1.05" dx="0.8" dy="1" layer="1" rot="R90"/>
+<smd name="MECH2" x="3.65" y="1.05" dx="0.8" dy="1" layer="1" rot="R90"/>
+<smd name="MECH4" x="3.65" y="-1.05" dx="0.8" dy="1" layer="1" rot="R90"/>
+<smd name="1" x="-2.25" y="1.75" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="2" x="0.75" y="1.75" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<smd name="3" x="2.25" y="1.75" dx="1.5" dy="0.7" layer="1" rot="R90"/>
+<wire x1="-3.35" y1="1.3" x2="3.35" y2="1.3" width="0.15" layer="51"/>
+<wire x1="3.35" y1="1.3" x2="3.35" y2="-1.3" width="0.15" layer="51"/>
+<wire x1="3.35" y1="-1.3" x2="1.4" y2="-1.3" width="0.15" layer="51"/>
+<wire x1="1.4" y1="-1.3" x2="0.1" y2="-1.3" width="0.15" layer="51"/>
+<wire x1="0.1" y1="-1.3" x2="-3.35" y2="-1.3" width="0.15" layer="51"/>
+<wire x1="-3.35" y1="-1.3" x2="-3.35" y2="1.3" width="0.15" layer="51"/>
+<wire x1="0.1" y1="-1.3" x2="0.1" y2="-2.7" width="0.15" layer="51"/>
+<wire x1="0.1" y1="-2.7" x2="1.4" y2="-2.7" width="0.15" layer="51"/>
+<wire x1="1.4" y1="-2.7" x2="1.4" y2="-1.3" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="-1.3" x2="-1.4" y2="-2.7" width="0.15" layer="51"/>
+<wire x1="-1.4" y1="-2.7" x2="-0.1" y2="-2.7" width="0.15" layer="51"/>
+<wire x1="-0.1" y1="-2.7" x2="-0.1" y2="-1.3" width="0.15" layer="51"/>
+<wire x1="-4.25" y1="-2.75" x2="4.25" y2="-2.75" width="0.15" layer="21"/>
+<wire x1="4.25" y1="-2.75" x2="4.25" y2="2.625" width="0.15" layer="21"/>
+<wire x1="4.25" y1="2.625" x2="-4.25" y2="2.625" width="0.15" layer="21"/>
+<wire x1="-4.25" y1="2.625" x2="-4.25" y2="-2.75" width="0.15" layer="21"/>
+<text x="-4.25" y="2.75" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="TL6110BF300QP">
+<pad name="1" x="-2.5" y="-2.5" drill="0.9"/>
+<pad name="2" x="2.5" y="-2.5" drill="0.9"/>
+<pad name="3" x="3.85" y="0" drill="1.1"/>
+<pad name="4" x="-3.85" y="0" drill="1.1"/>
+<wire x1="-4.125" y1="1.625" x2="4.125" y2="1.625" width="0.125" layer="21"/>
+<wire x1="4.125" y1="1.625" x2="4.125" y2="-6.5" width="0.125" layer="21"/>
+<wire x1="4.125" y1="-6.5" x2="-4.125" y2="-6.5" width="0.125" layer="21"/>
+<wire x1="-4.125" y1="-6.5" x2="-4.125" y2="1.625" width="0.125" layer="21"/>
+<text x="-4.125" y="1.75" size="0.5" layer="25">&gt;NAME</text>
+</package>
+<package name="CFS-0300TA">
+<smd name="1" x="-2.54" y="3.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="2" x="-2.54" y="-3.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="3" x="0" y="3.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="4" x="0" y="-3.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="5" x="2.54" y="3.7" dx="2" dy="1" layer="1" rot="R90"/>
+<smd name="6" x="2.54" y="-3.7" dx="2" dy="1" layer="1" rot="R90"/>
+<wire x1="-4.5" y1="5" x2="4.5" y2="5" width="0.125" layer="21"/>
+<wire x1="4.5" y1="5" x2="4.5" y2="-5" width="0.125" layer="21"/>
+<wire x1="4.5" y1="-5" x2="-4.5" y2="-5" width="0.125" layer="21"/>
+<wire x1="-4.5" y1="-5" x2="-4.5" y2="5" width="0.125" layer="21"/>
+<text x="-4" y="2" size="0.5" layer="21" font="vector" align="center-left">ON</text>
+<text x="-4.5" y="5.25" size="0.5" layer="21">&gt;NAME</text>
+</package>
+<package name="PBH2UEESNPNAGX">
+<pad name="1" x="-1.25" y="-2.5" drill="0.9"/>
+<pad name="2" x="-1.25" y="0" drill="0.9"/>
+<pad name="3" x="-1.25" y="2.5" drill="0.9"/>
+<pad name="4" x="1.25" y="-2.5" drill="0.9"/>
+<pad name="5" x="1.25" y="0" drill="0.9"/>
+<pad name="6" x="1.25" y="2.5" drill="0.9"/>
+<wire x1="-3.65" y1="-6.2" x2="-1.5" y2="-6.2" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-6.2" x2="1.5" y2="-6.2" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-6.2" x2="3.65" y2="-6.2" width="0.1524" layer="21"/>
+<wire x1="3.65" y1="-6.2" x2="3.65" y2="8.5" width="0.1524" layer="21"/>
+<wire x1="3.65" y1="8.5" x2="-3.65" y2="8.5" width="0.1524" layer="21"/>
+<wire x1="-3.65" y1="8.5" x2="-3.65" y2="-6.2" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-6.2" x2="-1.5" y2="-16.7" width="0.1524" layer="21"/>
+<wire x1="-1.5" y1="-16.7" x2="1.5" y2="-16.7" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="-16.7" x2="1.5" y2="-6.2" width="0.1524" layer="21"/>
+<text x="-3.625" y="8.625" size="0.5" layer="25">&gt;NAME</text>
+</package>
+<package name="5.8ZSPT">
+<pad name="1" x="-2" y="2.25" drill="0.9" rot="R270"/>
+<pad name="2" x="0" y="2.25" drill="0.9" rot="R270"/>
+<pad name="3" x="2" y="2.25" drill="0.9" rot="R270"/>
+<pad name="4" x="-2" y="-2.25" drill="0.9" rot="R270"/>
+<pad name="5" x="0" y="-2.25" drill="0.9" rot="R270"/>
+<pad name="6" x="2" y="-2.25" drill="0.9" rot="R270"/>
+<wire x1="-3" y1="3" x2="-3" y2="-3" width="0.1524" layer="21"/>
+<wire x1="-3" y1="-3" x2="3" y2="-3" width="0.1524" layer="21"/>
+<wire x1="3" y1="-3" x2="3" y2="3" width="0.1524" layer="21"/>
+<wire x1="3" y1="3" x2="-3" y2="3" width="0.1524" layer="21"/>
+<text x="-3" y="3.125" size="0.5" layer="25">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RELAY_DPDT">
+</symbol>
+<symbol name="RELAY_COIL">
+<text x="-2.54" y="10.668" size="1.27" layer="95">&gt;NAME</text>
+<text x="-2.54" y="8.89" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="2.54" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.254" layer="94" curve="-180"/>
+<pin name="A1" x="-5.08" y="7.62" visible="pad" length="middle"/>
+<pin name="A2" x="-5.08" y="-7.62" visible="pad" length="middle"/>
+<wire x1="0" y1="7.62" x2="0" y2="5.08" width="0.254" layer="94" curve="-180"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-7.62" width="0.254" layer="94" curve="-180"/>
+<text x="-5.08" y="10.16" size="1.27" layer="95">+</text>
+</symbol>
+<symbol name="RELAY_CONTACT_SPDT">
+<text x="2.54" y="5.588" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="3.81" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="1" x="-10.16" y="0" visible="off" length="middle"/>
+<pin name="2" x="10.16" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="3" x="10.16" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="-5.08" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.254" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.254" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SWITCH_SPDT">
+<text x="2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.254" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.254" width="0.254" layer="94"/>
+<pin name="2" x="-7.62" y="0" visible="off" length="middle"/>
+<pin name="1" x="7.62" y="2.54" visible="off" length="middle" rot="R180"/>
+<pin name="3" x="7.62" y="-2.54" visible="off" length="middle" rot="R180"/>
+<wire x1="2.54" y1="-2.54" x2="2.794" y2="-2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="RELAY_SPST">
+<text x="0" y="-1.27" size="1.27" layer="95" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="96" align="center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="off" length="short"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<wire x1="-2.54" y1="0" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SM_TACT">
+<text x="2.54" y="7.62" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="5.08" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="0" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="0.254" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="0.254" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="0.254" width="0.254" layer="94"/>
+<pin name="1" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="2" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="4_DIP_SWITCH">
+<wire x1="-12.7" y1="7.62" x2="0" y2="7.62" width="0.254" layer="94"/>
+<wire x1="0" y1="7.62" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-12.7" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="-2.54" x2="-12.7" y2="7.62" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="2" x="-7.62" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="3" x="-5.08" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="4" x="-2.54" y="-7.62" visible="pad" length="middle" rot="R90"/>
+<pin name="5" x="-2.54" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="6" x="-5.08" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="7" x="-7.62" y="12.7" visible="pad" length="middle" rot="R270"/>
+<pin name="8" x="-10.16" y="12.7" visible="pad" length="middle" rot="R270"/>
+<text x="2.54" y="5.08" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="2.54" size="1.27" layer="96">&gt;VALUE</text>
+<wire x1="-11.43" y1="5.08" x2="-8.89" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="5.08" x2="-8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="0" x2="-11.43" y2="0" width="0.254" layer="94"/>
+<wire x1="-11.43" y1="0" x2="-11.43" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="5.08" x2="-6.35" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-3.81" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-3.81" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="0" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="0" x2="-8.89" y2="0" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="5.08" x2="-6.35" y2="0" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="ROTARY_ENCODER">
+<pin name="GND" x="0" y="-20.32" length="middle" rot="R90"/>
+<pin name="A" x="15.24" y="5.08" length="middle" rot="R180"/>
+<pin name="B" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="SW_A" x="-15.24" y="5.08" length="middle"/>
+<wire x1="-10.16" y1="-15.24" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-15.24" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="-15.24" width="0.254" layer="94"/>
+<pin name="SW_B" x="-15.24" y="-5.08" length="middle"/>
+<text x="-10.16" y="12.7" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RT424012" prefix="RL">
+<description>General Purpose Relay DPDT (2 Form C) 12VDC Coil Through Hole</description>
+<gates>
+<gate name="A" symbol="RELAY_COIL" x="-17.78" y="0"/>
+<gate name="B" symbol="RELAY_CONTACT_SPDT" x="0" y="0"/>
+<gate name="C" symbol="RELAY_CONTACT_SPDT" x="27.94" y="0"/>
+</gates>
+<devices>
+<device name="" package="30MMDPDTRELAY">
+<connects>
+<connect gate="A" pin="A1" pad="A1"/>
+<connect gate="A" pin="A2" pad="A2"/>
+<connect gate="B" pin="1" pad="11"/>
+<connect gate="B" pin="2" pad="12"/>
+<connect gate="B" pin="3" pad="14"/>
+<connect gate="C" pin="1" pad="21"/>
+<connect gate="C" pin="2" pad="22"/>
+<connect gate="C" pin="3" pad="24"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="PB967-ND" constant="no"/>
+<attribute name="HEIGHT" value="16" constant="no"/>
+<attribute name="PRICE_PER" value="1.83" constant="no"/>
+<attribute name="VALUE" value="RT424012" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HFD4/9-S" prefix="RL">
+<description>Small signal relay, 9VDC 12VDC MAX</description>
+<gates>
+<gate name="A" symbol="RELAY_COIL" x="-20.32" y="0"/>
+<gate name="B" symbol="RELAY_CONTACT_SPDT" x="0" y="0"/>
+<gate name="C" symbol="RELAY_CONTACT_SPDT" x="27.94" y="0"/>
+</gates>
+<devices>
+<device name="" package="G6SU-2G">
+<connects>
+<connect gate="A" pin="A1" pad="1"/>
+<connect gate="A" pin="A2" pad="8"/>
+<connect gate="B" pin="1" pad="3"/>
+<connect gate="B" pin="2" pad="2"/>
+<connect gate="B" pin="3" pad="4"/>
+<connect gate="C" pin="1" pad="6"/>
+<connect gate="C" pin="2" pad="7"/>
+<connect gate="C" pin="3" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="" constant="no"/>
+<attribute name="HEIGHT" value="6" constant="no"/>
+<attribute name="PRICE_PER" value="" constant="no"/>
+<attribute name="VALUE" value="HFD4/9-S" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1825910-7" prefix="SW">
+<description>6x6mm through hole tact switch. Red button.</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TH_TACT_SWITCH">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="450-1804-ND" constant="no"/>
+<attribute name="HEIGHT" value="5" constant="no"/>
+<attribute name="PRICE_PER" value="0.09" constant="no"/>
+<attribute name="VALUE" value="1825910-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FSM2JSMATR" prefix="SW">
+<description>TE CONNECTIVITY FSM2JSMATR  SWITCH, TACTILE SPST 50mA, SMD GULL WING</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="FSM2JSMATR">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="450-1757-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="4.3" constant="no"/>
+<attribute name="PRICE_PER" value="0.19" constant="no"/>
+<attribute name="VALUE" value="SM TACT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1-1825059-7" prefix="SW">
+<description>4 x DIP Switch, SPST, DIP, SMD, 100 mA, 24 V</description>
+<gates>
+<gate name="G$1" symbol="4_DIP_SWITCH" x="5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="DIP_SWITCH_1-1825059-7">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1-1825059-7-ND" constant="no"/>
+<attribute name="HEIGHT" value="5" constant="no"/>
+<attribute name="PRICE_PER" value="1.16" constant="no"/>
+<attribute name="VALUE" value="4 DIP Switch" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PEC11R-4225F-S0024" prefix="RE">
+<description>Incremental Rotary Encoder, Pro Audio, Continuous. 24 Detents, 24 Pulses, Quadrature Output</description>
+<gates>
+<gate name="G$1" symbol="ROTARY_ENCODER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PEC11R-4XXXF-SXXXX">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="GND" pad="1 2 C"/>
+<connect gate="G$1" pin="SW_A" pad="S"/>
+<connect gate="G$1" pin="SW_B" pad="W"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="PEC11R-4225F-S0024-ND" constant="no"/>
+<attribute name="HEIGHT" value="31.5" constant="no"/>
+<attribute name="PRICE_PER" value="1.28" constant="no"/>
+<attribute name="VALUE" value="PEC11" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OJE-SS-105HM,000" prefix="RL">
+<description>General Purpose Relay, OJE Series, Power, Non Latching, SPST-NO, 5 VDC, 10 A</description>
+<gates>
+<gate name="A" symbol="RELAY_COIL" x="-20.32" y="0"/>
+<gate name="B" symbol="RELAY_SPST" x="22.86" y="0"/>
+</gates>
+<devices>
+<device name="" package="OJE-SS">
+<connects>
+<connect gate="A" pin="A1" pad="C1"/>
+<connect gate="A" pin="A2" pad="C2"/>
+<connect gate="B" pin="1" pad="SW1"/>
+<connect gate="B" pin="2" pad="SW2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="PB2175-ND" constant="no"/>
+<attribute name="HEIGHT" value="15" constant="no"/>
+<attribute name="PRICE_PER" value="0.524" constant="no"/>
+<attribute name="VALUE" value="SPST-NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="B3WN6005" prefix="SW">
+<description>Tactile Switch, Non Illuminated, 12 V, 50 mA, 2.55 N, Solder</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="B3WN6005">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2213922" constant="no"/>
+<attribute name="HEIGHT" value="13" constant="no"/>
+<attribute name="PRICE_PER" value="0.638" constant="no"/>
+<attribute name="VALUE" value="B3WN6005" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="L102011MS02Q" prefix="SW">
+<description>A sliding SPDT switch. 28VDC 125VAC 4ADC/AC max.</description>
+<gates>
+<gate name="G$1" symbol="SWITCH_SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="L102011MS02Q">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CKC5107-ND" constant="no"/>
+<attribute name="HEIGHT" value="14" constant="no"/>
+<attribute name="PRICE_PER" value="1.23" constant="no"/>
+<attribute name="VALUE" value="L102011MS02Q" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="431471031826" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Surface Mount</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="431471031826">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="732-7036-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="3.1" constant="no"/>
+<attribute name="PRICE_PER" value="0.28" constant="no"/>
+<attribute name="VALUE" value="SM TACT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="Y17P11141FP" prefix="SW">
+<description>Pushbutton Switch DPST Keyswitch Through Hole</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PVA1">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1'"/>
+<connect gate="G$1" pin="2" pad="2 2'"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CKN10276-ND" constant="no"/>
+<attribute name="HEIGHT" value="17.54" constant="no"/>
+<attribute name="PRICE_PER" value="0.88" constant="no"/>
+<attribute name="VALUE" value="PUSH DPST" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPBS-850L" prefix="SW">
+<description>Pushbutton Switch DPDT Standard Through Hole</description>
+<gates>
+<gate name="A" symbol="RELAY_CONTACT_SPDT" x="0" y="12.7"/>
+<gate name="B" symbol="RELAY_CONTACT_SPDT" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="GPBS-850L">
+<connects>
+<connect gate="A" pin="1" pad="2"/>
+<connect gate="A" pin="2" pad="1"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="B" pin="1" pad="5"/>
+<connect gate="B" pin="2" pad="4"/>
+<connect gate="B" pin="3" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CW179-ND" constant="no"/>
+<attribute name="HEIGHT" value="14" constant="no"/>
+<attribute name="PRICE_PER" value="0.48" constant="no"/>
+<attribute name="VALUE" value="DPDT PUSH" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MX1A-C1NW" prefix="SW">
+<description>Pushbutton Switch SPST-NO Keyswitch Through Hole</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MX1A-C1NW">
+<connects>
+<connect gate="G$1" pin="1" pad="SW1"/>
+<connect gate="G$1" pin="2" pad="SW2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CH310-ND" constant="no"/>
+<attribute name="HEIGHT" value="15.2" constant="no"/>
+<attribute name="PRICE_PER" value="0.74" constant="no"/>
+<attribute name="VALUE" value="MX WHITE" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EVQ-P7J01P" prefix="SW">
+<description>Tactile Switch SPST-NO Side Actuated Surface Mount, Right Angle</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EVQP7*">
+<connects>
+<connect gate="G$1" pin="1" pad="1 1'"/>
+<connect gate="G$1" pin="2" pad="2 2'"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="P16767CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="3.7" constant="no"/>
+<attribute name="PRICE_PER" value="0.24" constant="no"/>
+<attribute name="VALUE" value="RA SM TACT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PTS830GM140_SMTR_LFS" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Surface Mount</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PTS830GM140">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CKN10587CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.4" constant="no"/>
+<attribute name="PRICE_PER" value="0.51" constant="no"/>
+<attribute name="VALUE" value="TACT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TL1100DF160Q" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Through Hole</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TL1100DF160Q">
+<connects>
+<connect gate="G$1" pin="1" pad="1 3"/>
+<connect gate="G$1" pin="2" pad="2 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="EG1023-ND" constant="no"/>
+<attribute name="HEIGHT" value="4.3" constant="no"/>
+<attribute name="PRICE_PER" value="0.35" constant="no"/>
+<attribute name="VALUE" value="TACT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CS11043.8F180" prefix="SW">
+<description>Tactile Switch SPST-NO Top Actuated Surface Mount</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CS11043.8F180">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="2449-CS11043.8F180CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="3.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.2" constant="no"/>
+<attribute name="VALUE" value="SM TACT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MX1A-11NW" prefix="SW">
+<description>Pushbutton Switch SPST-NO Keyswitch Through Hole</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MX1A-11NW">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CH160-ND" constant="no"/>
+<attribute name="HEIGHT" value="15.2" constant="no"/>
+<attribute name="PRICE_PER" value="0.68" constant="no"/>
+<attribute name="VALUE" value="CHERRY BLACK" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GPTS203211B" prefix="SW">
+<description>Pushbutton Switch SPST Standard Through Hole</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GPTS203211B">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CW181-ND" constant="no"/>
+<attribute name="HEIGHT" value="9.1" constant="no"/>
+<attribute name="PRICE_PER" value="1.25" constant="no"/>
+<attribute name="VALUE" value="SPST" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CT10-1530-G1" prefix="SW">
+<description>Molded Body Reed Switch SPST-NO 15 ~ 30AT Operate Range 10W 500mA (AC/DC) 140V Surface Mount</description>
+<gates>
+<gate name="G$1" symbol="RELAY_SPST" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="CT10-XXXX-G1">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="306-1125-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="0.66" constant="no"/>
+<attribute name="VALUE" value="CT10-1530-G1" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1-1825910-5" prefix="SW">
+<description>6x6mm through hole tact switch. Red button.</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TH_TACT_SWITCH">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="450-1940-ND" constant="no"/>
+<attribute name="HEIGHT" value="9.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.12" constant="no"/>
+<attribute name="VALUE" value="1-1825910-5" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2-1825910-8" prefix="SW">
+<description>6x6mm through hole tact switch. Red button. 13mm high.</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="TH_TACT_SWITCH">
+<connects>
+<connect gate="G$1" pin="1" pad="1 2"/>
+<connect gate="G$1" pin="2" pad="3 4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="2-1825910-8-ND" constant="no"/>
+<attribute name="HEIGHT" value="13" constant="no"/>
+<attribute name="PRICE_PER" value="0.14" constant="no"/>
+<attribute name="VALUE" value="2-1825910-8" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="EG1215AA" prefix="SW">
+<description>Slide Switch SPDT Surface Mount, Right Angle</description>
+<gates>
+<gate name="G$1" symbol="RELAY_CONTACT_SPDT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="EG1215AA">
+<connects>
+<connect gate="G$1" pin="1" pad="2"/>
+<connect gate="G$1" pin="2" pad="1"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="EG5720CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.86" constant="no"/>
+<attribute name="VALUE" value="SLIDE SPDT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TL6110BF300QP" prefix="SW">
+<description>Tactile Switch SPST-NO Side Actuated Through Hole, Right Angle</description>
+<gates>
+<gate name="G$1" symbol="SM_TACT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TL6110BF300QP">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="EG4348-5-ND" constant="no"/>
+<attribute name="HEIGHT" value="8" constant="no"/>
+<attribute name="PRICE_PER" value="1" constant="no"/>
+<attribute name="VALUE" value="TACT RA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CFS-0300TA" prefix="SW">
+<description>Dip Switch SPST 3 Position Surface Mount Slide (Standard) Actuator 100mA 6VDC</description>
+<gates>
+<gate name="A" symbol="RELAY_SPST" x="0" y="0"/>
+<gate name="B" symbol="RELAY_SPST" x="0" y="-10.16"/>
+<gate name="C" symbol="RELAY_SPST" x="0" y="-20.32"/>
+</gates>
+<devices>
+<device name="" package="CFS-0300TA">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+<connect gate="B" pin="1" pad="3"/>
+<connect gate="B" pin="2" pad="4"/>
+<connect gate="C" pin="1" pad="5"/>
+<connect gate="C" pin="2" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="563-CFS-0300TACT-ND" constant="no"/>
+<attribute name="HEIGHT" value="3.9" constant="no"/>
+<attribute name="PRICE_PER" value="1.02" constant="no"/>
+<attribute name="VALUE" value="CFS-0300TA" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PBH2UEESNPNAGX" prefix="SW">
+<description>Pushbutton Switch DPDT Standard Through Hole, Right Angle, Latching</description>
+<gates>
+<gate name="A" symbol="RELAY_CONTACT_SPDT" x="0" y="10.16"/>
+<gate name="B" symbol="RELAY_CONTACT_SPDT" x="0" y="-10.16"/>
+</gates>
+<devices>
+<device name="" package="PBH2UEESNPNAGX">
+<connects>
+<connect gate="A" pin="1" pad="2"/>
+<connect gate="A" pin="2" pad="1"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="B" pin="1" pad="5"/>
+<connect gate="B" pin="2" pad="4"/>
+<connect gate="B" pin="3" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="EG5925-ND" constant="no"/>
+<attribute name="HEIGHT" value="10" constant="no"/>
+<attribute name="PRICE_PER" value="0.63" constant="no"/>
+<attribute name="VALUE" value="DPDT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="5.8ZSPT" prefix="CN">
+<description>30V LATCHING Straight 100,000 Times DPDT 不带 150gf 100mA Plugin Push Switches ROHS</description>
+<gates>
+<gate name="A" symbol="RELAY_CONTACT_SPDT" x="0" y="5.08"/>
+<gate name="B" symbol="RELAY_CONTACT_SPDT" x="0" y="-7.62"/>
+</gates>
+<devices>
+<device name="" package="5.8ZSPT">
+<connects>
+<connect gate="A" pin="1" pad="2"/>
+<connect gate="A" pin="2" pad="1"/>
+<connect gate="A" pin="3" pad="3"/>
+<connect gate="B" pin="1" pad="5"/>
+<connect gate="B" pin="2" pad="4"/>
+<connect gate="B" pin="3" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="HEIGHT" value="7.5" constant="no"/>
+<attribute name="LCSC" value="C2681588" constant="no"/>
+<attribute name="PRICE_PER" value="0.082" constant="no"/>
+<attribute name="VALUE" value="5.8ZSPT" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

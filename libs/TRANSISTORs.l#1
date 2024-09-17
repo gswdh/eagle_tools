@@ -1,0 +1,2579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="99" name="SpiceOrder" color="5" fill="1" visible="no" active="no"/>
+<layer number="100" name="Moduledim" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="101" name="blue" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="102" name="red" color="12" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="green" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="txcone" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="rxcone" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="tLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="bLegend" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="DrillLegend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="DrillLegend_01-16" color="2" fill="9" visible="yes" active="yes"/>
+<layer number="146" name="DrillLegend_01-20" color="3" fill="9" visible="yes" active="yes"/>
+<layer number="151" name="_tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
+<layer number="250" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="251" name="SMDround" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="SOT23-3">
+<text x="-1.75" y="1.875" size="1" layer="25">&gt;NAME</text>
+<smd name="1" x="-1" y="-1" dx="1.2" dy="1.4" layer="1"/>
+<smd name="3" x="1" y="-1" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="0" y="1" dx="0.8" dy="1" layer="1"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.122" layer="21"/>
+</package>
+<package name="SOT223">
+<smd name="2" x="0" y="-3.05" dx="1.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="3" x="2.3" y="-3.05" dx="1.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="1" x="-2.3" y="-3.05" dx="1.2" dy="1.2" layer="1" rot="R90"/>
+<smd name="4" x="0" y="3.05" dx="1.2" dy="3.6" layer="1" rot="R90"/>
+<text x="-3.25" y="4.25" size="1" layer="25">&gt;NAME</text>
+<wire x1="-3.25" y1="-4" x2="3.25" y2="-4" width="0.25" layer="21"/>
+<wire x1="3.25" y1="-4" x2="3.25" y2="4" width="0.25" layer="21"/>
+<wire x1="3.25" y1="4" x2="-3.25" y2="4" width="0.25" layer="21"/>
+<wire x1="-3.25" y1="4" x2="-3.25" y2="-4" width="0.25" layer="21"/>
+</package>
+<package name="TO264V">
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="1" x="-5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="3" x="5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<wire x1="-9.5" y1="3" x2="9.5" y2="3" width="0.25" layer="21"/>
+<wire x1="-9.5" y1="-2" x2="9.5" y2="-2" width="0.25" layer="21"/>
+<wire x1="-10" y1="0.5" x2="-9.5" y2="3" width="0.25" layer="21"/>
+<wire x1="-10" y1="0.5" x2="-9.5" y2="-2" width="0.25" layer="21"/>
+<wire x1="9.5" y1="3" x2="10" y2="0.5" width="0.25" layer="21"/>
+<wire x1="10" y1="0.5" x2="9.5" y2="-2" width="0.25" layer="21"/>
+<rectangle x1="-9.5" y1="2.5" x2="9.5" y2="3" layer="21"/>
+<text x="9.455" y="-2.79" size="1" layer="25" rot="R180">&gt;NAME</text>
+</package>
+<package name="TO126V">
+<pad name="2" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="2.25" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="1" x="-2.25" y="0" drill="0.8" shape="long" rot="R90"/>
+<wire x1="-3.25" y1="1.25" x2="3.25" y2="1.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="1.25" x2="3.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="3.25" y1="-1.25" x2="-3.25" y2="-1.25" width="0.127" layer="21"/>
+<wire x1="-3.25" y1="-1.25" x2="-3.25" y2="1.25" width="0.127" layer="21"/>
+<rectangle x1="-3.25" y1="0.75" x2="3.25" y2="1.25" layer="21"/>
+<text x="2.995" y="-1.56" size="1" layer="25" rot="R180">&gt;NAME</text>
+</package>
+<package name="TO220">
+<wire x1="-5" y1="2.46" x2="5" y2="2.46" width="0.25" layer="21"/>
+<wire x1="5" y1="2.46" x2="5" y2="-2.54" width="0.25" layer="21"/>
+<wire x1="5" y1="-2.54" x2="-5" y2="-2.54" width="0.25" layer="21"/>
+<wire x1="-5" y1="-2.54" x2="-5" y2="2.46" width="0.25" layer="21"/>
+<rectangle x1="-5" y1="1.46" x2="5" y2="2.46" layer="21"/>
+<text x="4.5" y="-3.04" size="1" layer="25" rot="R180">&gt;NAME</text>
+<pad name="2" x="0" y="0" drill="1" diameter="1.75" shape="long" rot="R90"/>
+<pad name="1" x="-2.5" y="0" drill="1" diameter="1.75" shape="long" rot="R90"/>
+<pad name="3" x="2.5" y="0" drill="1" diameter="1.75" shape="long" rot="R90"/>
+</package>
+<package name="TO2475L">
+<pad name="3" x="0" y="0" drill="1.4" shape="long" rot="R90"/>
+<pad name="4" x="2.5" y="0" drill="1.4" shape="long" rot="R90"/>
+<pad name="5" x="5" y="0" drill="1.4" shape="long" rot="R90"/>
+<pad name="2" x="-2.5" y="0" drill="1.4" shape="long" rot="R90"/>
+<pad name="1" x="-5" y="0" drill="1.4" shape="long" rot="R90"/>
+<wire x1="-8" y1="2.5" x2="8" y2="2.5" width="0.25" layer="21"/>
+<wire x1="8" y1="2.5" x2="8" y2="-2.5" width="0.25" layer="21"/>
+<wire x1="8" y1="-2.5" x2="-8" y2="-2.5" width="0.25" layer="21"/>
+<wire x1="-8" y1="-2.5" x2="-8" y2="2.5" width="0.25" layer="21"/>
+<rectangle x1="-8" y1="1.5" x2="8" y2="2.5" layer="21"/>
+<text x="7.62" y="-3.81" size="1" layer="25" rot="R180">&gt;NAME</text>
+</package>
+<package name="TO263">
+<text x="3.5" y="-1.75" size="1.27" layer="25">&gt;NAME</text>
+<wire x1="-5.25" y1="0" x2="5.25" y2="0" width="0.25" layer="21"/>
+<wire x1="5.25" y1="0" x2="5.25" y2="9" width="0.25" layer="21"/>
+<wire x1="5.25" y1="9" x2="-5.25" y2="9" width="0.25" layer="21"/>
+<wire x1="-5.25" y1="9" x2="-5.25" y2="0" width="0.25" layer="21"/>
+<wire x1="-5.25" y1="9" x2="-5.25" y2="10" width="0.25" layer="21"/>
+<wire x1="-4" y1="10.5" x2="4" y2="10.5" width="0.25" layer="21"/>
+<wire x1="5.25" y1="10" x2="5.25" y2="9" width="0.25" layer="21"/>
+<wire x1="5.25" y1="10" x2="4" y2="10.5" width="0.25" layer="21"/>
+<wire x1="-5.25" y1="10" x2="-4" y2="10.5" width="0.25" layer="21"/>
+<smd name="3" x="2.5" y="-5.5" dx="4" dy="1.5" layer="1" rot="R90"/>
+<smd name="1" x="-2.5" y="-5.5" dx="4" dy="1.5" layer="1" rot="R90"/>
+<rectangle x1="-3.25" y1="-3.5" x2="-1.75" y2="0" layer="21"/>
+<rectangle x1="1.75" y1="-3.5" x2="3.25" y2="0" layer="21"/>
+<rectangle x1="-0.75" y1="-2" x2="0.75" y2="0" layer="21"/>
+<smd name="4" x="0" y="11" dx="14" dy="4" layer="1"/>
+<rectangle x1="-5.25" y1="0" x2="5.25" y2="9" layer="1"/>
+</package>
+<package name="MT200">
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="1" x="-5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="3" x="5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<wire x1="-18.5" y1="3" x2="18.5" y2="3" width="0.25" layer="21"/>
+<wire x1="-18.5" y1="-3" x2="-11.5" y2="-3" width="0.25" layer="21"/>
+<wire x1="-11.5" y1="-3" x2="11.5" y2="-3" width="0.25" layer="21"/>
+<wire x1="11.5" y1="-3" x2="18.5" y2="-3" width="0.25" layer="21"/>
+<wire x1="-18.5" y1="-3" x2="-18.5" y2="-1.5" width="0.25" layer="21"/>
+<wire x1="-18.5" y1="-1.5" x2="-18.5" y2="3" width="0.25" layer="21"/>
+<wire x1="18.5" y1="3" x2="18.5" y2="-1.5" width="0.25" layer="21"/>
+<text x="18.5" y="-3.5" size="1" layer="25" rot="R180">&gt;NAME</text>
+<wire x1="18.5" y1="-1.5" x2="18.5" y2="-3" width="0.25" layer="21"/>
+<wire x1="-18.5" y1="-1.5" x2="-11.5" y2="-3" width="0.25" layer="21"/>
+<wire x1="18.5" y1="-1.5" x2="11.5" y2="-3" width="0.25" layer="21"/>
+</package>
+<package name="MT200FLAT">
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="1" x="-5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="3" x="5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<text x="18" y="4.5" size="1" layer="25" rot="R180">&gt;NAME</text>
+<wire x1="-18.5" y1="5" x2="-18.5" y2="12" width="0.25" layer="51"/>
+<wire x1="-18.5" y1="12" x2="-18.5" y2="20" width="0.25" layer="51"/>
+<wire x1="-18.5" y1="20" x2="-18.5" y2="27" width="0.25" layer="51"/>
+<wire x1="-18.5" y1="27" x2="-9.5" y2="27" width="0.25" layer="51"/>
+<wire x1="-9.5" y1="27" x2="9.5" y2="27" width="0.25" layer="51"/>
+<wire x1="9.5" y1="27" x2="18.5" y2="27" width="0.25" layer="51"/>
+<wire x1="18.5" y1="27" x2="18.5" y2="20" width="0.25" layer="51"/>
+<wire x1="18.5" y1="20" x2="18.5" y2="12" width="0.25" layer="51"/>
+<wire x1="18.5" y1="12" x2="18.5" y2="5" width="0.25" layer="51"/>
+<wire x1="18.5" y1="5" x2="9.5" y2="5" width="0.25" layer="51"/>
+<circle x="-12" y="16" radius="1.5" width="0.25" layer="51"/>
+<circle x="12" y="16" radius="1.5" width="0.25" layer="51"/>
+<wire x1="9.5" y1="5" x2="-9.5" y2="5" width="0.25" layer="51"/>
+<wire x1="-9.5" y1="5" x2="-18.5" y2="5" width="0.25" layer="51"/>
+<wire x1="-18.5" y1="12" x2="-9.5" y2="5" width="0.25" layer="51"/>
+<wire x1="-18.5" y1="20" x2="-9.5" y2="27" width="0.25" layer="51"/>
+<wire x1="9.5" y1="27" x2="18.5" y2="20" width="0.25" layer="51"/>
+<wire x1="9.5" y1="5" x2="18.5" y2="12" width="0.25" layer="51"/>
+</package>
+<package name="TO220F-FLAT">
+<text x="5" y="4.5" size="1" layer="25" rot="R180">&gt;NAME</text>
+<pad name="2" x="0" y="0" drill="1" diameter="1.75" shape="long" rot="R90"/>
+<pad name="1" x="-2.5" y="0" drill="1" diameter="1.75" shape="long" rot="R90"/>
+<pad name="3" x="2.5" y="0" drill="1" diameter="1.75" shape="long" rot="R90"/>
+<wire x1="-5" y1="5" x2="5" y2="5" width="0.25" layer="51"/>
+<wire x1="-5" y1="5" x2="-5" y2="14" width="0.25" layer="51"/>
+<wire x1="-5" y1="14" x2="-5" y2="22" width="0.25" layer="51"/>
+<wire x1="5" y1="5" x2="5" y2="14" width="0.25" layer="51"/>
+<wire x1="5" y1="14" x2="5" y2="22" width="0.25" layer="51"/>
+<wire x1="-5" y1="22" x2="5" y2="22" width="0.25" layer="51"/>
+<circle x="0" y="18" radius="1.5" width="0.25" layer="51"/>
+<wire x1="-5" y1="14" x2="5" y2="14" width="0.25" layer="51"/>
+</package>
+<package name="SOT23-6">
+<text x="-1.5" y="1.875" size="1" layer="25">&gt;NAME</text>
+<smd name="4" x="-0.95" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="5" x="0" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="2" x="0" y="1.1" dx="0.7" dy="1" layer="1"/>
+<wire x1="-1.5" y1="1.75" x2="1" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1" y1="1.75" x2="1.125" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1.125" y1="1.75" x2="1.25" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1.25" y1="1.75" x2="1.5" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1.5" y1="1.75" x2="1.5" y2="1.625" width="0.122" layer="21"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="1.5" y1="-1.75" x2="-1.5" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="-1.5" y1="-1.75" x2="-1.5" y2="1.75" width="0.122" layer="21"/>
+<smd name="3" x="-0.95" y="1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="1" x="0.95" y="1.1" dx="0.7" dy="1" layer="1"/>
+<smd name="6" x="0.95" y="-1.1" dx="0.7" dy="1" layer="1"/>
+<wire x1="1" y1="1.75" x2="1.5" y2="1.25" width="0.125" layer="21"/>
+<wire x1="1.5" y1="1.25" x2="1.5" y2="1.375" width="0.125" layer="21"/>
+<wire x1="1.5" y1="1.375" x2="1.5" y2="1.5" width="0.125" layer="21"/>
+<wire x1="1.5" y1="1.5" x2="1.25" y2="1.75" width="0.125" layer="21"/>
+<wire x1="1.25" y1="1.75" x2="1.375" y2="1.75" width="0.125" layer="21"/>
+<wire x1="1.375" y1="1.75" x2="1.5" y2="1.625" width="0.125" layer="21"/>
+<wire x1="1.5" y1="1.625" x2="1.5" y2="1.5" width="0.125" layer="21"/>
+<wire x1="1.5" y1="1.375" x2="1.125" y2="1.75" width="0.125" layer="21"/>
+</package>
+<package name="TO126F">
+<pad name="2" x="0" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="3" x="2.25" y="0" drill="0.8" shape="long" rot="R90"/>
+<pad name="1" x="-2.25" y="0" drill="0.8" shape="long" rot="R90"/>
+<text x="-3.75" y="3.5" size="1" layer="25" rot="R90">&gt;NAME</text>
+<wire x1="-3.25" y1="3.5" x2="3.25" y2="3.5" width="0.25" layer="51"/>
+<wire x1="3.25" y1="14.5" x2="-3.25" y2="14.5" width="0.25" layer="51"/>
+<wire x1="-3.25" y1="3.5" x2="-3.25" y2="14.5" width="0.25" layer="51"/>
+<wire x1="3.25" y1="3.5" x2="3.25" y2="14.5" width="0.25" layer="51"/>
+<circle x="0" y="10.5" radius="1.5" width="0.25" layer="51"/>
+</package>
+<package name="TO252">
+<text x="-3.5" y="5.375" size="1" layer="25">&gt;NAME</text>
+<wire x1="-3.25" y1="-3" x2="3.25" y2="-3" width="0.15" layer="21"/>
+<wire x1="3.25" y1="-3" x2="3.25" y2="-1.5" width="0.15" layer="21"/>
+<wire x1="-3.25" y1="-1.5" x2="-3.25" y2="-3" width="0.15" layer="21"/>
+<smd name="2" x="0" y="1.75" dx="6.5" dy="6.5" layer="1" rot="R90" cream="no"/>
+<rectangle x1="-2.75" y1="-4.25" x2="-1.75" y2="-3" layer="21"/>
+<rectangle x1="1.75" y1="-4.25" x2="2.75" y2="-3" layer="21"/>
+<smd name="1" x="-2.25" y="-5.25" dx="1" dy="2" layer="1"/>
+<smd name="3" x="2.25" y="-5.25" dx="1" dy="2" layer="1"/>
+<wire x1="-3.5" y1="-6.5" x2="3.5" y2="-6.5" width="0.15" layer="21"/>
+<wire x1="3.5" y1="-6.5" x2="3.5" y2="5.25" width="0.15" layer="21"/>
+<wire x1="3.5" y1="5.25" x2="-3.5" y2="5.25" width="0.15" layer="21"/>
+<wire x1="-3.5" y1="5.25" x2="-3.5" y2="-6.5" width="0.15" layer="21"/>
+<rectangle x1="-2.75" y1="1.75" x2="2.75" y2="4.5" layer="31"/>
+</package>
+<package name="TO264F">
+<pad name="2" x="0" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="1" x="-5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<pad name="3" x="5.5" y="0" drill="1.5" diameter="2.5" shape="long" rot="R90"/>
+<wire x1="-9.5" y1="4" x2="9.5" y2="4" width="0.25" layer="21"/>
+<wire x1="-9.5" y1="30" x2="9.5" y2="30" width="0.25" layer="21"/>
+<wire x1="-9.5" y1="4" x2="-9.5" y2="22.5" width="0.25" layer="21"/>
+<wire x1="-9.5" y1="22.5" x2="-9.5" y2="25.5" width="0.25" layer="21"/>
+<wire x1="-9.5" y1="25.5" x2="-9.5" y2="30" width="0.25" layer="21"/>
+<wire x1="9.5" y1="4" x2="9.5" y2="22.5" width="0.25" layer="21"/>
+<text x="-10" y="4.5" size="1" layer="25" rot="R90">&gt;NAME</text>
+<circle x="0" y="24" radius="1.5" width="0.25" layer="21"/>
+<wire x1="9.5" y1="22.5" x2="9.5" y2="25.5" width="0.25" layer="21"/>
+<wire x1="9.5" y1="25.5" x2="9.5" y2="30" width="0.25" layer="21"/>
+<wire x1="-9.5" y1="25.5" x2="-9.5" y2="22.5" width="0.25" layer="21" curve="-180"/>
+<wire x1="9.5" y1="22.5" x2="9.5" y2="25.5" width="0.25" layer="21" curve="-180"/>
+</package>
+<package name="SOT89">
+<text x="-2.5" y="3" size="1" layer="25">&gt;NAME</text>
+<smd name="1" x="-1.5" y="-2.25" dx="0.75" dy="1.5" layer="1"/>
+<smd name="3" x="1.5" y="-2.25" dx="0.75" dy="1.5" layer="1"/>
+<smd name="2" x="0" y="-0.25" dx="0.75" dy="5.5" layer="1"/>
+<rectangle x1="-1.5" y1="1.5" x2="1.5" y2="2.5" layer="1"/>
+<wire x1="-2.5" y1="2.75" x2="2.5" y2="2.75" width="0.125" layer="21"/>
+<wire x1="2.5" y1="2.75" x2="2.5" y2="-3.25" width="0.125" layer="21"/>
+<wire x1="2.5" y1="-3.25" x2="-2.5" y2="-3.25" width="0.125" layer="21"/>
+<wire x1="-2.5" y1="-3.25" x2="-2.5" y2="2.75" width="0.125" layer="21"/>
+</package>
+<package name="TO92">
+<wire x1="-2" y1="-1.5" x2="2" y2="-1.5" width="0.25" layer="21"/>
+<wire x1="-2" y1="-1.5" x2="2" y2="-1.5" width="0.25" layer="21" curve="-253.739795"/>
+<pad name="1" x="-2.5" y="0" drill="0.8" diameter="1.5" rot="R90"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.5" rot="R90"/>
+<pad name="3" x="2.5" y="0" drill="0.8" diameter="1.5" rot="R90"/>
+<text x="2" y="-1.75" size="0.75" layer="25" rot="R180">&gt;NAME</text>
+</package>
+<package name="SON_5X6MM">
+<wire x1="-3.75" y1="-2.625" x2="3.5" y2="-2.625" width="0.25" layer="21"/>
+<wire x1="3.5" y1="-2.625" x2="3.5" y2="2.625" width="0.25" layer="21"/>
+<wire x1="3.5" y1="2.625" x2="-3.75" y2="2.625" width="0.25" layer="21"/>
+<wire x1="-3.75" y1="2.625" x2="-3.75" y2="-2.625" width="0.25" layer="21"/>
+<smd name="D" x="-0.375" y="0" dx="4.5" dy="4.5" layer="1" cream="no"/>
+<smd name="S1" x="2.75" y="1.875" dx="0.75" dy="0.75" layer="1"/>
+<smd name="S2" x="2.75" y="0.625" dx="0.75" dy="0.75" layer="1"/>
+<smd name="S3" x="2.75" y="-0.625" dx="0.75" dy="0.75" layer="1"/>
+<smd name="G" x="2.75" y="-1.875" dx="0.75" dy="0.75" layer="1"/>
+<rectangle x1="-3.375" y1="1.5" x2="-2.625" y2="2.25" layer="1"/>
+<rectangle x1="-3.375" y1="0.25" x2="-2.625" y2="1" layer="1"/>
+<rectangle x1="-3.375" y1="-1" x2="-2.625" y2="-0.25" layer="1"/>
+<rectangle x1="-3.375" y1="-2.25" x2="-2.625" y2="-1.5" layer="1"/>
+<rectangle x1="-3.5" y1="0.125" x2="-2.625" y2="1.125" layer="29"/>
+<rectangle x1="-3.5" y1="-1.125" x2="-2.625" y2="-0.125" layer="29"/>
+<rectangle x1="-3.5" y1="1.375" x2="-2.625" y2="2.375" layer="29"/>
+<rectangle x1="-3.5" y1="-2.375" x2="-2.625" y2="-1.375" layer="29"/>
+<rectangle x1="-3.375" y1="1.5" x2="-2.625" y2="2.25" layer="31"/>
+<rectangle x1="-3.375" y1="0.25" x2="-2.625" y2="1" layer="31"/>
+<rectangle x1="-3.375" y1="-1" x2="-2.625" y2="-0.25" layer="31"/>
+<rectangle x1="-3.375" y1="-2.25" x2="-2.625" y2="-1.5" layer="31"/>
+<rectangle x1="-2.125" y1="-1.75" x2="-0.625" y2="-0.25" layer="31"/>
+<rectangle x1="-2.125" y1="0.25" x2="-0.625" y2="1.75" layer="31"/>
+<rectangle x1="-0.125" y1="0.25" x2="1.125" y2="1.75" layer="31"/>
+<rectangle x1="-0.125" y1="-1.75" x2="1.125" y2="-0.25" layer="31"/>
+<text x="-3.75" y="2.875" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="SOT23-3_PROPERNUMBERING">
+<text x="-1.75" y="1.875" size="1" layer="25">&gt;NAME</text>
+<smd name="1" x="-1" y="-1" dx="0.8" dy="1" layer="1"/>
+<smd name="3" x="0" y="1" dx="0.8" dy="1" layer="1"/>
+<smd name="2" x="1" y="-1" dx="0.8" dy="1" layer="1"/>
+<wire x1="-1.75" y1="1.75" x2="1.75" y2="1.75" width="0.122" layer="21"/>
+<wire x1="1.75" y1="1.75" x2="1.75" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="1.75" y1="-1.75" x2="-1.75" y2="-1.75" width="0.122" layer="21"/>
+<wire x1="-1.75" y1="-1.75" x2="-1.75" y2="1.75" width="0.122" layer="21"/>
+</package>
+<package name="SO8_POWERPAK">
+<text x="-3.5" y="2.75" size="1" layer="25">&gt;NAME</text>
+<smd name="3" x="-2.67" y="-0.635" dx="1.25" dy="0.6" layer="1"/>
+<smd name="2" x="-2.67" y="0.635" dx="1.25" dy="0.6" layer="1"/>
+<smd name="1" x="-2.67" y="1.905" dx="1.25" dy="0.6" layer="1"/>
+<smd name="4" x="-2.67" y="-1.905" dx="1.25" dy="0.6" layer="1"/>
+<circle x="-1.5" y="1.875" radius="0.25" width="0.125" layer="21"/>
+<smd name="5" x="2.92" y="0.635" dx="1" dy="0.6" layer="1" rot="R180"/>
+<smd name="6" x="2.92" y="-0.635" dx="1" dy="0.6" layer="1" rot="R180"/>
+<smd name="7" x="2.92" y="-1.905" dx="1" dy="0.6" layer="1" rot="R180"/>
+<smd name="8" x="2.92" y="1.905" dx="1" dy="0.6" layer="1" rot="R180"/>
+<smd name="PAD" x="0.5" y="0" dx="3.9" dy="3" layer="1" rot="R270"/>
+<wire x1="-3.5" y1="2.5" x2="3.625" y2="2.5" width="0.125" layer="21"/>
+<wire x1="3.625" y1="2.5" x2="3.625" y2="-2.5" width="0.125" layer="21"/>
+<wire x1="3.625" y1="-2.5" x2="-3.5" y2="-2.5" width="0.125" layer="21"/>
+<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="2.5" width="0.125" layer="21"/>
+</package>
+<package name="SC70-3">
+<description>&lt;b&gt;SC70-3 Reflow soldering&lt;/b&gt;&lt;p&gt;
+Philips SC01_Mounting_1996.pdf&lt;p&gt;
+ROHM : UMT3 ; EIAJ : SC-70</description>
+<smd name="1" x="-0.65" y="-0.95" dx="0.9" dy="0.8" layer="1"/>
+<smd name="2" x="0.65" y="-0.95" dx="0.9" dy="0.8" layer="1"/>
+<smd name="3" x="0" y="0.95" dx="0.9" dy="0.8" layer="1"/>
+<text x="-1.25" y="1.625" size="1" layer="25">&gt;NAME</text>
+<wire x1="-1.25" y1="-1.5" x2="1.25" y2="-1.5" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="-1.5" x2="1.25" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="1.25" y1="1.5" x2="-1.25" y2="1.5" width="0.1524" layer="21"/>
+<wire x1="-1.25" y1="1.5" x2="-1.25" y2="-1.5" width="0.1524" layer="21"/>
+</package>
+<package name="SOT363">
+<smd name="1" x="-1" y="1" dx="0.6" dy="0.6" layer="1"/>
+<smd name="6" x="1" y="1" dx="0.6" dy="0.6" layer="1"/>
+<smd name="3" x="-1" y="-1" dx="0.6" dy="0.6" layer="1"/>
+<smd name="4" x="1" y="-1" dx="0.6" dy="0.6" layer="1"/>
+<smd name="2" x="-1" y="0" dx="0.6" dy="0.4" layer="1"/>
+<smd name="5" x="1" y="0" dx="0.6" dy="0.4" layer="1"/>
+<wire x1="-1.625" y1="1.625" x2="-1.375" y2="1.625" width="0.25" layer="21"/>
+<wire x1="-1.375" y1="1.625" x2="-1.125" y2="1.625" width="0.25" layer="21"/>
+<wire x1="-1" y1="1.625" x2="1.625" y2="1.625" width="0.25" layer="21"/>
+<wire x1="1.625" y1="1.625" x2="1.625" y2="-1.625" width="0.25" layer="21"/>
+<wire x1="1.625" y1="-1.625" x2="-1.625" y2="-1.625" width="0.25" layer="21"/>
+<wire x1="-1.625" y1="-1.625" x2="-1.625" y2="1" width="0.25" layer="21"/>
+<wire x1="-1.625" y1="1" x2="-1.625" y2="1.125" width="0.25" layer="21"/>
+<wire x1="-1.625" y1="1.375" x2="-1.625" y2="1.625" width="0.25" layer="21"/>
+<wire x1="-1.375" y1="1.625" x2="-1.625" y2="1.375" width="0.25" layer="21"/>
+<wire x1="-1.625" y1="1.375" x2="-1.625" y2="1.125" width="0.25" layer="21"/>
+<wire x1="-1.625" y1="1.125" x2="-1.125" y2="1.625" width="0.25" layer="21"/>
+<wire x1="-1.125" y1="1.625" x2="-1" y2="1.625" width="0.25" layer="21"/>
+<wire x1="-1" y1="1.625" x2="-1.625" y2="1" width="0.25" layer="21"/>
+<text x="-1.625" y="1.875" size="1" layer="21">&gt;NAME</text>
+<wire x1="-1.875" y1="1.875" x2="-1.875" y2="2.25" width="0.25" layer="21"/>
+<wire x1="-1.875" y1="2.25" x2="-2.25" y2="1.875" width="0.25" layer="21"/>
+<wire x1="-2.25" y1="1.875" x2="-1.875" y2="1.875" width="0.25" layer="21"/>
+</package>
+<package name="SOT666">
+<smd name="1" x="-0.75" y="0.5" dx="0.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="2" x="-0.75" y="0" dx="0.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="-0.75" y="-0.5" dx="0.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.75" y="-0.5" dx="0.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="0.75" y="0" dx="0.35" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="0.75" y="0.5" dx="0.35" dy="0.4" layer="1" rot="R90"/>
+<wire x1="-1.125" y1="0.875" x2="1.125" y2="0.875" width="0.125" layer="21"/>
+<wire x1="1.125" y1="0.875" x2="1.125" y2="-0.875" width="0.125" layer="21"/>
+<wire x1="1.125" y1="-0.875" x2="-1.125" y2="-0.875" width="0.125" layer="21"/>
+<wire x1="-1.125" y1="-0.875" x2="-1.125" y2="0.875" width="0.125" layer="21"/>
+<wire x1="-1.125" y1="0.875" x2="-1.125" y2="1.125" width="0.125" layer="21"/>
+<wire x1="-1.125" y1="1.125" x2="-1.375" y2="0.875" width="0.125" layer="21"/>
+<wire x1="-1.375" y1="0.875" x2="-1.125" y2="0.875" width="0.125" layer="21"/>
+<text x="-1" y="1" size="0.5" layer="21">&gt;NAME</text>
+</package>
+<package name="SOT363-NX300">
+<smd name="1" x="-0.95" y="0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="6" x="0.95" y="0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="3" x="-0.95" y="-0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="4" x="0.95" y="-0.65" dx="0.5" dy="0.4" layer="1"/>
+<smd name="2" x="-0.95" y="0" dx="0.5" dy="0.4" layer="1"/>
+<smd name="5" x="0.95" y="0" dx="0.5" dy="0.4" layer="1"/>
+<wire x1="1.375" y1="1" x2="1.375" y2="-1" width="0.122" layer="21"/>
+<wire x1="1.375" y1="-1" x2="-1.375" y2="-1" width="0.122" layer="21"/>
+<text x="-1.375" y="1.125" size="1" layer="21">&gt;NAME</text>
+<circle x="-0.375" y="0.625" radius="0.125" width="0.1524" layer="21"/>
+<wire x1="1.375" y1="1" x2="-1.375" y2="1" width="0.122" layer="21"/>
+<wire x1="-1.375" y1="1" x2="-1.375" y2="-1" width="0.122" layer="21"/>
+</package>
+<package name="SUPERSOT">
+<smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
+<wire x1="-1.75" y1="-2.125" x2="1.75" y2="-2.125" width="0.15" layer="21"/>
+<wire x1="1.75" y1="-2.125" x2="1.75" y2="2.125" width="0.15" layer="21"/>
+<wire x1="1.75" y1="2.125" x2="-1.75" y2="2.125" width="0.15" layer="21"/>
+<wire x1="-1.75" y1="2.125" x2="-1.75" y2="-2.125" width="0.15" layer="21"/>
+<text x="-1.7" y="2.3" size="1" layer="25">&gt;NAME</text>
+</package>
+<package name="PQFN08">
+<smd name="1" x="-2.9" y="1.905" dx="0.8" dy="0.55" layer="1"/>
+<smd name="2" x="-2.9" y="0.635" dx="0.8" dy="0.55" layer="1"/>
+<smd name="3" x="-2.9" y="-0.635" dx="0.8" dy="0.55" layer="1"/>
+<smd name="4" x="-2.9" y="-1.905" dx="0.8" dy="0.55" layer="1"/>
+<smd name="5" x="2.9" y="-1.905" dx="0.8" dy="0.55" layer="1"/>
+<smd name="6" x="2.9" y="-0.635" dx="0.8" dy="0.55" layer="1"/>
+<smd name="7" x="2.9" y="0.635" dx="0.8" dy="0.55" layer="1"/>
+<smd name="8" x="2.425" y="1.905" dx="1.75" dy="0.55" layer="1"/>
+<smd name="D1" x="-1.2" y="0" dx="4.4" dy="1.6" layer="1" rot="R90"/>
+<smd name="S2" x="1" y="0" dx="1" dy="1" layer="1" rot="R90"/>
+<polygon width="0.15" layer="31">
+<vertex x="0.2" y="-2.2"/>
+<vertex x="1.9" y="-2.2"/>
+<vertex x="1.9" y="0.9"/>
+<vertex x="0.9" y="0.9"/>
+<vertex x="0.9" y="2.15"/>
+<vertex x="0.2" y="2.15"/>
+</polygon>
+<polygon width="0.15" layer="1">
+<vertex x="0.2" y="-2.2"/>
+<vertex x="1.9" y="-2.2"/>
+<vertex x="1.9" y="0.9"/>
+<vertex x="0.9" y="0.9"/>
+<vertex x="0.9" y="2.15"/>
+<vertex x="0.2" y="2.15"/>
+</polygon>
+<polygon width="0.15" layer="29">
+<vertex x="0.15" y="-2.25"/>
+<vertex x="1.95" y="-2.25"/>
+<vertex x="1.95" y="0.95"/>
+<vertex x="0.95" y="0.95"/>
+<vertex x="0.95" y="2.2"/>
+<vertex x="0.15" y="2.2"/>
+</polygon>
+<wire x1="-3.75" y1="2.5" x2="3.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="3.75" y1="2.5" x2="3.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="3.75" y1="-2.5" x2="-3.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="-2.5" x2="-3.75" y2="2.5" width="0.15" layer="21"/>
+<text x="-3.625" y="2.625" size="1" layer="21">&gt;NAME</text>
+<wire x1="-3.75" y1="2.75" x2="-3.75" y2="2.875" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="2.875" x2="-3.75" y2="3" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="3" x2="-4.25" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-4.25" y1="2.5" x2="-4" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-3.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="2.5" x2="-3.75" y2="2.75" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="2.75" x2="-4" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-4" y1="2.5" x2="-4" y2="2.625" width="0.15" layer="21"/>
+<wire x1="-4" y1="2.625" x2="-3.75" y2="2.875" width="0.15" layer="21"/>
+</package>
+<package name="SO8">
+<text x="-3.75" y="2.75" size="1" layer="25">&gt;NAME</text>
+<smd name="3" x="-2.7" y="-0.625" dx="1.5" dy="0.55" layer="1"/>
+<smd name="2" x="-2.7" y="0.625" dx="1.5" dy="0.55" layer="1"/>
+<smd name="1" x="-2.7" y="1.875" dx="1.5" dy="0.55" layer="1"/>
+<smd name="4" x="-2.7" y="-1.875" dx="1.5" dy="0.55" layer="1"/>
+<smd name="8" x="2.7" y="1.875" dx="1.5" dy="0.55" layer="1"/>
+<smd name="7" x="2.7" y="0.625" dx="1.5" dy="0.55" layer="1"/>
+<smd name="6" x="2.7" y="-0.625" dx="1.5" dy="0.55" layer="1"/>
+<smd name="5" x="2.7" y="-1.875" dx="1.5" dy="0.55" layer="1"/>
+<wire x1="-3.75" y1="-2.5" x2="3.75" y2="-2.5" width="0.15" layer="21"/>
+<wire x1="3.75" y1="-2.5" x2="3.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="3.75" y1="2.5" x2="-3.525" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-3.525" y1="2.5" x2="-3.75" y2="2.5" width="0.15" layer="21"/>
+<wire x1="-3.75" y1="2.5" x2="-3.75" y2="-2.5" width="0.15" layer="21"/>
+<circle x="-1.125" y="1.5" radius="0.25" width="0.15" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="NPN">
+<pin name="C" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="E" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="2.54" y="2.032" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="B" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.508" y2="-1.778" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.778" x2="-1.016" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-2.286" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="-2.286" x2="-0.508" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-2.032" x2="-0.254" y2="-2.286" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PNP">
+<pin name="E" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="C" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="2.54" y="2.032" size="1.27" layer="95">&gt;NAME</text>
+<text x="2.54" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="B" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-2.032" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="2.032" x2="-1.524" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.524" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.778" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.524" x2="-2.286" y2="1.524" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.524" x2="-2.032" y2="1.778" width="0.254" layer="94"/>
+</symbol>
+<symbol name="N_CHANNEL_LAT_FET">
+<pin name="D" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="S" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="1.27" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="-2.54" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.048" x2="-2.54" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.032" x2="-1.778" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.508" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.048" x2="-1.778" y2="2.032" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.016" y2="0.508" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.016" y2="-0.508" width="0.254" layer="94"/>
+</symbol>
+<symbol name="P_CHANNEL_LAT_FET">
+<pin name="S" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="D" x="0" y="-5.08" visible="off" length="short" rot="R90"/>
+<text x="1.27" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="3.048" x2="-2.54" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.032" x2="-1.778" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.508" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="3.048" x2="-1.778" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.762" y2="-0.508" width="0.254" layer="94"/>
+</symbol>
+<symbol name="DUAL_LAT_FET">
+<pin name="D1" x="0" y="22.86" visible="off" length="short" rot="R270"/>
+<text x="1.27" y="20.32" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="17.78" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="G1" x="-5.08" y="15.24" visible="off" length="short"/>
+<wire x1="0" y1="20.32" x2="-1.778" y2="20.32" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="-1.778" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="17.78" x2="0" y2="17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="17.78" x2="0" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="20.828" x2="-2.54" y2="14.732" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="15.748" x2="-1.778" y2="14.732" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="18.288" x2="-1.778" y2="17.78" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="17.78" x2="-1.778" y2="17.272" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="20.828" x2="-1.778" y2="19.812" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="17.78" x2="-1.016" y2="18.288" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="17.78" x2="-1.016" y2="17.272" width="0.254" layer="94"/>
+<pin name="S" x="5.08" y="0" visible="off" length="short" rot="R180"/>
+<pin name="D2" x="0" y="-22.86" visible="off" length="short" rot="R90"/>
+<pin name="G2" x="-5.08" y="-15.24" visible="off" length="short"/>
+<wire x1="0" y1="-15.24" x2="-1.778" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-20.32" x2="-1.778" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-14.732" x2="-2.54" y2="-20.828" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-19.812" x2="-1.778" y2="-20.828" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-17.272" x2="-1.778" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-17.78" x2="-1.778" y2="-18.288" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-14.732" x2="-1.778" y2="-15.748" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="-0.762" y2="-17.272" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="-0.762" y2="-18.288" width="0.254" layer="94"/>
+<wire x1="0" y1="15.24" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+</symbol>
+<symbol name="N_FET">
+<pin name="D" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<pin name="S" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<text x="1.27" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="0" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-0.508" y2="-0.508" width="0.254" layer="94"/>
+</symbol>
+<symbol name="P_FET">
+<pin name="D" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<text x="1.27" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.27" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.27" y2="2.032" width="0.254" layer="94"/>
+</symbol>
+<symbol name="NFET">
+<wire x1="0.762" y1="0.762" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
+<wire x1="0.762" y1="3.175" x2="0.762" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="0.762" y2="1.905" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="-1.905" x2="0.762" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0.762" y1="-2.54" x2="0.762" y2="-3.175" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="0.762" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="3.81" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0.762" y1="2.54" x2="3.81" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0.762" x2="4.318" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="4.318" y1="0.508" x2="3.81" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.81" y1="0.508" x2="3.302" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0.508" x2="3.048" y2="0.254" width="0.1524" layer="94"/>
+<circle x="2.54" y="-2.54" radius="0.3592" width="0" layer="94"/>
+<circle x="2.54" y="2.54" radius="0.3592" width="0" layer="94"/>
+<text x="6.35" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
+<text x="6.35" y="0" size="1.778" layer="95">&gt;NAME</text>
+<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
+<pin name="G" x="-2.54" y="-2.54" visible="off" length="short" direction="pas"/>
+<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.1524" layer="94">
+<vertex x="3.81" y="0.508"/>
+<vertex x="3.302" y="-0.254"/>
+<vertex x="4.318" y="-0.254"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="0"/>
+<vertex x="2.032" y="0.762"/>
+<vertex x="2.032" y="-0.762"/>
+</polygon>
+</symbol>
+<symbol name="P_FET-1">
+<pin name="D" x="0" y="-2.54" visible="off" length="short" rot="R90"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" rot="R270"/>
+<text x="1.27" y="2.54" size="1.27" layer="95">&gt;NAME</text>
+<text x="1.27" y="0" size="1.27" layer="96">&gt;VALUE</text>
+<pin name="G" x="-5.08" y="2.54" visible="off" length="short"/>
+<wire x1="0" y1="2.54" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.27" y2="3.048" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.27" y2="2.032" width="0.254" layer="94"/>
+</symbol>
+<symbol name="DUAL_N">
+<pin name="D1" x="0" y="20.32" visible="pin" length="middle" rot="R270"/>
+<pin name="D2/S1" x="12.7" y="0" visible="pin" length="middle" rot="R180"/>
+<text x="2.54" y="20.32" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="17.78" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="G1" x="-12.7" y="7.62" visible="pin" length="middle"/>
+<pin name="GR" x="-12.7" y="0" visible="pin" length="middle"/>
+<pin name="S2" x="0" y="-20.32" visible="pin" length="middle" rot="R90"/>
+<pin name="G2" x="-12.7" y="-12.7" visible="pin" length="middle"/>
+<wire x1="-7.62" y1="-15.24" x2="7.62" y2="-15.24" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-15.24" x2="7.62" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="15.24" x2="-7.62" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="15.24" x2="-7.62" y2="-15.24" width="0.1524" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="BC846" prefix="Q">
+<description>Bipolar (BJT) Single Transistor, NPN, 65 V, 300 MHz, 310 mW, 100 mA, 420 hFE</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="MTF" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2453325" constant="no"/>
+<attribute name="PRICE_PER" value="0.0494" constant="no"/>
+<attribute name="VALUE" value="BC846" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC856" prefix="Q">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PBHV9115Z" prefix="Q">
+<description>PNP, -150 V, 115 MHz, 700 mW, -1 A, 220 hFE</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1829321" constant="no"/>
+<attribute name="PRICE_PER" value="0.348" constant="no"/>
+<attribute name="VALUE" value="PBHV9115Z" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PBHV8115Z" prefix="Q">
+<description>NPN, 150 V, 30 MHz, 700 mW, 1 A, 250 hFE</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1829309" constant="no"/>
+<attribute name="PRICE_PER" value="0.348" constant="no"/>
+<attribute name="VALUE" value="PBHV8119Z" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SC5200" prefix="Q">
+<description>230V, 100W,30MHz, 50hfe, NPN, audio transistor.</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERT" package="TO264V">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FLAT" package="TO264F">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SA1943" prefix="Q">
+<description>230V, 100W,30MHz, 50hfe, PNP, audio transistor.</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERT" package="TO264V">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FLAT" package="TO264F">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BD139" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERTICAL" package="TO126V">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FLAT" package="TO126F">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BD140" prefix="Q">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERTICAL" package="TO126V">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FLAT" package="TO126F">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ALF08NP16V5" prefix="Q">
+<gates>
+<gate name="G$1" symbol="DUAL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO2475L">
+<connects>
+<connect gate="G$1" pin="D1" pad="1"/>
+<connect gate="G$1" pin="D2" pad="5"/>
+<connect gate="G$1" pin="G1" pad="2"/>
+<connect gate="G$1" pin="G2" pad="4"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FQB12N20" prefix="Q">
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO263">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FQB12P20" prefix="Q">
+<gates>
+<gate name="G$1" symbol="P_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO263">
+<connects>
+<connect gate="G$1" pin="D" pad="4"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SC3264" prefix="Q">
+<description>230V, 200W, 35MHz, 50hfe, NPN audio transistor.</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERT" package="MT200">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1192133" constant="no"/>
+<attribute name="VALUE" value="2SC3264" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FLAT" package="MT200FLAT">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1192133" constant="no"/>
+<attribute name="VALUE" value="2SC3264" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SA1295" prefix="Q">
+<description>200W, 35MHz, 50hfe, PNP audio transistor.</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERT" package="MT200">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1192134" constant="no"/>
+<attribute name="VALUE" value="2SA1295" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FLAT" package="MT200FLAT">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1192134" constant="no"/>
+<attribute name="VALUE" value="2SA1295" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ALF16N16W" prefix="Q">
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERTICAL" package="TO264V">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FLAT" package="TO264F">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ALF16P16W" prefix="Q">
+<gates>
+<gate name="G$1" symbol="P_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERTICAL" package="TO264V">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="FLAT" package="TO264F">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SC3944" prefix="Q">
+<description>150V, 15W, 200MHz, 100hfe, NPN, epitaxial audio transistor.</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="FLAT" package="TO220F-FLAT">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="VERT" package="TO220">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SA1535" prefix="Q">
+<description>150V, 15W, 200MHz, 100hfe, PNP, epitaxial audio transistor.</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERT" package="TO220">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FLAT" package="TO220F-FLAT">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="" constant="no"/>
+<attribute name="VALUE" value="" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMMT5401" prefix="Q">
+<gates>
+<gate name="A" symbol="PNP" x="-10.16" y="0"/>
+<gate name="B" symbol="PNP" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMMT5551" prefix="Q">
+<gates>
+<gate name="A" symbol="NPN" x="-10.16" y="0"/>
+<gate name="B" symbol="NPN" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRFR9120N" prefix="Q">
+<gates>
+<gate name="G$1" symbol="P_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRFR120N" prefix="Q">
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FZT605" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FZT705" prefix="Q">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PXT2222A" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT89">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PXT2907A" prefix="Q">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT89">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NPN">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MJD44H11" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MTD45H11" prefix="Q">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC546" prefix="Q">
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BC556" prefix="Q">
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO92">
+<connects>
+<connect gate="G$1" pin="B" pad="2"/>
+<connect gate="G$1" pin="C" pad="1"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NCHANNEL" prefix="Q" uservalue="yes">
+<description>Generic N channel MOSFET. TO220 package with GDS pin arrangement (left to right).</description>
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO220">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS138" prefix="Q">
+<description>N Channel enhancement mode SOT23 MOSFET. 50V, 6R rdson.</description>
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="9845330" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS84" prefix="Q">
+<description>NXP BSS84,215  MOSFET Transistor, P Channel, -130 mA, 50 V, 6 ohm, -10 V, -2 V</description>
+<gates>
+<gate name="G$1" symbol="P_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1510765" constant="no"/>
+<attribute name="PRICE_PER" value="0.036" constant="no"/>
+<attribute name="VALUE" value="BSS84" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRLML6244TRPBF" prefix="Q">
+<description>MOSFET Transistor, N Channel, 6.3 A, 20 V, 21 mohm, 4.5 V, 0.9 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="IRLML6244TRPBFCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.194" constant="no"/>
+<attribute name="VALUE" value="IRLML6244" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTR4101PT1G" prefix="Q">
+<description>ON SEMICONDUCTOR NTR4101PT1G  MOSFET Transistor, P Channel, 3.2 A, 20 V, 0.07 ohm, -4.5 V, -720 mV</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1431303" constant="no"/>
+<attribute name="PRICE_PER" value="0.188" constant="no"/>
+<attribute name="VALUE" value="NTR4101PT1G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS316N" prefix="Q">
+<description>INFINEON BSS316N H6327  MOSFET Transistor, N Channel, 1.4 A, 30 V, 0.119 ohm, 10 V, 1.6 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="BSS316NH6327XTSA1CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.33" constant="no"/>
+<attribute name="VALUE" value="BSS316N" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SPD15P10PL" prefix="Q">
+<description>INFINEON SPD15P10PL G  MOSFET Transistor, P Channel, -15 A, -100 V, 0.14 ohm, -10 V, -1.5 V</description>
+<gates>
+<gate name="G$1" symbol="P_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SPD15P10PLGBTMA1CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="4" constant="no"/>
+<attribute name="PRICE_PER" value="1.29" constant="no"/>
+<attribute name="VALUE" value="SPD15P10PL" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS123" prefix="Q">
+<description>MOSFET Transistor, N Channel, 170 mA, 100 V, 6 ohm, 10 V, 1.4 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1843725" constant="no"/>
+<attribute name="PRICE_PER" value="0.0487" constant="no"/>
+<attribute name="VALUE" value="BSS123" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IPD068P03L3G" prefix="Q">
+<description>INFINEON IPD068P03L3 G  MOSFET Transistor, P Channel, -70 A, -30 V, 0.005 ohm, -10 V, -1.5 V</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="IPD068P03L3GATMA1CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="3" constant="no"/>
+<attribute name="PRICE_PER" value="0.84" constant="no"/>
+<attribute name="VALUE" value="IPD068P03L3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI7489DP-T1-E3" prefix="Q">
+<description>P Channel, -28A, -100V, 0.033 ohm, -10V, -3V</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SI7489DP-T1-E3CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="2.16" constant="no"/>
+<attribute name="VALUE" value="SI7489DP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSC014N06NS" prefix="Q">
+<description>N Channel, 100 A, 60 V, 0.0012 ohm, 10 V, 2.8 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="BSC014N06NSATMA1CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="" constant="no"/>
+<attribute name="PRICE_PER" value="2.12" constant="no"/>
+<attribute name="VALUE" value="BSC014N06NS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IXTK180N15P" prefix="Q">
+<description>N Channel, 180 A, 150 V, 10 mohm, 10 V, 5 V</description>
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO264F">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="IXTK180N15P-ND" constant="no"/>
+<attribute name="HEIGHT" value="29" constant="no"/>
+<attribute name="PRICE_PER" value="9.57" constant="no"/>
+<attribute name="VALUE" value="IXTK180N15P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IXTK140N20P" prefix="Q">
+<description>N Channel, 140 A, 200 V, 18 mohm, 15 V, 5 V</description>
+<gates>
+<gate name="G$1" symbol="N_CHANNEL_LAT_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO264F">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1427359" constant="no"/>
+<attribute name="PRICE_PER" value="10.19" constant="no"/>
+<attribute name="VALUE" value="IXTK140N20P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI3493BDV-T1-E3" prefix="Q">
+<description>MOSFET Transistor, P Channel, -8 A, -20 V, 0.023 ohm, -1.8 V, -900 mV</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="G$1" pin="D" pad="1 2 5 6"/>
+<connect gate="G$1" pin="G" pad="3"/>
+<connect gate="G$1" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2335297" constant="no"/>
+<attribute name="PRICE_PER" value="0.398" constant="no"/>
+<attribute name="VALUE" value="SI3493BDV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BSS214NWH6327XTSA1" prefix="Q">
+<description>N-Channel 20 V 1.5A (Ta) 500mW (Ta) Surface Mount PG-SOT323</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SC70-3">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="BSS214NWH6327XTSA1CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.1" constant="no"/>
+<attribute name="PRICE_PER" value="0.4" constant="no"/>
+<attribute name="VALUE" value="BSS214" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FC6946010R" prefix="Q">
+<description>Dual MOSFET, Dual N Channel, 100 mA, 60 V, 6 ohm, 4 V, 1.2 V</description>
+<gates>
+<gate name="A" symbol="N_FET" x="-10.16" y="0"/>
+<gate name="B" symbol="N_FET" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT666">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2284060" constant="no"/>
+<attribute name="PRICE_PER" value="0.0279" constant="no"/>
+<attribute name="VALUE" value="FC6946010R" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NTR2101PT1G" prefix="Q">
+<description>ON SEMICONDUCTOR  NTR2101PT1G  MOSFET Transistor, P Channel, -3.7 A, -8 V, 52 mohm, -4.5 V, -1 V</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1431297" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="MANUFACTURER" value="NTR2101PT1G" constant="no"/>
+<attribute name="PRICE_PER" value="0.086" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NX3008CBKS" prefix="Q">
+<description>Dual MOSFET, N and P Channel, 350 mA, 30 V, 1 ohm, 4.5 V, 900 mV</description>
+<gates>
+<gate name="B" symbol="N_FET" x="-7.62" y="0"/>
+<gate name="A" symbol="P_FET-1" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT363-NX300">
+<connects>
+<connect gate="A" pin="D" pad="3"/>
+<connect gate="A" pin="G" pad="5"/>
+<connect gate="A" pin="S" pad="4"/>
+<connect gate="B" pin="D" pad="6"/>
+<connect gate="B" pin="G" pad="2"/>
+<connect gate="B" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1727-1278-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.1" constant="no"/>
+<attribute name="PRICE_PER" value="0.36" constant="no"/>
+<attribute name="VAUE" value="NX3008CBKS" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDN5630" prefix="Q">
+<description>MOSFET Transistor, N Channel, 1.7 A, 60 V, 100 mohm, 10 V, 2.4 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SUPERSOT">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="FDN5630CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.2" constant="no"/>
+<attribute name="PRICE_PER" value="0.267" constant="no"/>
+<attribute name="VALUE" value="FDN5630" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDN302P" prefix="Q">
+<description>MOSFET Transistor, P Channel, -2.4 A, -20 V, 55 mohm, -4.5 V, -1 V</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SUPERSOT">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="FDN302PCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.41" constant="no"/>
+<attribute name="VALUE" value="FDN302P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KSC2690A" prefix="Q">
+<description>Bipolar (BJT) Single Transistor, NPN, 160 V, 155 MHz, 20 W, 1.2 A, 160 hFE</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO126F">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2453953" constant="no"/>
+<attribute name="PRICE_PER" value="0.536" constant="no"/>
+<attribute name="VALUE" value="KSC2690" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="V" package="TO126V">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2453953" constant="no"/>
+<attribute name="PRICE_PER" value="0.536" constant="no"/>
+<attribute name="VALUE" value="KSC2690A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="KSA1220A" prefix="Q">
+<description>Bipolar (BJT) Single Transistor, PNP, -160 V, 175 MHz, 20 W, -1.2 A, 160 hFE</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO126F">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2453935" constant="no"/>
+<attribute name="PRICE_PER" value="0.49" constant="no"/>
+<attribute name="VALUE" value="KSA1220A" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="V" package="TO126V">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2453935" constant="no"/>
+<attribute name="PRICE_PER" value="0.49" constant="no"/>
+<attribute name="VALUE" value="KSA1220A" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT5401" prefix="Q">
+<description>Bipolar (BJT) Transistor PNP 150V 600mA 100MHz 300mW Surface Mount SOT-23</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MMBT5401-TPCT-ND" constant="no"/>
+<attribute name="PRICE_PER" value="0.2" constant="no"/>
+<attribute name="VALUE" value="MMBT5401" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT5551" prefix="Q">
+<description>Bipolar (BJT) Transistor NPN 160V 600mA 100MHz 300mW Surface Mount SOT-23</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MMBT5551-TPCT-ND" constant="no"/>
+<attribute name="PRICE_PER" value="0.2" constant="no"/>
+<attribute name="VALUE" value="MMBT5551" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MJE243" prefix="Q">
+<description>MJE243G  Bipolar (BJT) Single Transistor, Audio, NPN, 100 V, 40 MHz, 15 W, 4 A, 40 hFE</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="G" package="TO126F">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1459088" constant="no"/>
+<attribute name="PRICE_PER" value="0.36" constant="no"/>
+<attribute name="VALUE" value="MJE243G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MJE253" prefix="Q">
+<description>Bipolar (BJT) Single Transistor, Audio, PNP, 100 V, 40 MHz, 1.5 W, 4 A, 40 hFE</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="G" package="TO126F">
+<connects>
+<connect gate="G$1" pin="B" pad="3"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1459091" constant="no"/>
+<attribute name="PRICE_PER" value="0.351" constant="no"/>
+<attribute name="VALUE" value="MJE253G" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDD5614P" prefix="Q">
+<description>MOSFET Transistor, P Channel, -15 A, -60 V, 100 mohm, -10 V, -1.6 V</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="9846131" constant="no"/>
+<attribute name="PRICE_PER" value="0.353" constant="no"/>
+<attribute name="VALUE" value="FDD5614P" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDD5612" prefix="Q">
+<description>MOSFET Transistor, N Channel, 18 A, 60 V, 0.036 ohm, 10 V, 2.4 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="1653649" constant="no"/>
+<attribute name="PRICE_PER" value="0.259" constant="no"/>
+<attribute name="VALUE" value="FDD5612" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SAR586DGTL" prefix="Q">
+<description>Bipolar (BJT) Single Transistor, PNP, -80 V, 200 MHz, 10 W, -5 A, 120 hFE</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2706723" constant="no"/>
+<attribute name="PRICE_PER" value="0.77" constant="no"/>
+<attribute name="VALUE" value="2SAR586D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2SCR586DGTL" prefix="Q">
+<description>Bipolar (BJT) Single Transistor, NPN, 80 V, 200 MHz, 10 W, 5 A, 120 hFE</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TO252">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="FARNELL" value="2706722" constant="no"/>
+<attribute name="PRICE_PER" value="0.53" constant="no"/>
+<attribute name="VALUE" value="2SCR586D" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DZT5551" prefix="Q">
+<description>160V NPN transistor, 600mA, 2W, SOT223</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="DZT5551DICT-ND" constant="no"/>
+<attribute name="PRICE_PER" value="0.35" constant="no"/>
+<attribute name="VALUE" value="DZT5551" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DZT5401" prefix="Q">
+<description>Bipolar (BJT) Transistor PNP 150V 600mA 300MHz 1W Surface Mount SOT-223</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT223">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2 4"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="DZT5401DICT-ND" constant="no"/>
+<attribute name="PRICE_PER" value="0.35" constant="no"/>
+<attribute name="VALUE" value="DZT5401" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="FDMD8530" prefix="Q">
+<description>Mosfet Array 2 N-Channel (Dual) 30V 35A 2.2W Surface Mount Power56</description>
+<gates>
+<gate name="G$1" symbol="DUAL_N" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="PQFN08">
+<connects>
+<connect gate="G$1" pin="D1" pad="3 4 D1"/>
+<connect gate="G$1" pin="D2/S1" pad="5 6 7"/>
+<connect gate="G$1" pin="G1" pad="1"/>
+<connect gate="G$1" pin="G2" pad="8"/>
+<connect gate="G$1" pin="GR" pad="2"/>
+<connect gate="G$1" pin="S2" pad="S2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="FDMD8530CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.9" constant="no"/>
+<attribute name="PRICE_PER" value="1.48" constant="no"/>
+<attribute name="VALUE" value="FDMD8530" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT3906-7-F" prefix="Q">
+<description>Bipolar (BJT) Transistor PNP 40V 200mA 250MHz 300mW Surface Mount SOT-23-3</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MMBT3906-FDICT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.1" constant="no"/>
+<attribute name="VALUE" value="MMBT3906" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MMBT3904-7-F" prefix="Q">
+<description>Bipolar (BJT) Transistor NPN 40V 200mA 300MHz 300mW Surface Mount SOT-23-3</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MMBT3904-FDICT-ND" constant="no"/>
+<attribute name="HEIGHT" value="0.8" constant="no"/>
+<attribute name="PRICE_PER" value="0.1" constant="no"/>
+<attribute name="VALUE" value="MMBT3904" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="2N7002" prefix="Q">
+<description>N-Channel 60V 360mA (Ta) 350mW (Ta) Surface Mount TO-236AB (SOT23)</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="P,215" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1727-4692-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.15" constant="no"/>
+<attribute name="VALUE" value="2N7002" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CPH3459" prefix="Q">
+<description>N-Channel 200V 500mA (Ta) 1W (Ta) Surface Mount 3-CPH</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TL-W" package="SOT23-3">
+<connects>
+<connect gate="G$1" pin="D" pad="2"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="CPH3459-TL-WOSCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.2" constant="no"/>
+<attribute name="PRICE_PER" value="0.4" constant="no"/>
+<attribute name="VALUE" value="CPH3459" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI4848ADY-T1-GE3" prefix="Q">
+<description>N-Channel 150V 5.5A (Tc) 5W (Tc) Surface Mount 8-SOIC</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SI4848ADY-T1-GE3CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="0.61" constant="no"/>
+<attribute name="VALUE" value="SI4848ADY" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MBT3946DW1T1G" prefix="Q">
+<description>Bipolar (BJT) Transistor Array NPN, PNP 40V 200mA 300MHz, 250MHz 150mW Surface Mount SC-88/SC70-6/SOT-363</description>
+<gates>
+<gate name="A" symbol="NPN" x="-15.24" y="0"/>
+<gate name="B" symbol="PNP" x="7.62" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT363-NX300">
+<connects>
+<connect gate="A" pin="B" pad="2"/>
+<connect gate="A" pin="C" pad="6"/>
+<connect gate="A" pin="E" pad="1"/>
+<connect gate="B" pin="B" pad="5"/>
+<connect gate="B" pin="C" pad="3"/>
+<connect gate="B" pin="E" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MBT3946DW1T1GOSCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.16" constant="no"/>
+<attribute name="VALUE" value="MBT3946DW" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IRF9358TRPBF" prefix="Q">
+<description>Mosfet Array 2 P-Channel (Dual) 30V 9.2A 2W Surface Mount 8-SO</description>
+<gates>
+<gate name="A" symbol="P_FET" x="0" y="-2.54"/>
+<gate name="B" symbol="P_FET" x="0" y="-22.86"/>
+</gates>
+<devices>
+<device name="" package="SO8">
+<connects>
+<connect gate="A" pin="D" pad="5 6"/>
+<connect gate="A" pin="G" pad="4"/>
+<connect gate="A" pin="S" pad="3"/>
+<connect gate="B" pin="D" pad="7 8"/>
+<connect gate="B" pin="G" pad="2"/>
+<connect gate="B" pin="S" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="IRF9358TRPBFCT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.8" constant="no"/>
+<attribute name="VALUE" value="IRF9358TRPBF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIRA36DP-T1-GE3" prefix="Q">
+<description>N Channel, 40 A, 30 V, 0.00028 ohm, 10 V, 2.2 V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SIRA36DP-T1-GE3CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.45" constant="no"/>
+<attribute name="VALUE" value="SIRA36DP-T1-GE3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMG6601LVT-7" prefix="Q">
+<description>Mosfet Array N and P-Channel 30V 3.8A, 2.5A 850mW Surface Mount TSOT-26</description>
+<gates>
+<gate name="A" symbol="N_FET" x="-12.7" y="2.54"/>
+<gate name="B" symbol="P_FET" x="10.16" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT23-6">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="1"/>
+<connect gate="A" pin="S" pad="5"/>
+<connect gate="B" pin="D" pad="4"/>
+<connect gate="B" pin="G" pad="3"/>
+<connect gate="B" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="DMG6601LVT-7DICT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.1" constant="no"/>
+<attribute name="PRICE_PER" value="0.3" constant="no"/>
+<attribute name="VALUE" value="DMG6601" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI7157DP-T1-GE3" prefix="Q">
+<description>P Channel, -60A, -20V, 0.003 ohm, -10V, -2.5V</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SI7157DP-T1-GE3CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="1.05" constant="no"/>
+<attribute name="VALUE" value="SI7157DP" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SIR800ADP-T1-RE3" prefix="Q">
+<description>N Channel, 177A, 20V, 0.0046ohm @ 2.5V</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SIR800ADP-T1-RE3" constant="no"/>
+<attribute name="HEIGHT" value="1.5" constant="no"/>
+<attribute name="PRICE_PER" value="0.68" constant="no"/>
+<attribute name="VALUE" value="SIR800ADP-T1-RE3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MJE15033" prefix="Q">
+<description>Bipolar (BJT) Transistor PNP 250V 8A 30MHz 2W Through Hole TO-220AB</description>
+<gates>
+<gate name="G$1" symbol="PNP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="VERT" package="TO220">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MJE15033GOS-ND" constant="no"/>
+<attribute name="HEIGHT" value="15" constant="no"/>
+<attribute name="PRICE_PER" value="1.19" constant="no"/>
+<attribute name="VALUE" value="MJE15033G" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="FLAT" package="TO220F-FLAT">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MJE15033GOS-ND" constant="no"/>
+<attribute name="HEIGHT" value="0" constant="no"/>
+<attribute name="PRICE_PER" value="1.12" constant="no"/>
+<attribute name="VALUE" value="MJE15033" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="MJE15032" prefix="Q">
+<description>Bipolar (BJT) Transistor NPN 250V 8A 30MHz 2W Through Hole TO-220AB</description>
+<gates>
+<gate name="G$1" symbol="NPN" x="0" y="0"/>
+</gates>
+<devices>
+<device name="FLAT" package="TO220F-FLAT">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MJE15032GOS-ND" constant="no"/>
+<attribute name="HEIGHT" value="0" constant="no"/>
+<attribute name="PRICE_PER" value="1.19" constant="no"/>
+<attribute name="VALUE" value="MJE15032" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="VERT" package="TO220">
+<connects>
+<connect gate="G$1" pin="B" pad="1"/>
+<connect gate="G$1" pin="C" pad="2"/>
+<connect gate="G$1" pin="E" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="MJE15032GOS-ND" constant="no"/>
+<attribute name="HEIGHT" value="15" constant="no"/>
+<attribute name="PRICE_PER" value="1.19" constant="no"/>
+<attribute name="VALUE" value="MJE15032" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="NX3008CBKV,115" prefix="Q">
+<description>Mosfet Array N and P-Channel 30V 400mA, 220mA 500mW Surface Mount SOT-666</description>
+<gates>
+<gate name="A" symbol="N_FET" x="-12.7" y="2.54"/>
+<gate name="B" symbol="P_FET" x="10.16" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="SOT666">
+<connects>
+<connect gate="A" pin="D" pad="6"/>
+<connect gate="A" pin="G" pad="2"/>
+<connect gate="A" pin="S" pad="1"/>
+<connect gate="B" pin="D" pad="3"/>
+<connect gate="B" pin="G" pad="5"/>
+<connect gate="B" pin="S" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="1727-1279-1-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.29" constant="no"/>
+<attribute name="VALUE" value="NX3008CBKV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SI7892BDP-T1-GE3" prefix="Q">
+<description>N-Channel 30 V 15A (Ta) 1.8W (Ta) Surface Mount PowerPAK® SO-8</description>
+<gates>
+<gate name="G$1" symbol="N_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="SI7892BDP-T1-GE3CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1.5" constant="no"/>
+<attribute name="PRICE_PER" value="1.73" constant="no"/>
+<attribute name="VALUE" value="SI7892BDP-T1-GE3" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DMP2045UQ-7" prefix="Q">
+<description>P-Channel 20 V 4.3A (Ta) 800mW (Ta) Surface Mount SOT-23-3</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT23-3_PROPERNUMBERING">
+<connects>
+<connect gate="G$1" pin="D" pad="3"/>
+<connect gate="G$1" pin="G" pad="1"/>
+<connect gate="G$1" pin="S" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="31-DMP2045UQ-7CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="1" constant="no"/>
+<attribute name="PRICE_PER" value="0.46" constant="no"/>
+<attribute name="VALUE" value="DMP2045UQ-7" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GSFP0449" prefix="Q">
+<description>P-Channel 40 V 50A (Tc) 82W (Tc) Surface Mount 8-PPAK (5.1x5.71)</description>
+<gates>
+<gate name="G$1" symbol="P_FET" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SO8_POWERPAK">
+<connects>
+<connect gate="G$1" pin="D" pad="5 6 7 8 PAD"/>
+<connect gate="G$1" pin="G" pad="4"/>
+<connect gate="G$1" pin="S" pad="1 2 3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DIGIKEY" value="4786-GSFP0449CT-ND" constant="no"/>
+<attribute name="HEIGHT" value="2" constant="no"/>
+<attribute name="PRICE_PER" value="0.49" constant="no"/>
+<attribute name="VALUE" value="GSFP0449" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
